@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+.btnnav {
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.club-cards {
+  background: linear-gradient(to right, darkblue, darkorchid) 1;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.social-links {
+  background: linear-gradient(to right, rgb(2, 2, 95), rgb(58, 11, 81));
+}
+.appbtn {
+  background: linear-gradient(to right, rgb(2, 2, 81), rgb(44, 10, 61));
+}
+.circle-div {
+  background: linear-gradient(to right, rgb(2, 2, 81), rgb(44, 10, 61));
+}
+.login-form {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkorchid, darkblue) 1;
+}
