@@ -12,7 +12,7 @@ html {
   height: 100%;
 }
 body {
-  background-color: black;
+  background: linear-gradient(to right, rgb(2, 2, 22), rgb(13, 3, 18));
   color: white;
   font-family: 'Poppins',sans-serif;
 }
@@ -21,10 +21,15 @@ body {
   border-style: solid;
   border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
+.cards-section {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .club-cards {
   background: linear-gradient(to right, darkblue, darkorchid) 1;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 40px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
   border-width: 2px;
@@ -44,4 +49,32 @@ body {
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, darkorchid, darkblue) 1;
+}
+.event-input {
+  border-bottom: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkorchid, darkblue) 1;
+}
+.event-cards {
+  border: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(178, 57, 239), rgb(4, 4, 180)) 1;
+  background: linear-gradient(to right, rgb(1, 1, 33), rgb(19, 3, 28));
+}
+.event-banner-div {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTopOb-bzd-zlzjFB6H0_Qeq9wvizdEYebqecN6LXd49A-VcR2LxkHS2NV68E5eGNAHm44&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.active-modal {
+  overflow-y: hidden;
+  background: linear-gradient(to right,rgb(8, 8, 8),rgb(31, 31, 31));
+  backdrop-filter: blur(50px);
+  
+}
+.active-modal2 {
+  overflow-y: hidden;
+  background: linear-gradient(to right,rgb(31, 31, 31),rgb(8, 8, 8));
+  backdrop-filter: blur(50px);
+  
 }

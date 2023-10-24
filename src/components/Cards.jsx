@@ -3,7 +3,7 @@ import React from "react";
 const Cards = () => {
   return (
     <>
-      <section class="text-white px-12">
+      <section class="text-white px-12 cards-section">
         <h1 className="text-center text-5xl">Clubs and Socities</h1>
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-wrap -m-4">

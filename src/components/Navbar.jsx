@@ -1,14 +1,37 @@
 import React, { useState } from 'react';
+import {NavLink,Routes,Route} from 'react-router-dom';
+import Home from './Home';
+import Login from './Login';
+import Register from './Register';
+
+
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [loginmodal,setLoginModal] = useState(false)
+  const [registermodal,setRegisterModal] = useState(false)
+
+  const toggleLogin = () => {
+    setLoginModal(!loginmodal)
+  }
+  const toggleRegister = () => {
+    setRegisterModal(!registermodal)
+  }
+  if(loginmodal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <div className="px-8 bg-black">
+  <>
+
+    <div className="px-8 h-[15vh]">
       <nav className="px-4 py-4 flex justify-between items-center  relative">
         <a className="text-3xl font-bold leading-none" href="#">
           <img className='w-[10vw]' src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" alt="" />
@@ -20,13 +43,17 @@ function Navbar() {
         </div>
         <ul className={`hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 ${isMenuOpen ? '' : 'hidden'}`}>
           <li>
-            <a className="text-lg" href="#">Home</a>
+          <NavLink to="/">
+                Home
+              </NavLink>
           </li>
           <li>
-            <a className="text-lg " href="#">Clubs</a>
+          <NavLink to="/login">
+                Clubs
+              </NavLink>
           </li>
           <li>
-            <a className="text-lg " href="#">Events</a>
+            <a className="text-lg" href='#partners'>Events</a>
           </li>
           <li>
             <a className="text-lg " href="#">Gallery</a>
@@ -35,8 +62,8 @@ function Navbar() {
             <a className="text-lg " href="#">Contact</a>
           </li>
         </ul>
-        <a className="hidden btnnav lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" href="#">Register</a>
-        <a className="hidden btnnav lg:inline-block py-2 px-6 text-sm text-white font-bold transition duration-200" href="#">Login</a>
+        <a className="hidden btnnav lg:inline-block cursor-pointer lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" onClick={toggleRegister}>Register</a>
+        <a className="hidden btnnav lg:inline-block cursor-pointer py-2 px-6 text-sm text-white font-bold transition duration-200" onClick={toggleLogin}>Login</a>
       </nav>
       <div className={`navbar-menu relative z-50 ${isMenuOpen ? '' : 'hidden'}`}>
         <div className="navbar-backdrop fixed inset-0 bg-black opacity-25" onClick={toggleMenu}></div>
@@ -71,16 +98,28 @@ function Navbar() {
           </div>
           <div className="mt-auto">
             <div className="pt-6">
-              <a className="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-slate-700 hover-bg-gray-100 rounded-xl" href="#">Sign in</a>
-              <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover-bg-blue-700 rounded-xl" href="#">Sign Up</a>
+              <a className="block px-4 py-3 mb-3  text-xs text-center font-semibold leading-none bg-slate-700 hover-bg-gray-100 rounded-xl " onClick={toggleRegister}>Register</a>
+              <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover-bg-blue-700 rounded-xl" onClick={toggleLogin}>Login</a>
             </div>
             <p className="my-4 text-xs text-center text-gray-400">
-              <span>Copyright © 2021</span>
+              <span>Copyright © 2023</span>
             </p>
           </div>
         </nav>
       </div>
     </div>
+    {loginmodal && (
+      <Login/>
+    )}
+    {registermodal && (
+      <Register/>
+    )}
+    <Routes>
+    <Route path='/' element={<Home />}></Route>
+    <Route path='login' element={<Login />}></Route>
+  </Routes>
+  </>
+    
   );
 }
 

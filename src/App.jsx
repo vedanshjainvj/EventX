@@ -6,18 +6,22 @@ import Ourapp from './components/Ourapp'
 import Benefits from './components/Benefits'
 import Login from './components/Login'
 import Hero from './components/Hero'
+import Eventadd from './components/Eventadd'
 
 const App = () => {
   
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar/>
+    {/* <Eventadd></Eventadd>
+
     <Hero></Hero>
     <Benefits></Benefits>
     <Ourapp></Ourapp>
     <Cards/>
-    <Partners></Partners>
-    <Login />
+    <Partners></Partners> */}
+    {/* <Login /> */}
+    
     </>
   )
 }
