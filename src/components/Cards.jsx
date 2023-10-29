@@ -25,10 +25,10 @@ const Cards = () => {
                   Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href=""><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-linkedin-fill"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.instagram.com/theasperteam/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/theasperteam/mycompany/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://theasperteam.in/" target="_blank"><i class="ri-links-line"></i></a></h1>
                     
                 </div>
               </div>
@@ -49,10 +49,10 @@ const Cards = () => {
                   Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href=""><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-linkedin-fill"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.instagram.com/ecell_rgpv/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/ecellrgpv/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://ecellrgpv.com/" target="_blank"><i class="ri-links-line"></i></a></h1>
                     
                 </div>
               </div>
@@ -73,10 +73,10 @@ const Cards = () => {
                   Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href=""><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-linkedin-fill"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.instagram.com/thedevoic/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/thedevoic/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://bento.me/thedevoic" target="_blank"><i class="ri-links-line"></i></a></h1>
                     
                 </div>
               </div>
@@ -98,18 +98,14 @@ const Cards = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href=""><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-linkedin-fill"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href=""><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.instagram.com/gdsc_uitrgpv/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/gdscuitrgpv/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://gdscuitrgpv.vercel.app/" target="_blank"><i class="ri-links-line"></i></a></h1>
                     
                 </div>
               </div>
             </div>
-            
-            
-            
-            
           </div>
         </div>
       </section>
