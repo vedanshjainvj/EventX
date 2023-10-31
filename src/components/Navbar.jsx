@@ -31,10 +31,10 @@ function Navbar() {
   return (
   <>
 
-    <div className="px-8 h-[15vh]">
+    <div className="px-12 h-[15vh]  flex flex-col justify-center">
       <nav className="px-4 py-4 flex justify-between items-center  relative">
-        <a className="text-3xl font-bold leading-none" href="#">
-          <img className='w-[10vw]' src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" alt="" />
+        <a className="text-4xl font-bold leading-none" href="#">
+          <h1 className='logoname'>Link UP</h1>
         </a>
         <div className="lg:hidden">
           <button className="navbar-burger flex items-center text-blue-600 p-3" onClick={toggleMenu}>

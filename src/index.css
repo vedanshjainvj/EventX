@@ -78,3 +78,15 @@ body {
   backdrop-filter: blur(50px);
   
 }
+.stats-div {
+  background: linear-gradient(to right,rgb(10, 1, 35),rgb(43, 4, 45));
+}
+.logoname {
+  background: #3813CF;
+background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.teamimg {
+  box-shadow: 0 8px 32px 0 rgba(202, 0, 199, 0.37);
+}

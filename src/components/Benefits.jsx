@@ -138,7 +138,7 @@ const Benefits = () => {
           </div>
         </div>
         <div className="w-2/3">
-            <img className="w-[60vh]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYeC41Clr9Odj--dYvC3Sz8i97oA6-WQm2UQ&usqp=CAU" alt="" />
+            <img className="w-[60vh]" src="https://img.freepik.com/free-photo/close-up-recording-video-with-smartphone-during-concert-toned-picture_1153-6331.jpg" alt="" />
         </div>
       </section>
     </>
