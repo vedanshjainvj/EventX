@@ -90,3 +90,13 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 .teamimg {
   box-shadow: 0 8px 32px 0 rgba(202, 0, 199, 0.37);
 }
+.startup-card {
+  background: linear-gradient(to right, rgb(1, 1, 39), rgb(22, 3, 33));
+}
+.dataset-circle {
+  background: linear-gradient(to right, rgb(2, 2, 54), rgb(36, 5, 54));
+  border: 1px solid white;
+}
+.dataset-container {
+  background: linear-gradient(to left, rgb(2, 2, 36), rgb(22, 3, 32));
+}
