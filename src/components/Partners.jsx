@@ -11,6 +11,12 @@ const Partners = () => {
             <h1 className='text-4xl'>Asper</h1>
             <h1 className='text-4xl'>E-cell</h1>
             <h1 className='text-4xl'>GDSC</h1>
+            <h1 className='text-4xl'>Phoenix</h1>
+            <h1 className='text-4xl'>TedX</h1>
+            <h1 className='text-4xl'>F Colours</h1>
+            <h1 className='text-4xl'>Code4All</h1>
+            <h1 className='text-4xl'>Autotelic</h1>
+            <h1 className='text-4xl'>Ayojan</h1>
             <h1 className='text-4xl'>Insync</h1>
             <h1 className='text-4xl'>Umang</h1>
         </div>
