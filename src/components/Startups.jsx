@@ -34,7 +34,7 @@ const Startups = () => {
               </div>
               <div>
                 <h6 className="mb-3 text-xl font-bold leading-5">
-                  The deep ocean
+                  Tdp Vista
                 </h6>
                 <p className="text-sm text-gray-400">
                   Founder - Harsh Vishwakarma
@@ -55,12 +55,14 @@ const Startups = () => {
                 </div>
               </div>
               <div>
-                <h6 className="mb-3 text-xl font-bold leading-5">
-                  When has justice
+              <h6 className="mb-3 text-xl font-bold leading-5">
+                  Semikolan
                 </h6>
-                <p className="text-sm text-gray-900">
-                  Lookout flogging bilge rat main sheet bilge water nipper fluke
-                  to go on account heave down clap of thunder.
+                <p className="text-sm text-gray-400">
+                  Founder - Harsh Vishwakarma
+                </p>
+                <p className="text-sm text-gray-500">
+                  Founded - 2020 <span className="text-white text-lg"><a href=""><i class="ri-arrow-right-up-line"></i></a></span>
                 </p>
               </div>
             </div>
@@ -75,12 +77,14 @@ const Startups = () => {
                 </div>
               </div>
               <div>
-                <h6 className="mb-3 text-xl font-bold leading-5">
-                  Leverage agile
+              <h6 className="mb-3 text-xl font-bold leading-5">
+                  Connect Up
                 </h6>
-                <p className="text-sm text-gray-900">
-                  The first mate and his Skipper too will do their very best to
-                  make the others comfortable.
+                <p className="text-sm text-gray-400">
+                  Founder - Harsh Vishwakarma
+                </p>
+                <p className="text-sm text-gray-500">
+                  Founded - 2020 <span className="text-white text-lg"><a href=""><i class="ri-arrow-right-up-line"></i></a></span>
                 </p>
               </div>
             </div>
@@ -97,12 +101,14 @@ const Startups = () => {
                 </div>
               </div>
               <div>
-                <h6 className="mb-3 text-xl font-bold leading-5">
-                  Organically grow
+              <h6 className="mb-3 text-xl font-bold leading-5">
+                  Gearfi
                 </h6>
-                <p className="text-sm text-gray-900">
-                  Skate ipsum dolor sit amet, alley oop vert mute-air Colby
-                  Carter flail 180 berm over the sea.
+                <p className="text-sm text-gray-400">
+                  Founder - Harsh Vishwakarma
+                </p>
+                <p className="text-sm text-gray-500">
+                  Founded - 2020 <span className="text-white text-lg"><a href=""><i class="ri-arrow-right-up-line"></i></a></span>
                 </p>
               </div>
             </div>
@@ -117,12 +123,14 @@ const Startups = () => {
                 </div>
               </div>
               <div>
-                <h6 className="mb-3 text-xl font-bold leading-5">
-                  Have a good one
+              <h6 className="mb-3 text-xl font-bold leading-5">
+                  Agile Support
                 </h6>
-                <p className="text-sm text-gray-900">
-                  Cheese on toast airedale the big cheese. Danish fontina cheesy
-                  grin airedale danish fontina.
+                <p className="text-sm text-gray-400">
+                  Founder - Harsh Vishwakarma
+                </p>
+                <p className="text-sm text-gray-500">
+                  Founded - 2020 <span className="text-white text-lg"><a href=""><i class="ri-arrow-right-up-line"></i></a></span>
                 </p>
               </div>
             </div>
@@ -137,12 +145,14 @@ const Startups = () => {
                 </div>
               </div>
               <div>
-                <h6 className="mb-3 text-xl font-bold leading-5">
-                  A slice of heaven
+              <h6 className="mb-3 text-xl font-bold leading-5">
+                  Boostem
                 </h6>
-                <p className="text-sm text-gray-900">
-                  A flower in my garden, a mystery in my panties. Heart attack
-                  never stopped old Big Bear.
+                <p className="text-sm text-gray-400">
+                  Founder - Sumit Choudhary
+                </p>
+                <p className="text-sm text-gray-500">
+                  Founded - 2020 <span className="text-white text-lg"><a href=""><i class="ri-arrow-right-up-line"></i></a></span>
                 </p>
               </div>
             </div>
