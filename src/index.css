@@ -100,3 +100,12 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 .dataset-container {
   background: linear-gradient(to left, rgb(2, 2, 36), rgb(22, 3, 32));
 }
+.footer {
+  background: linear-gradient(to left, rgb(1, 1, 17), rgb(13, 2, 19));
+  border-top: 1px solid rgb(74, 5, 74);
+  border-bottom: 1px solid rgb(74, 5, 74);
+}
+.footer button {
+  background: linear-gradient(to right, rgb(2, 2, 32), rgb(38, 6, 56));
+ border: 1px solid blue;
+}

@@ -159,7 +159,7 @@ const Startups = () => {
           </div>
         </div>
       </div>
-      <section className="py-0">
+      <section className="pt-10">
 	<div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-0">
 		
 		<div className="flex flex-row flex-wrap-reverse justify-center">
