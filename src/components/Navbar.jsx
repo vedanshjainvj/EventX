@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import {NavLink,Routes,Route} from 'react-router-dom';
-import Home from './Home';
-import Login from './Login';
-import Register from './Register';
+import {NavLink,useNavigate} from 'react-router-dom';
+import Router from './Router';
+import SRegister from './SRegister';
 
 
 
 function Navbar() {
+  
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [loginmodal,setLoginModal] = useState(false)
   const [registermodal,setRegisterModal] = useState(false)
@@ -42,16 +43,24 @@ function Navbar() {
           </button>
         </div>
         <ul className={`hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 ${isMenuOpen ? '' : 'hidden'}`}>
-          <li>
-          <NavLink to="/">
-                Home
-              </NavLink>
+        <li>
+            <NavLink to="/" id="home">Home</NavLink>
           </li>
           <li>
-          <NavLink to="/login">
-                Clubs
-              </NavLink>
+          <NavLink to="/request" id="login" className="login">Request</NavLink>
           </li>
+          <li>
+          <NavLink to="/login" id="login" className="login">Login</NavLink>
+          </li>
+          <li>
+          <NavLink to="/sregister" className="events">Stu Register</NavLink>
+          </li>
+          <li>
+          <NavLink to="/Update" className="events">New Update</NavLink>
+          </li>   
+          {/* <li id="logout">
+          <NavLink to="/log_out"  className="events" >Log Out</NavLink>
+          </li>  */}
           <li>
             <a className="text-lg" href='#partners'>Events</a>
           </li>
@@ -62,7 +71,7 @@ function Navbar() {
             <a className="text-lg " href="#">Contact</a>
           </li>
         </ul>
-        <a className="hidden btnnav lg:inline-block cursor-pointer lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" onClick={toggleRegister}>Register</a>
+        <NavLink className="hidden btnnav lg:inline-block cursor-pointer lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" to='/sregister'>Register</NavLink>
         <a className="hidden btnnav lg:inline-block cursor-pointer py-2 px-6 text-sm text-white font-bold transition duration-200" onClick={toggleLogin}>Login</a>
       </nav>
       <div className={`navbar-menu relative z-50 ${isMenuOpen ? '' : 'hidden'}`}>
@@ -112,12 +121,13 @@ function Navbar() {
       <Login/>
     )}
     {registermodal && (
-      <Register/>
+      <SRegister/>
     )}
-    <Routes>
+    {/* <Routes>
     <Route path='/' element={<Home />}></Route>
     <Route path='login' element={<Login />}></Route>
-  </Routes>
+  </Routes> */}
+   <Router/>
   </>
     
   );

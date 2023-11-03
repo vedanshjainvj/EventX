@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');
+
 * {
   padding: 0;
   margin: 0;
@@ -108,4 +110,34 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 .footer button {
   background: linear-gradient(to right, rgb(2, 2, 32), rgb(38, 6, 56));
  border: 1px solid blue;
+}
+.student-div {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkorchid, darkblue) 1;
+}
+.studentreg-gif {
+  background-image: url(https://cdn.dribbble.com/users/2375081/screenshots/5786512/4174c5d51f419760f83b3fc2a5913964.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.register-btn-student {
+  background: linear-gradient(to right, rgb(4, 4, 59), rgb(61, 10, 90));
+  border: 1px solid white;
+}
+.register-btn-student2 {
+  background: linear-gradient(to left, rgb(4, 4, 59), rgb(61, 10, 90));
+  border: 1px solid white;
+}
+.stu-form {
+  background-image: url(https://www.icegif.com/wp-content/uploads/2023/08/icegif-354.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur( 40px );
+  -webkit-backdrop-filter: blur( 4px );
+  background-position: center;
+}
+.form-div-container {
+  backdrop-filter: blur( 50px );
+  -webkit-backdrop-filter: blur( 4px );
 }
