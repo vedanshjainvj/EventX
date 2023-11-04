@@ -20,7 +20,7 @@ const Fest = () => {
         </span>
       </h1>
       <p className="mx-auto mt-12 text-center px-32 text-lg leading-7">
-      "College fests and events are the highlights of our educational journey, where we come together to celebrate, create lasting memories, and strengthen the bonds of joy and happiness that define our college experience."
+      "College fests and technical events are the highlights of our educational journey, where we come together to celebrate, create lasting memories, and strengthen the bonds of joy and happiness that define our college experience."
       </p>
      
     </main>
@@ -32,14 +32,14 @@ const Fest = () => {
                 <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Shooting Stars
+                    Shankhnaad
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
+                    Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
                   </p>
                   <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
@@ -53,14 +53,14 @@ const Fest = () => {
                 <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Shooting Stars
+                    TedX
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
+                    Hosted by : <span className="text-purple-400 text-sm ml-2">Asper</span>
                   </p>
                   <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
@@ -74,14 +74,14 @@ const Fest = () => {
                 <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Shooting Stars
+                    Mahasangram
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
+                    Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
                   </p>
                   <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
@@ -95,7 +95,7 @@ const Fest = () => {
                 <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Shooting Stars
+                    Imprenditore
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
@@ -115,14 +115,14 @@ const Fest = () => {
                 <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Shooting Stars
+                    CodeAdept
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
+                    Hosted by : <span className="text-purple-400 text-sm ml-2">IT Department</span>
                   </p>
                   <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
@@ -135,14 +135,14 @@ const Fest = () => {
                 <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Shooting Stars
+                    Web-A-Thon
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
+                    Hosted by : <span className="text-purple-400 text-sm ml-2">CSE Department</span>
                   </p>
                   <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
