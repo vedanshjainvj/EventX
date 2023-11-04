@@ -4,6 +4,7 @@ import Ourapp from "./Ourapp";
 import Partners from "./Partners";
 import Cards from "./Cards";
 import Startups from "./Startups";
+import Fest from "./Fest.jsx";
 import Charty from "./Charty";
 import Stats from "./Stats";
 import Dataset from "./Dataset";
@@ -49,6 +50,7 @@ const Home = () => {
     <>
       <Hero></Hero>
       <Cards></Cards>
+      <Fest></Fest>
       <Startups></Startups>
       {/* <Charty chartData={userData} options={options}></Charty> */}
       <Partners></Partners>

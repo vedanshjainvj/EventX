@@ -36,7 +36,7 @@ body {
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  /* border-image: linear-gradient(to right, darkblue, darkorchid) 1; */
 }
 .social-links {
   background: linear-gradient(to right, rgb(2, 2, 95), rgb(58, 11, 81));
@@ -140,4 +140,29 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 .form-div-container {
   backdrop-filter: blur( 50px );
   -webkit-backdrop-filter: blur( 4px );
+}
+.fest-card {
+  background: linear-gradient(to right, rgb(4, 4, 20), rgb(18, 2, 26));
+  box-shadow: 0 8px 32px 0 rgba(56, 13, 57, 0.37);
+  backdrop-filter: blur( 40px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.fest-bg1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fest-heading {
+  font-family: "Roboto";
+  font-weight: 900;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, rgb(5, 5, 62), rgb(47, 12, 64));
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 10px;
+  border: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(178, 57, 239), rgb(4, 4, 180)) 1;
 }
