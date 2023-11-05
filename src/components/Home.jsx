@@ -11,6 +11,7 @@ import Dataset from "./Dataset";
 import Team from "./Team";
 import Footer from "./Footer";
 import Inzio from "./Inzio.jsx";
+
 import { eveData } from "./Eve.js";
 
 
@@ -60,6 +61,7 @@ const Home = () => {
       <Stats></Stats>
       <Ourapp></Ourapp>
       <Team></Team>
+      {/* <VCMessage></VCMessage> */}
       <Footer></Footer>
     </>
   );

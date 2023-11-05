@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -79,7 +80,7 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">First Link</a>
+            <a href="#" class=""><NavLink to='/VCMessage'>VC</NavLink></a>
           </li>
           <li>
             <a href="#" class="">Second Link</a>
@@ -88,24 +89,24 @@ const Footer = () => {
             <a href="#" class="">Third Link</a>
           </li>
           <li>
-            <a href="#" class="">Fourth Link</a>
+            <a href="https://www.uitrgpv.ac.in/pdf/nirf_ranking.pdf" target='blank' class="">Nirf Ranking</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium tracking-widest text-sm mb-3 uppercase">Study Material</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">First Link</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/p/first-year" target='blank' class="">First Year</a>
           </li>
           <li>
-            <a href="#" class="">Second Link</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Second Year</a>
           </li>
           <li>
-            <a href="#" class="">Third Link</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Third Year</a>
           </li>
           <li>
-            <a href="#" class="">Fourth Link</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Fourth Year</a>
           </li>
         </nav>
       </div>

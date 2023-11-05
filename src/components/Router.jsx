@@ -14,6 +14,7 @@ import MainDashboard from "./MainDashboard";
 import Request from "./Request";
 import LogOut from "./LogOut";
 import Navbar from "./Navbar";
+import VCMessage from "./VCMessage.jsx";
 
 const Router = () => {
   return (
@@ -39,6 +40,9 @@ const Router = () => {
           ></Route>
           <Route exact path="/request" Component={Request}></Route>
           <Route exact path="/log_out" Component={LogOut}></Route>
+        </Routes>
+        <Routes>
+          <Route exact path="/VCMessage" Component={VCMessage}></Route>
         </Routes>
 
     </>
