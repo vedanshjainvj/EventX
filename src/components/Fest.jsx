@@ -1,5 +1,9 @@
 import React from "react";
 import ecelleventimg from '../assets/ecelleventimg.jfif'
+import mahasangramimg3 from '../assets/mahasangramimg3.jpg'
+import codeadeptimg from '../assets/codeadeptimg.webp'
+import tedximg from '../assets/tedximg.webp'
+import shankhnaadimg2 from '../assets/shankhnaadimg2.webp'
 
 const Fest = () => {
   return (
@@ -29,7 +33,7 @@ const Fest = () => {
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
+                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${shankhnaadimg2})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Shankhnaad
@@ -41,7 +45,7 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
                   </p>
-                  <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
+                  <a href="https://www.instagram.com/shankhnaad_rgpv/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
                   </a>
                 </div>
@@ -50,7 +54,7 @@ const Fest = () => {
 
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
+                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${tedximg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     TedX
@@ -62,7 +66,7 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">Asper</span>
                   </p>
-                  <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
+                  <a href="https://www.instagram.com/tedxrgpv/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
                   </a>
                 </div>
@@ -71,7 +75,7 @@ const Fest = () => {
             
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
+                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${mahasangramimg3})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Mahasangram
@@ -83,7 +87,7 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
                   </p>
-                  <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
+                  <a href="https://www.instagram.com/mahasangram_x/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
                   </a>
                 </div>
@@ -104,7 +108,7 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
                   </p>
-                  <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
+                  <a href="https://www.instagram.com/ecell_rgpv/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
                   </a>
                 </div>
@@ -112,7 +116,7 @@ const Fest = () => {
             </div>
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
+                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${codeadeptimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     CodeAdept
@@ -124,7 +128,7 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">IT Department</span>
                   </p>
-                  <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
+                  <a href="https://www.instagram.com/codeadept/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
                     Visit Page ...
                   </a>
                 </div>
@@ -132,10 +136,10 @@ const Fest = () => {
             </div>
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
+                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress-1280x720.jpg)`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
-                    Web-A-Thon
+                    Web-Xplore
                   </h2>
                   <p class="leading-relaxed text-sm ">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
