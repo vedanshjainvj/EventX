@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
+import vcimg from '../assets/vcimg.jpg'
 
 const VCMessage = () => {
   const [showMore, setShowMore] = useState(false);
@@ -33,7 +34,7 @@ const VCMessage = () => {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://i.ytimg.com/vi/y1uW8C0GtkA/hqdefault.jpg"
+              src={vcimg}
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
