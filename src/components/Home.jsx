@@ -10,6 +10,7 @@ import Stats from "./Stats";
 import Dataset from "./Dataset";
 import Team from "./Team";
 import Footer from "./Footer";
+import Inzio from "./Inzio.jsx";
 import { eveData } from "./Eve.js";
 
 
@@ -51,6 +52,7 @@ const Home = () => {
       <Hero></Hero>
       <Cards></Cards>
       <Fest></Fest>
+      <Inzio></Inzio>
       <Startups></Startups>
       {/* <Charty chartData={userData} options={options}></Charty> */}
       <Partners></Partners>

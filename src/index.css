@@ -166,3 +166,9 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
   border-style: solid;
   border-image: linear-gradient(to right, rgb(178, 57, 239), rgb(4, 4, 180)) 1;
 }
+.inizio-video {
+  border: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(184, 41, 255), rgb(4, 4, 233)) 1;
+  box-shadow: 0 8px 32px 0 rgb(3, 22, 92);
+}
