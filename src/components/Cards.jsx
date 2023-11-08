@@ -1,7 +1,9 @@
 import React from "react";
 import Devoiclogo from '../assets/Devoiclogo.png'
-import codingclublogo from '../assets/code4.jpg'
+import codingclublogo from '../assets/codinglogo.png'
 import code4alllogo from '../assets/code4all3.png'
+import fclogo from '../assets/fclogo4.png'
+import insynclogo from '../assets/insynclogo.png'
 
 const Cards = () => {
   return (
@@ -126,10 +128,34 @@ const Cards = () => {
                   Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href="https://www.instagram.com/theasperteam/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/theasperteam/mycompany/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
                     <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://theasperteam.in/" target="_blank"><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-links-line"></i></a></h1>
+                    
+                </div>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="club-cards mix-blend-difference p-6">
+                <img
+                  class="h-20 rounded w-full object-contain mix-blend-multiply object-center mb-6"
+                  src={fclogo}
+                  alt="content"
+                />
+                <h3 class="tracking-widest text-xs font-medium title-font">
+                Developing personality traits
+                </h3>
+                <h2 class="text-lg  font-medium title-font mb-4">Friday Colous</h2>
+                <p class="leading-relaxed text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Debitis, mollitia.
+                </p>
+                <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-links-line"></i></a></h1>
                     
                 </div>
               </div>
@@ -138,46 +164,22 @@ const Cards = () => {
               <div class="club-cards  p-6">
                 <img
                   class="h-20 rounded w-full object-contain object-center mb-6"
-                  src="https://ecellrgpv.com/assets/img/logo.png"
+                  src={insynclogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
-                Building An Enterprising India
+                  Promoting cultural diversity 
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">Team E-Cell</h2>
+                <h2 class="text-lg  font-medium title-font mb-4">Team Insync</h2>
                 <p class="leading-relaxed text-base">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href="https://www.instagram.com/ecell_rgpv/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/ecellrgpv/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/insync-cultural-society-of-uit-rgpv/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
                     <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://ecellrgpv.com/" target="_blank"><i class="ri-links-line"></i></a></h1>
-                    
-                </div>
-              </div>
-            </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards  p-6">
-                <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
-                  src={Devoiclogo}
-                  alt="content"
-                />
-                <h3 class="tracking-widest text-xs font-medium title-font">
-                  Innovating Creativity
-                </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">The Devoic</h2>
-                <p class="leading-relaxed text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
-                </p>
-                <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href="https://www.instagram.com/thedevoic/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/thedevoic/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
-                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://bento.me/thedevoic" target="_blank"><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="http://insyncatuit.cf/" target="_blank"><i class="ri-links-line"></i></a></h1>
                     
                 </div>
               </div>
@@ -185,24 +187,24 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="club-cards  p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
+                  class="h-20 rounded w-full object-contain object-center mix-blend-difference mb-6"
                   src={codingclublogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
-                  Help Learn Connect
+                  Learn coding from Scratch
                 </h3>
                 <h2 class="text-lg  font-medium title-font mb-4">
-                  Team GDSC
+                  Coding Club Rgpv
                 </h2>
                 <p class="leading-relaxed text-base">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, mollitia.
                 </p>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
-                    <h1 className="text-2xl"><a href="https://www.instagram.com/gdsc_uitrgpv/" target="_blank"><i class="ri-instagram-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://www.linkedin.com/company/gdscuitrgpv/" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-instagram-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-linkedin-fill"></i></a></h1>
                     <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-twitter-x-line"></i></a></h1>
-                    <h1 className="text-2xl"><a href="https://gdscuitrgpv.vercel.app/" target="_blank"><i class="ri-links-line"></i></a></h1>
+                    <h1 className="text-2xl"><a href="" target="_blank"><i class="ri-links-line"></i></a></h1>
                 </div>
               </div>
             </div>
