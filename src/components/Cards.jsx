@@ -4,6 +4,7 @@ import codingclublogo from '../assets/codinglogo.png'
 import code4alllogo from '../assets/code4all3.png'
 import fclogo from '../assets/fclogo4.png'
 import insynclogo from '../assets/insynclogo.png'
+import asperlogo from '../assets/asperlogo4.png'
 
 const Cards = () => {
   return (
@@ -16,7 +17,7 @@ const Cards = () => {
               <div class="club-cards p-6">
                 <img
                   class="h-20 rounded w-full object-contain object-center mb-6"
-                  src="https://theasperteam.in/static/media/asperlogo_A.87fa4234cd48552f7fd5.png"
+                  src={asperlogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">

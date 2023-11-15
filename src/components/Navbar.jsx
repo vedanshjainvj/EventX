@@ -32,7 +32,7 @@ function Navbar() {
   return (
   <>
 
-    <div className="px-12 h-[15vh] flex flex-col justify-center">
+    <div className="px-12 pt-6 flex flex-col justify-center">
       <nav className="px-4 py-4 flex justify-between items-center  relative">
         <a className="text-4xl font-bold leading-none" href="#">
           <h1 className='logoname'>Link UP</h1>
