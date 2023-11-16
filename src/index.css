@@ -430,8 +430,3 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
         height: 10vw;
     }
 }
-.wrapper{
-  display:grid;
-  height:100vh;
-  place-items:center
-}

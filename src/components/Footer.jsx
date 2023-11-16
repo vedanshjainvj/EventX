@@ -86,7 +86,7 @@ const Footer = () => {
             <a href="#" class=""><NavLink to='/director-message'>Director's Message</NavLink></a>
           </li>
           <li>
-            <a href="#" class="">Third Link</a>
+          <a href="#" class=""><NavLink to='/head-of-departments'>Hod's Team</NavLink></a>
           </li>
           <li>
             <a href="https://www.uitrgpv.ac.in/pdf/nirf_ranking.pdf" target='blank' class="">Nirf Ranking</a>

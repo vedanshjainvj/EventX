@@ -5,6 +5,7 @@ import SRegister from './SRegister';
 
 
 
+
 function Navbar() {
   
   const navigate = useNavigate();

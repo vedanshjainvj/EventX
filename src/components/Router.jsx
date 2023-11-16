@@ -14,6 +14,7 @@ import MainDashboard from "./MainDashboard";
 import Request from "./Request";
 import LogOut from "./LogOut";
 import Navbar from "./Navbar";
+import Hod from "./Hod.jsx";
 import VCMessage from "./VCMessage";
 import DirectorsMessage from './DirectorsMessage'
 
@@ -45,6 +46,7 @@ const Router = () => {
         <Routes>
           <Route exact path="/vice-chancellor-message" Component={VCMessage}></Route>
           <Route exact path="/director-message" Component={DirectorsMessage}></Route>
+          <Route exact path="/head-of-departments" Component={Hod}></Route>
         </Routes>
 
     </>

@@ -22,7 +22,7 @@ const App = () => {
       {loading ? ( // Checking if loading is true
         <div className="h-screen w-full flex items-center justify-center">
           <BounceLoader // For Loading page animation
-            color={"darkorchid"}
+            color={"skyblue"}
             loading={loading}
             size={50}
             aria-label="Loading Spinner"
