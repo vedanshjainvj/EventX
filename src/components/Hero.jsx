@@ -1,64 +1,41 @@
 import React from 'react'
 import giphy from '../assets/giphy-unscreen.gif'
-import img2 from '../assets/img2.png'
+import './Hero.css'
 
 const Hero = () => {
   return (
     <>
-    {/* <div id="main">
-      <div class="main-content">
-        <div class="lft">
-          <h1>Eat together</h1>
-          <h1>Live another day</h1>
-          <p>
-            Food is any substance consumed by an organism for nutritional
-            support. Food is usually of plant, animals, or fungal support. Food
-            is usually of plant, animals, or fungal support.
+<section class="background-radial-gradient mb-20 overflow-hidden">
+  <div class="px-6 py-12 text-center md:px-12 lg:py-24 lg:text-left">
+    <div class="w-100 mx-auto text-neutral-800 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+      <div class="grid items-center gap-12 lg:grid-cols-2">
+        <div class="mt-12 lg:mt-0" style={{zIndex:10}}>
+          <h1
+            class="mt-0 mb-12 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(218,81%,95%)]">
+            Connecting #<br /><span class="text-[hsl(218,81%,75%)] text-4xl md:text-5xl xl:text-6xl">College Life with young minds.</span>
+          </h1>
+          <p class="text-[hsl(221,100%,95%)]">
+          "Explore a vibrant hub where UIT and SOIT Rgpv's clubs, societies, events, and startups come together. Discover a place that connects every aspect of campus life, making your journey at the university even more enriching. 
+          Welcome to the heart of UIT and SOIT Rgpv, where connections are made, and experiences are crafted."
           </p>
-          <div class="search">
-            <input type="text" placeholder="BHOPAL, MADHYA PRADESH, INDIA" />
-            <i class="ri-focus-3-line"></i>
+          <div className='w-full xl:block mt-6'>
+          <a href="" className='text-gray-200 hero-a bg-yellow-900 px-4 py-2  rounded-lg z-10' >See Upcoming Events ... </a>
           </div>
-          <button>SEARCH</button>
+          <div className='w-full  xl:block mt-6'>
+          <a href="" className='text-gray-200 hero-a2 bg-yellow-900 px-4 py-2  rounded-lg z-10' >Official Site <i class="ri-arrow-right-up-fill"></i></a>
+          </div>
+          
         </div>
-        <div class="rght">
-          <img id="background" src={img2} alt="" />
-          <div id="all-plate">
-            <img
-              id="img-one"
-              src="https://i.ibb.co/TKJksnG/IMG-20221013-204534-947.jpg"
-              alt=""
-            />
-            <img
-              id="img-two"
-              src="https://i.ibb.co/nBRQgmq/IMG-20221013-204524-526.jpg"
-              alt=""
-            />
-            <img
-              id="img-three"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmpch4d8jHNv5bN3Xh6UOOhupMhiyheA1uTdOqlSMpkuOfLIhhACN_KelxEsI8RPWluG0&usqp=CAU"
-              alt=""
-            />
+        <div class="relative mb-12 lg:mb-0">
+          <div id="radius-shape-1" class="absolute rounded-full shadow-lg"></div>
+          <div id="radius-shape-2" class="absolute shadow-lg"></div>
+          <div
+            class="hero-bg relative bg-[hsla(0,0%,100%,0.9)] backdrop-blur-[25px] backdrop-saturate-[200%] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[#14194f] md:px-12">
+            <img src="https://i.ibb.co/nBRQgmq/IMG-20221013-204524-526.jpg" alt="" />
           </div>
         </div>
       </div>
-    </div> */}
-    <section class="px-12 h-[85vh] body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-  <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">Get Ready For An Amazing
-        <br class="hidden lg:inline-block"/>Event With Us
-      </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover mix-blend-multiply object-center rounded" alt="hero" src={giphy}/>
-    </div>
-    
   </div>
 </section>
     </>

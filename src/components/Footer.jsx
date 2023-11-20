@@ -66,7 +66,7 @@ const Footer = () => {
             <a href="#" class="">Nss UIT</a>
           </li>
           <li>
-            <a href="#" class="">NCC UIT</a>
+            <a href="#" class="">Ncc UIT</a>
           </li>
           <li>
             <a href="#" class="">Third Link</a>
