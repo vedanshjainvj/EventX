@@ -5,7 +5,8 @@ import Partners from "./Partners";
 import Cards from "./Cards";
 import Startups from "./Startups";
 import Fest from "./Fest.jsx";
-import Charty from "./Charty";
+// import Charty from "./Charty";
+import Nss from './Nss'
 import Stats from "./Stats";
 import Dataset from "./Dataset";
 import Team from "./Team";
@@ -56,6 +57,7 @@ const Home = () => {
       <Cards></Cards>
       <Fest></Fest>
       <Inzio></Inzio>
+      <Nss></Nss>
       <VIdeographs></VIdeographs>
       <Startups></Startups>
       {/* <Charty chartData={userData} options={options}></Charty> */}

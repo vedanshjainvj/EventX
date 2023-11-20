@@ -63,10 +63,10 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">First Link</a>
+            <a href="#" class="">Nss UIT</a>
           </li>
           <li>
-            <a href="#" class="">Second Link</a>
+            <a href="#" class="">NCC UIT</a>
           </li>
           <li>
             <a href="#" class="">Third Link</a>
