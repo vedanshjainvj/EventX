@@ -13,6 +13,7 @@ import Team from "./Team";
 import Footer from "./Footer";
 import Inzio from "./Inzio";
 import VIdeographs from "./VIdeographs.jsx";
+import CardsGallery from "./CardsGallery";
 
 
 import { eveData } from "./Eve.js";
@@ -58,6 +59,7 @@ const Home = () => {
       <Fest></Fest>
       <Inzio></Inzio>
       <Nss></Nss>
+      <CardsGallery></CardsGallery>
       <VIdeographs></VIdeographs>
       <Startups></Startups>
       {/* <Charty chartData={userData} options={options}></Charty> */}

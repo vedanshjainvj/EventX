@@ -1,87 +1,166 @@
-import React from 'react'
-import nssimg from '../assets/nssimg2.jpg'
-import nccimg from '../assets/nccimg.jpg'
+import React from "react";
+import nssimg from "../assets/nssimg2.jpg";
+import nccimg from "../assets/nccimg.jpg";
 
 const Nss = () => {
   return (
     <>
-<div class="container my-24 mx-auto md:px-72">
-  <section class="mb-32 text-center md:text-left">
-    <div class="block rounded-lg nss-card">
-      <div class="flex flex-wrap items-center">
-        <div
-          class="block w-full shrink-0 grow-0 basis-auto md:w-4/12 lg:flex">
-          <img
-            src={nccimg}
-            alt="Trendy Pants and Shoes"
-            class="w-full md:px-4 md:py-4 md:border-r-2 border-purple-600 rounded-t-lg md:rounded-tr-none md:rounded-bl-lg" />
-        </div>
-        <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
-          <div class="px-6 py-6 md:px-10">
-            <h2 class="mb-2 text-2xl font-bold">
-              <span class="text-danger dark:text-danger-500">NCC : National Cadet Corps</span>
-            </h2>
-            <p class="mb-2 pb-2 text-neutral-500 text-sm dark:text-neutral-300">
-            The NCC aims at developing character, comradeship, discipline, a secular outlook, the spirit of adventure and ideals of selfless service amongst young citizens. Further, it aims at creating a pool of organized, trained and motivated youth with leadership qualities in all walks of life, who will serve the Nation regardless of which career they choose.
-            </p>
-            <a href='https://www.instagram.com/uitrgpv_ncc/' target='blank'
-              type="button"
-              class="nss-button inline-block rounded-full bg-danger px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white"
-              data-te-ripple-init
-              data-te-ripple-color="light">
-              Insta Page <i class="ri-instagram-line"></i>
+      <div class="max-w-screen-lg mx-auto p-5 sm:p-10 md:p-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10">
+          <div class=" overflow-hidden nss-card shadow-lg flex flex-col">
+            <a href="#">
+              <img class="w-full" src={nccimg} alt="Sunset in the mountains" />
             </a>
-            <a href=''
-              type="button"
-              class="ml-4 nss-button inline-block rounded-full bg-danger px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white"
-              data-te-ripple-init
-              data-te-ripple-color="light">
-              Read More ...
-            </a>
+            <div class="px-6 py-4 mb-auto">
+              <div class="mb-3">
+                <a
+                  href="#"
+                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
+                >
+                  Selfless Service Towards Nation
+                </a>
+              </div>
+              <a
+                href="#"
+                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+              >
+                National Cadet Corps
+              </a>
+              <p class="text-gray-400 text-sm">
+                It aims at creating a pool of organized, trained and motivated
+                youth with leadership qualities in all walks of life, who will
+                serve the Nation regardless of which career they choose.
+              </p>
+            </div>
+            <div class="flex items-center px-6 pb-4">
+              <a href="https://www.instagram.com/uitrgpv_ncc/" target="blank">
+                <img
+                  class="w-12 h-12 rounded-full mr-2"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8jgznQeoTB5RUboDoDIv132D0sf3hEdbUSzv009NPSmtcQRYrqgLPR8t-gALISKJa3M&usqp=CAU"
+                  alt="Avatar of Jonathan Reinink"
+                />
+              </a>
+              <div class="text-sm">
+                <a
+                  href="https://www.instagram.com/uitrgpv_ncc/"
+                  target="blank"
+                  class=" font-medium leading-none hover:text-indigo-600"
+                >
+                  Moto : Unity And Discipline
+                </a>
+                <p class="text-gray-600">Since 2018 in UIT-Rgpv</p>
+              </div>
+            </div>
           </div>
+          <div class="rounded overflow-hidden nss-card shadow-lg flex flex-col">
+            <a href="#">
+              <img class="w-full" src={nssimg} alt="Sunset in the mountains" />
+            </a>
+            <div class="px-6 py-4 mb-auto">
+              <div class="mb-3">
+                <a
+                  href="#"
+                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
+                >
+                  Discipline, Leadership,{" "}
+                </a>
+                <a
+                  href="#"
+                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
+                >
+                  Spirit of adventure
+                </a>
+              </div>
+              <a
+                href="#"
+                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2 capitalize"
+              >
+                National Service Scheme ~ NSS
+              </a>
+              <p class="text-gray-400 text-sm">
+                Its primary objective is to develop personality and character of
+                the student youth through voluntary community service.
+                'Education through Service' is the purpose of the NSS.
+              </p>
+            </div>
+            <div class="flex items-center px-6 pb-4">
+              <a href="https://www.instagram.com/nss_uitrgpv/" target="blank">
+                <img
+                  class="w-12 h-12 rounded-full mr-2"
+                  src="https://seeklogo.com/images/N/nair-service-scheme-logo-FA829FD6C9-seeklogo.com.png"
+                  alt="Avatar of Jonathan Reinink"
+                />
+              </a>
+              <div class="text-sm">
+                <a
+                  href="https://www.instagram.com/nss_uitrgpv/"
+                  target="blank"
+                  class=" font-medium leading-none hover:text-indigo-600"
+                >
+                  Moto : Not Me But You
+                </a>
+                <p class="text-gray-600">Since 2018 in UIT-Rgpv</p>
+              </div>
+            </div>
+          </div>
+          {/* <div class="rounded overflow-hidden nss-card shadow-lg flex flex-col">
+            <a href="#">
+              <img
+                class="w-full"
+                src={nssimg}
+                alt="Sunset in the mountains"
+              />
+            </a>
+            <div class="px-6 py-4 mb-auto">
+              <div class="mb-3">
+                <a
+                  href="#"
+                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
+                >
+                  Cooking
+                </a>
+                ,{" "}
+                <a
+                  href="#"
+                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
+                >
+                  Recipe
+                </a>
+              </div>
+              <a
+                href="#"
+                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2 capitalize"
+              >
+                Salad Ideas of asian chefs
+              </a>
+              <p class="text-gray-500 text-sm">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="flex items-center px-6 pb-4">
+              <a href="#">
+                <img
+                  class="w-12 h-12 rounded-full mr-2"
+                  src="https://seeklogo.com/images/N/nair-service-scheme-logo-FA829FD6C9-seeklogo.com.png"
+                  alt="Avatar of Jonathan Reinink"
+                />
+              </a>
+              <div class="text-sm">
+                <a
+                  href="#"
+                  class=" font-medium leading-none hover:text-indigo-600"
+                >
+                  Jonathan Reinink
+                </a>
+                <p class="text-gray-600">Aug 18</p>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
-    </div>
-    <div class="block mt-4 rounded-lg nss-card">
-      <div class="flex flex-wrap items-center">
-        
-        <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
-          <div class="px-6 py-6 md:px-10">
-            <h2 class="mb-2 text-2xl font-bold">
-              <span class="text-danger dark:text-danger-500">NSS : National Service Scheme</span>
-            </h2>
-            <p class="mb-2 pb-2 text-neutral-500 text-sm dark:text-neutral-300">
-            National Service Scheme (NSS) was introduced in 1969 with the primary objective of developing the personality and character of the student youth through voluntary community service. 'Education through Service' is the purpose of the NSS. The ideological orientation of the NSS is inspired by the ideals of Mahatma Gandhi. Not me but you is the prime moto of Nss.
-            </p>
-            <a href='https://www.instagram.com/nss_uitrgpv/' target='blank'
-              type="button"
-              class="nss-button inline-block rounded-full bg-danger px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white"
-              data-te-ripple-init
-              data-te-ripple-color="light">
-              Insta Page <i class="ri-instagram-line"></i>
-            </a>
-            <a href=''
-              type="button"
-              class="ml-4 nss-button inline-block rounded-full bg-danger px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white"
-              data-te-ripple-init
-              data-te-ripple-color="light">
-              Read More ...
-            </a>
-          </div>
-        </div>
-        <div
-          class="block w-full shrink-0 grow-0 basis-auto md:w-4/12 lg:flex">
-          <img
-            src={nssimg}
-            alt="Trendy Pants and Shoes"
-            class="w-full md:px-4 md:py-4 md:border-l-2 border-purple-600 rounded-t-lg md:rounded-tr-none md:rounded-bl-lg" />
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
     </>
-  )
-}
+  );
+};
 
-export default Nss
+export default Nss;

@@ -174,14 +174,11 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 }
 
 .nss-card {
-  background: linear-gradient(to right, rgb(3, 3, 48), rgb(22, 3, 32));
-  border: 1px solid rgb(73, 73, 73);
-}
-.nss-button {
-  background: linear-gradient(to right, rgb(1, 1, 44), rgb(23, 2, 33));
-  border: 1px;
+  background: linear-gradient(to right, rgb(2, 2, 31), rgb(16, 2, 23));
+  border: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, rgb(178, 57, 239), rgb(4, 4, 180)) 1;
+  box-shadow: 0 16px 32px 0 rgba(99, 4, 101, 0.37);
 }
 .navbar {
   background: linear-gradient(to left, rgb(2, 2, 31), rgb(26, 1, 38));
