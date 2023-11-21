@@ -5,7 +5,7 @@ import nccimg from '../assets/nccimg.jpg'
 const Nss = () => {
   return (
     <>
-<div class="container my-24 mx-auto md:px-24">
+<div class="container my-24 mx-auto md:px-72">
   <section class="mb-32 text-center md:text-left">
     <div class="block rounded-lg nss-card">
       <div class="flex flex-wrap items-center">

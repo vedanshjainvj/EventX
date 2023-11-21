@@ -186,3 +186,6 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 .navbar {
   background: linear-gradient(to left, rgb(2, 2, 31), rgb(26, 1, 38));
 }
+.video-bg {
+  background: linear-gradient(to right, rgb(2, 2, 64), rgb(35, 3, 49));
+}
