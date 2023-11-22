@@ -14,6 +14,7 @@ import Footer from "./Footer";
 import Inzio from "./Inzio";
 import VIdeographs from "./VIdeographs.jsx";
 import CardsGallery from "./CardsGallery";
+import Placement from "./Placement.jsx";
 
 
 import { eveData } from "./Eve.js";
@@ -54,7 +55,9 @@ const Home = () => {
   });
   return (
     <>
+    
       <Hero></Hero>
+      <Placement></Placement>
       <Cards></Cards>
       <Fest></Fest>
       <Inzio></Inzio>

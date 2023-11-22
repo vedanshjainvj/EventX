@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');
-
+@import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css);
 * {
   padding: 0;
   margin: 0;
@@ -185,4 +186,7 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 }
 .video-bg {
   background: linear-gradient(to right, rgb(2, 2, 64), rgb(35, 3, 49));
+}
+.institute-div {
+  background: linear-gradient(to right, rgb(4, 4, 40), rgb(34, 8, 48));
 }

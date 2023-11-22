@@ -111,7 +111,7 @@ const Cards = () => {
             </div>
           </div>
         </div>
-        <div class="container px-5 pb-12 pt-0 mx-auto">
+        <div class="container px-5 pb-12 pt-1 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards p-6">

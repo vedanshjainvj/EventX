@@ -1,8 +1,10 @@
 import React from "react";
 import nssimg from "../assets/nssimg2.jpg";
 import nccimg from "../assets/nccimg.jpg";
+import './nss.css';
 
 const Nss = () => {
+
   return (
     <>
       <div class="max-w-screen-lg mx-auto p-5 sm:p-10 md:p-16">
@@ -103,62 +105,36 @@ const Nss = () => {
               </div>
             </div>
           </div>
-          {/* <div class="rounded overflow-hidden nss-card shadow-lg flex flex-col">
-            <a href="#">
-              <img
-                class="w-full"
-                src={nssimg}
-                alt="Sunset in the mountains"
-              />
-            </a>
-            <div class="px-6 py-4 mb-auto">
-              <div class="mb-3">
-                <a
-                  href="#"
-                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
-                >
-                  Cooking
-                </a>
-                ,{" "}
-                <a
-                  href="#"
-                  class="text-xs text-indigo-600 transition duration-500 ease-in-out"
-                >
-                  Recipe
-                </a>
-              </div>
-              <a
-                href="#"
-                class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2 capitalize"
-              >
-                Salad Ideas of asian chefs
-              </a>
-              <p class="text-gray-500 text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-            <div class="flex items-center px-6 pb-4">
-              <a href="#">
-                <img
-                  class="w-12 h-12 rounded-full mr-2"
-                  src="https://seeklogo.com/images/N/nair-service-scheme-logo-FA829FD6C9-seeklogo.com.png"
-                  alt="Avatar of Jonathan Reinink"
-                />
-              </a>
-              <div class="text-sm">
-                <a
-                  href="#"
-                  class=" font-medium leading-none hover:text-indigo-600"
-                >
-                  Jonathan Reinink
-                </a>
-                <p class="text-gray-600">Aug 18</p>
-              </div>
-            </div>
-          </div> */}
+          
         </div>
       </div>
+      
+      <div class="relative z-20 flex items-center bg-white dark:bg-gray-800">
+    <div class="container relative flex flex-col md:flex-row items-center justify-between px-6 py-8 mx-auto">
+        <div class="md:w-3/5 md:mr-6">
+            <h1 class="w-full text-4xl font-light text-center md:text-left text-gray-800 uppercase sm:text-5xl dark:text-white">
+                The React Framework for Production
+            </h1>
+            <h2 class="w-full max-w-2xl py-8 mx-auto text-xl font-light text-center md:text-left text-gray-500 dark:text-white">
+                Next.js gives you the best developer experience with all the features you need for production: hybrid static &amp; server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+            </h2>
+            <div class="flex items-center justify-center mt-4">
+                <a href="#" class="px-4 py-2 mr-4 text-white uppercase bg-gray-800 border-2 border-transparent text-md hover:bg-gray-900">
+                    Get started
+                </a>
+                <a href="#" class="px-4 py-2 text-gray-800 uppercase bg-transparent border-2 border-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
+                    Documentation
+                </a>
+            </div>
+        </div>
+        <div class="md:w-2/5">
+            <img src="https://www.uitrgpv.ac.in/Images/plgraph.png" class="max-w-xs m-auto md:max-w-2xl"/>
+        </div>
+    </div>
+</div>
+
+
+
     </>
   );
 };

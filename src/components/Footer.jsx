@@ -46,13 +46,13 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">First Link</a>
+            <a href="#" class="">Hostel Info</a>
           </li>
           <li>
-            <a href="#" class="">Second Link</a>
+            <a href="#" class="">Departments</a>
           </li>
           <li>
-            <a href="#" class="">Third Link</a>
+            <a href="#" class="">Placement</a>
           </li>
           <li>
             <a href="#" class="">Fourth Link</a>
