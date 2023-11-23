@@ -1,5 +1,5 @@
 import React from 'react'
-import barchart from '../assets/barchart3.png';
+import placechart from '../assets/placechart8.png';
 
 
 const Institute = () => {
@@ -32,7 +32,7 @@ const Institute = () => {
           </a>
         </div>
         <div className="relative">
-          <img src="https://www.uitrgpv.ac.in/Images/plgraph.png" className='w-full mix-blend-difference' alt="" />
+          <img src={placechart} className='w-full' alt="" />
         </div>
       </div>
     </div>
