@@ -16,6 +16,7 @@ import LogOut from "./LogOut";
 import Hod from "./Hod.jsx";
 import VCMessage from "./VCMessage";
 import DirectorsMessage from './DirectorsMessage'
+import Hostel from "./Hostel.jsx";
 
 const Router = () => {
   return (
@@ -46,6 +47,7 @@ const Router = () => {
           <Route exact path="/vice-chancellor-message" Component={VCMessage}></Route>
           <Route exact path="/director-message" Component={DirectorsMessage}></Route>
           <Route exact path="/head-of-departments" Component={Hod}></Route>
+          <Route exact path="/hostel-info" Component={Hostel}></Route>
         </Routes>
 
     </>

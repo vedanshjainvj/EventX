@@ -46,7 +46,7 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">Hostel Info</a>
+          <a href="#" class=""><NavLink to='/hostel-info'>Hostel Info</NavLink></a>
           </li>
           <li>
             <a href="#" class="">Departments</a>

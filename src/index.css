@@ -190,3 +190,7 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
 .institute-div {
   background: linear-gradient(to right, rgb(4, 4, 40), rgb(34, 8, 48));
 }
+.hostel-btn-bg {
+  background: linear-gradient(to right, rgb(8, 8, 78), rgb(55, 13, 78));
+border: 1px solid gray;
+}
