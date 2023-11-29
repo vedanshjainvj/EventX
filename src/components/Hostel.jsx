@@ -108,8 +108,8 @@ const Hostel = () => {
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" class="flex-shrink-0 rounded-lg w-72 h-64 object-cover object-center sm:mb-0 mb-4" src="https://qph.cf2.quoracdn.net/main-qimg-8f0a0737d9b70e7ad2564238d288cb8f-lq"/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg">Chandrashekhar Hostel</h2>
-            <h3 class="text-gray-400 mb-3">Total Rooms : 276</h3>
+            <h2 class="title-font font-medium text-lg">Rani Ahilya Bai Hostel</h2>
+            <h3 class="text-gray-400 mb-3">Total Rooms : 422</h3>
             <p class="">Warden : Prof. Kaustubh Dwivedi </p>
             <p class="">Care Taker : Deependra Mishra </p>
             <p class="">Overall Rating : 6⭐ out of 10 stars</p>
@@ -132,8 +132,8 @@ const Hostel = () => {
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" class="flex-shrink-0 rounded-lg w-72 h-64 object-cover object-center sm:mb-0 mb-4" src="https://qph.cf2.quoracdn.net/main-qimg-8f0a0737d9b70e7ad2564238d288cb8f-lq"/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg">APJ Kalam Hostel</h2>
-            <h3 class="text-gray-400 mb-3">Total Rooms : 358</h3>
+            <h2 class="title-font font-medium text-lg">Maharani Laxmi Bai Hostel</h2>
+            <h3 class="text-gray-400 mb-3">Total Rooms : 328</h3>
             <p class="">Warden : Prof. Kaustubh Dwivedi </p>
             <p class="">Care Taker : Deependra Mishra </p>
             <p class="">Overall Rating : 6⭐ out of 10 stars</p>

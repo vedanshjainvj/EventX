@@ -17,6 +17,7 @@ import Hod from "./Hod.jsx";
 import VCMessage from "./VCMessage";
 import DirectorsMessage from './DirectorsMessage'
 import Hostel from "./Hostel.jsx";
+import StudentDataDashboard from './StudentsDataDashboard'
 
 const Router = () => {
   return (
@@ -39,7 +40,9 @@ const Router = () => {
             exact
             path="/maindashboard/:id"
             Component={MainDashboard}
-          ></Route>
+          >
+
+          </Route>
           <Route exact path="/request" Component={Request}></Route>
           <Route exact path="/log_out" Component={LogOut}></Route>
         </Routes>
@@ -48,6 +51,7 @@ const Router = () => {
           <Route exact path="/director-message" Component={DirectorsMessage}></Route>
           <Route exact path="/head-of-departments" Component={Hod}></Route>
           <Route exact path="/hostel-info" Component={Hostel}></Route>
+          <Route exact path="/students-data-record" Component={StudentDataDashboard}></Route>
         </Routes>
 
     </>

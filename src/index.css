@@ -194,3 +194,6 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
   background: linear-gradient(to right, rgb(8, 8, 78), rgb(55, 13, 78));
 border: 1px solid gray;
 }
+.card-div-bg {
+  background: linear-gradient(to right, rgb(2, 2, 22), rgb(13, 3, 18));
+}
