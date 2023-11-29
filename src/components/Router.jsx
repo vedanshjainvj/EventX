@@ -18,6 +18,7 @@ import VCMessage from "./VCMessage";
 import DirectorsMessage from './DirectorsMessage'
 import Hostel from "./Hostel.jsx";
 import StudentDataDashboard from './StudentsDataDashboard'
+import NewClubRegister from './NewClubRegister';
 
 const Router = () => {
   return (
@@ -52,6 +53,7 @@ const Router = () => {
           <Route exact path="/head-of-departments" Component={Hod}></Route>
           <Route exact path="/hostel-info" Component={Hostel}></Route>
           <Route exact path="/students-data-record" Component={StudentDataDashboard}></Route>
+          <Route exact path="/new-club-register" Component={NewClubRegister}></Route>
         </Routes>
 
     </>

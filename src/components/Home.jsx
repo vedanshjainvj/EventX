@@ -13,11 +13,13 @@ import Inzio from "./Inzio";
 import VIdeographs from "./VIdeographs.jsx";
 import Placement from "./Placement.jsx";
 import MainDashboard from "./MainDashboard.jsx";
+import Update from "./Update.jsx";
 
 const Home = () => {
   return (
     <>
-    <MainDashboard></MainDashboard>
+    {/* <MainDashboard></MainDashboard> */}
+    <Update></Update>
       {/* <Hero></Hero>
       <Placement></Placement>
       <Cards></Cards>

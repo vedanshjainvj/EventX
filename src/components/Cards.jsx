@@ -11,22 +11,22 @@ import codingwizlogo from '../assets/codingwizlogo2.jpg'
 const Cards = () => {
   return (
     <>
-      <section class="text-white px-12 cards-section">
+      <section class="px-12 cards-section">
         <h1 className="text-center text-5xl">Clubs And Socities</h1>
         <div class="container px-5 pt-12 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
+                  class="h-14 rounded w-full object-contain object-center mb-6"
                   src={asperlogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   For what we aspire
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">Team Asper</h2>
-                <p class="leading-relaxed text-base">
+                <h2 class="text-lg  font-medium mb-1 mt-1">Team Asper</h2>
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
@@ -43,15 +43,15 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
+                  class="h-14 rounded w-full object-contain object-center mb-6"
                   src="https://ecellrgpv.com/assets/img/logo.png"
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                 Building An Enterprising India
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">Team E-Cell</h2>
-                <p class="leading-relaxed text-base">
+                <h2 class="text-lg  font-medium mb-1 mt-1">Team E-Cell</h2>
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
@@ -69,15 +69,15 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
+                  class="h-14 rounded w-full object-contain object-center mb-6"
                   src={Devoiclogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Innovating Creativity
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">The Devoic</h2>
-                <p class="leading-relaxed text-base">
+                <h2 class="text-lg  font-medium mb-1 mt-1">The Devoic</h2>
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
@@ -94,17 +94,17 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="club-cards  p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
+                  class="h-14 rounded w-full object-contain object-center mb-6"
                   src="https://logogen.gdscasu.com/logos/gdsc-logo.png"
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Help Learn Connect
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">
+                <h2 class="text-lg  font-medium mb-1 mt-1">
                   Team GDSC
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, mollitia.
                 </p>
                 <div class="border-t-2 mt-2"></div>
@@ -124,15 +124,15 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards p-6">
                 <img
-                  class="h-20 rounded w-full object-contain  object-center mb-6"
+                  class="h-14 rounded w-full object-contain  object-center mb-6"
                   src={code4alllogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Code your way to success
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">Team Code4all</h2>
-                <p class="leading-relaxed text-base">
+                <h2 class="text-lg  font-medium mb-1 mt-1">Team Code4all</h2>
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
@@ -149,15 +149,15 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards mix-blend-difference p-6">
                 <img
-                  class="h-20 rounded w-full object-contain mix-blend-multiply object-center mb-6"
+                  class="h-14 rounded w-full object-contain mix-blend-multiply object-center mb-6"
                   src={fclogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                 Developing personality traits
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">Friday Colous</h2>
-                <p class="leading-relaxed text-base">
+                <h2 class="text-lg  font-medium mb-1 mt-1">Friday Colous</h2>
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
@@ -174,15 +174,15 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mb-6"
+                  class="h-14 rounded w-full object-contain object-center mb-6"
                   src={insynclogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Promoting cultural diversity 
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">Team Insync</h2>
-                <p class="leading-relaxed text-base">
+                <h2 class="text-lg  font-medium mb-1 mt-1">Team Insync</h2>
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Debitis, mollitia.
                 </p>
@@ -199,17 +199,17 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="club-cards  p-6">
                 <img
-                  class="h-20 rounded w-full object-contain object-center mix-blend-difference mb-6"
+                  class="h-14 rounded w-full object-contain object-center mix-blend-difference mb-6"
                   src={codingclublogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Learn coding from Scratch
                 </h3>
-                <h2 class="text-lg  font-medium title-font mb-4">
+                <h2 class="text-lg  font-medium mb-1 mt-1 ">
                   Autotelic Society
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-sm text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, mollitia.
                 </p>
                 <div class="border-t-2 mt-2"></div>
@@ -226,7 +226,7 @@ const Cards = () => {
         </div>
       </section>
       <div class="flex items-center justify-center">
-    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+    <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
         
         <div class="relative py-6 px-6 rounded-3xl club-cards w-64 my-4 shadow-xl">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 z-50 shadow-xl  left-4 -top-6">
