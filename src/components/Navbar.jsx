@@ -36,7 +36,7 @@ function Navbar() {
     <div className="px-12 pt-6 navbar flex flex-col justify-center">
       <nav className="px-4 py-4 flex justify-between items-center  relative">
         <a className="text-4xl font-bold leading-none" href="#">
-          <h1 className='logoname'>Link UP</h1>
+          <h1 className='logoname'>UIT - SOIT</h1>
         </a>
         <div className="lg:hidden">
           <button className="navbar-burger flex items-center text-blue-600 p-3" onClick={toggleMenu}>

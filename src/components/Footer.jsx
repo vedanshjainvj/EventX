@@ -11,16 +11,16 @@ const Footer = () => {
         <h2 class="title-font font-medium  tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">First Link</a>
+            <a href="#" class="">Central Library</a>
           </li>
           <li>
-            <a href="#" class="">Second Link</a>
+            <a href="#" class="">KRC Lab</a>
           </li>
           <li>
-            <a href="#" class="">Third Link</a>
+            <a href="#" class="">Sports Complex</a>
           </li>
           <li>
-            <a href="#" class="">Fourth Link</a>
+            <a href="#" class="">About UIT</a>
           </li>
           
         </nav>
@@ -29,16 +29,16 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">First Link</a>
+            <a href="#" class="">Start-ups</a>
           </li>
           <li>
-            <a href="#" class="">Second Link</a>
+            <a href="#" class="">Startup Founders</a>
           </li>
           <li>
-            <a href="#" class="">Third Link</a>
+            <a href="#" class="">Photo Gallery</a>
           </li>
           <li>
-            <a href="#" class="">Fourth Link</a>
+            <a href="#" class="">Department Labs</a>
           </li>
         </nav>
       </div>
@@ -49,7 +49,7 @@ const Footer = () => {
           <a href="#" class=""><NavLink to='/hostel-info'>Hostel Info</NavLink></a>
           </li>
           <li>
-            <a href="#" class="">Departments</a>
+            <a href="#" class="">Induction Program</a>
           </li>
           <li>
             <a href="#" class="">Placement</a>
@@ -63,16 +63,16 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="#" class="">Nss UIT</a>
+            <a href="#" class="">Nss & Ncc</a>
           </li>
           <li>
-            <a href="#" class="">Ncc UIT</a>
+            <a href="#" class="">Student's Rating</a>
           </li>
           <li>
-            <a href="#" class="">Third Link</a>
+            <a href="#" class="">College Clubs</a>
           </li>
           <li>
-            <a href="#" class="">Fourth Link</a>
+            <a href="#" class="">College Fests</a>
           </li>
         </nav>
       </div>
@@ -97,16 +97,16 @@ const Footer = () => {
         <h2 class="title-font font-medium tracking-widest text-sm mb-3 uppercase">Study Material</h2>
         <nav class="list-none mb-10">
           <li>
-            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/p/first-year" target='blank' class="">First Year</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/p/first-year" target='blank' class="">Gate Result</a>
           </li>
           <li>
-            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Second Year</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Rgpv Notes</a>
           </li>
           <li>
-            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Third Year</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Books Pdf's</a>
           </li>
           <li>
-            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Fourth Year</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Our Team</a>
           </li>
         </nav>
       </div>
