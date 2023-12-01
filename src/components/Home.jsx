@@ -15,6 +15,7 @@ import Placement from "./Placement.jsx";
 import MainDashboard from "./MainDashboard.jsx";
 import Update from "./Update.jsx";
 import DepartmentalClubs from "./DepartmentalClubs";
+import Induction from "./Induction.jsx";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       <DepartmentalClubs></DepartmentalClubs>
       <MemoriesGlimpses></MemoriesGlimpses>
       <SportsGroup></SportsGroup>
+      <Induction></Induction>
       <Partners></Partners>
       <Dataset></Dataset>
       <Ourapp></Ourapp>

@@ -51,12 +51,6 @@ function Navbar() {
           <NavLink to="/request" id="login" className="login">Request</NavLink>
           </li>
           <li>
-          <NavLink to="/login" id="login" className="login">Login</NavLink>
-          </li>
-          <li>
-          <NavLink to="/sregister" className="events">Stu Register</NavLink>
-          </li>
-          <li>
           <NavLink to="/Update" className="events">New Update</NavLink>
           </li>   
           {/* <li id="logout">
@@ -73,7 +67,7 @@ function Navbar() {
           </li>
         </ul>
         <NavLink className="hidden btnnav lg:inline-block cursor-pointer lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" to='/sregister'>Register</NavLink>
-        <a className="hidden btnnav lg:inline-block cursor-pointer py-2 px-6 text-sm text-white font-bold transition duration-200" onClick={toggleLogin}>Login</a>
+        <NavLink className="hidden btnnav lg:inline-block cursor-pointer py-2 px-6 text-sm text-white font-bold transition duration-200" to='/login'>Login</NavLink>
       </nav>
       <div className={`navbar-menu relative z-50 ${isMenuOpen ? '' : 'hidden'}`}>
         <div className="navbar-backdrop fixed inset-0 bg-black opacity-25" onClick={toggleMenu}></div>

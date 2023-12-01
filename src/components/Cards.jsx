@@ -4,7 +4,7 @@ import codingclublogo from "../assets/codinglogo.png";
 import code4alllogo from "../assets/code4all3.png";
 import fclogo from "../assets/fclogo4.png";
 import insynclogo from "../assets/insynclogo.png";
-import asperlogo from "../assets/asperlogo4.png";
+import phoenixlogo from "../assets/phoenixlogo.jfif";
 import codehacklogo from "../assets/codehacklogo.jpeg";
 import codingwizlogo from "../assets/codingwizlogo2.jpg";
 
@@ -34,22 +34,21 @@ const Cards = () => {
               <div class="club-cards p-6">
                 <img
                   class="h-14 rounded w-full object-contain object-center mb-6"
-                  src={asperlogo}
+                  src={phoenixlogo}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
-                  For what we aspire
+                  Creating Mew Dimensions
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Team Asper</h2>
+                <h2 class="text-lg  font-medium mb-1 mt-1">Team Phoenix</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                Phoenix is a 3D Design and Animation Society of UIT-RGPV  which aims to foster creativity.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
                   <h1 className="text-2xl">
                     <a
-                      href="https://www.instagram.com/theasperteam/"
+                      href=""
                       target="_blank"
                     >
                       <i class="ri-instagram-line"></i>
@@ -57,7 +56,7 @@ const Cards = () => {
                   </h1>
                   <h1 className="text-2xl">
                     <a
-                      href="https://www.linkedin.com/company/theasperteam/mycompany/"
+                      href="https://www.linkedin.com/company/phoenix-rgpv/?originalSubdomain=in"
                       target="_blank"
                     >
                       <i class="ri-linkedin-fill"></i>
@@ -69,7 +68,7 @@ const Cards = () => {
                     </a>
                   </h1>
                   <h1 className="text-2xl">
-                    <a href="https://theasperteam.in/" target="_blank">
+                    <a href="" target="_blank">
                       <i class="ri-links-line"></i>
                     </a>
                   </h1>
@@ -93,8 +92,7 @@ const Cards = () => {
                 </h3>
                 <h2 class="text-lg  font-medium mb-1 mt-1">Team E-Cell</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                E-Cell aims to devlop an awareness and a culture of enterpreneurship in our college.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -144,8 +142,7 @@ const Cards = () => {
                 </h3>
                 <h2 class="text-lg  font-medium mb-1 mt-1">The Devoic</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                  Devoic helps students to upskill themselves and connect with the community to grow.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -195,8 +192,7 @@ const Cards = () => {
                 </h3>
                 <h2 class="text-lg  font-medium mb-1 mt-1">Team GDSC</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                  Google Developer's Student Club focuses on cloud technologies to work with.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -250,8 +246,7 @@ const Cards = () => {
                 </h3>
                 <h2 class="text-lg  font-medium mb-1 mt-1">Team Code4all</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                Code4All is a club of Problem Setters having Technical & Design Department.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -293,10 +288,10 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Developing personality traits
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Friday Colous</h2>
+                <h2 class="text-lg  font-medium mb-1 mt-1">Friday Colours</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                Friday Colours provides a platform to show their talent mainly for all the literary enthusiasts.
+
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -340,8 +335,7 @@ const Cards = () => {
                 </h3>
                 <h2 class="text-lg  font-medium mb-1 mt-1">Team Insync</h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                Cultural Society which serves as a platform for youth to show their Cultural skills.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -390,8 +384,7 @@ const Cards = () => {
                   Autotelic Society
                 </h2>
                 <p class="text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Debitis, mollitia.
+                A Society that focuses on building coding culture in campus with problem solving mindset.
                 </p>
                 <div class="border-t-2 mt-2"></div>
                 <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
@@ -440,8 +433,7 @@ const Cards = () => {
               <p class="text-xl font-semibold my-2">CodeHack Team</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                Community for freshers who are aspiring to learn to code from first year.
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
@@ -452,7 +444,7 @@ const Cards = () => {
                   </a>
                 </h1>
                 <h1 className="text-2xl">
-                  <a href="" target="_blank">
+                  <a href="https://www.linkedin.com/company/codehack-uit-rgpv-bhopal/" target="_blank">
                     <i class="ri-linkedin-fill"></i>
                   </a>
                 </h1>
@@ -487,8 +479,7 @@ const Cards = () => {
               <p class="text-xl font-semibold my-2">Gdsc Soit</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                Google Developer's Student Club focuses on cloud technologies to work with.
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
@@ -535,8 +526,7 @@ const Cards = () => {
               <p class="text-xl font-semibold my-2">Coding Wiz</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                  Connect, engage & access a treasure of resources & mentorship for coding.
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
@@ -583,8 +573,7 @@ const Cards = () => {
               <p class="text-xl font-semibold my-2">Algozenith UIT-Rgpv</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                 A dedciated group of learners who are passionate about (DSA) and (CP)
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>

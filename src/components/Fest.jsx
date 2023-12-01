@@ -39,8 +39,7 @@ const Fest = () => {
                     Shankhnaad
                   </h2>
                   <p class="leading-relaxed text-sm ">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
+                   RGPV's cultural gem, hosts an annual celebration of creativity. This grand festival features singing, dancing, debates, and more, promoting Hindi language.
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
@@ -60,8 +59,7 @@ const Fest = () => {
                     TedX
                   </h2>
                   <p class="leading-relaxed text-sm ">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
+                  Tedx RGPV features your favorite stars and influencers on stage, offering guidance and motivation to pursue your passions and dreams.
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">Asper</span>
@@ -81,8 +79,7 @@ const Fest = () => {
                     Mahasangram
                   </h2>
                   <p class="leading-relaxed text-sm ">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
+                  UIT RGPV's premier annual sports event since 2011, fosters physical fitness, mental alertness, unity, sportsmanship, team spirit, confidence, and leadership.
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
@@ -102,8 +99,7 @@ const Fest = () => {
                     Imprenditore
                   </h2>
                   <p class="leading-relaxed text-sm ">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
+                  Imprenditore, E-Cell annual fest, promotes entrepreneurship through awareness. Aims to inspire and nurture entrepreneurial spirit and mindset.
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
@@ -122,8 +118,7 @@ const Fest = () => {
                     CodeAdept
                   </h2>
                   <p class="leading-relaxed text-sm ">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
+                  Technical Event conducted by the IT Dept. of UIT, RGPV. Coding Competition | Sharpens your placement stratergies | Enhance your coding skills.
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">IT Department</span>
@@ -142,8 +137,7 @@ const Fest = () => {
                     Web-Xplore
                   </h2>
                   <p class="leading-relaxed text-sm ">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine vedansh jain damoh mp .
+                  Webxplore, an incredible tech event by the CSE department, strives to create outstanding web projects within a short timeframe.
                   </p>
                   <p class="leading-relaxed text-sm mt-1">
                     Hosted by : <span className="text-purple-400 text-sm ml-2">CSE Department</span>
