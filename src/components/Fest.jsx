@@ -23,7 +23,7 @@ const Fest = () => {
           <span className="relative ml-4">Events</span>
         </span>
       </h1>
-      <p className="mx-auto mt-12 text-center px-32 text-lg leading-7">
+      <p className="mx-auto mt-12 px-16 text-center md:px-32 text-lg leading-7">
       "College fests and technical events are the highlights of our educational journey, where we come together to celebrate, create lasting memories, and strengthen the bonds of joy and happiness that define our college experience."
       </p>
      
@@ -33,7 +33,7 @@ const Fest = () => {
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${shankhnaadimg2})`}}></div>
+                <div class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${shankhnaadimg2})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Shankhnaad
@@ -41,11 +41,16 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm ">
                    RGPV's cultural gem, hosts an annual celebration of creativity. This grand festival features singing, dancing, debates, and more, promoting Hindi language.
                   </p>
-                  <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
-                  </p>
-                  <a href="https://www.instagram.com/shankhnaad_rgpv/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
-                    Visit Page ...
+                  
+                 
+                  <a href="https://www.instagram.com/shankhnaad_rgpv/" target="blank" class="mt-1  text-white inline-flex items-center bg-pink-600 text-xs rounded-lg px-2 py-1">
+                    Instagram <i class="ri-instagram-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-blue-600 text-xs rounded-lg px-2 py-1">
+                  Site <i class="ri-arrow-right-up-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-yellow-600 text-xs rounded-lg px-2 py-1">
+                  Gallery <i class="ri-folder-image-fill ml-1"></i>
                   </a>
                 </div>
               </div>
@@ -53,7 +58,7 @@ const Fest = () => {
 
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${tedximg})`}}></div>
+                <div class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${tedximg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     TedX
@@ -61,11 +66,15 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm ">
                   Tedx RGPV features your favorite stars and influencers on stage, offering guidance and motivation to pursue your passions and dreams.
                   </p>
-                  <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">Asper</span>
-                  </p>
-                  <a href="https://www.instagram.com/tedxrgpv/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
-                    Visit Page ...
+                  
+                  <a href="https://www.instagram.com/tedxrgpv/" target="blank" class="mt-1  text-white inline-flex items-center bg-pink-600 text-xs rounded-lg px-2 py-1">
+                    Instagram <i class="ri-instagram-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-blue-600 text-xs rounded-lg px-2 py-1">
+                  Site <i class="ri-arrow-right-up-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-yellow-600 text-xs rounded-lg px-2 py-1">
+                  Gallery <i class="ri-folder-image-fill ml-1"></i>
                   </a>
                 </div>
               </div>
@@ -73,7 +82,7 @@ const Fest = () => {
             
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${mahasangramimg3})`}}></div>
+                <div class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${mahasangramimg3})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Mahasangram
@@ -81,11 +90,16 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm ">
                   UIT RGPV's premier annual sports event since 2011, fosters physical fitness, mental alertness, unity, sportsmanship, team spirit, confidence, and leadership.
                   </p>
-                  <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">Seniors</span>
-                  </p>
-                  <a href="https://www.instagram.com/mahasangram_x/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
-                    Visit Page ...
+                 
+                  
+                  <a href="https://www.instagram.com/mahasangram_x/" target="blank" class="mt-1  text-white inline-flex items-center bg-pink-600 text-xs rounded-lg px-2 py-1">
+                    Instagram <i class="ri-instagram-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-blue-600 text-xs rounded-lg px-2 py-1">
+                  Site <i class="ri-arrow-right-up-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-yellow-600 text-xs rounded-lg px-2 py-1">
+                  Gallery <i class="ri-folder-image-fill ml-1"></i>
                   </a>
                 </div>
               </div>
@@ -93,7 +107,7 @@ const Fest = () => {
 
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
+                <div class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${ecelleventimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Imprenditore
@@ -101,18 +115,23 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm ">
                   Imprenditore, E-Cell annual fest, promotes entrepreneurship through awareness. Aims to inspire and nurture entrepreneurial spirit and mindset.
                   </p>
-                  <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">E-cell</span>
-                  </p>
-                  <a href="https://www.instagram.com/ecell_rgpv/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
-                    Visit Page ...
+                 
+      
+                  <a href="https://www.instagram.com/ecell_rgpv/" target="blank" class="mt-1  text-white inline-flex items-center bg-pink-600 text-xs rounded-lg px-2 py-1">
+                    Instagram <i class="ri-instagram-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-blue-600 text-xs rounded-lg px-2 py-1">
+                  Site <i class="ri-arrow-right-up-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-yellow-600 text-xs rounded-lg px-2 py-1">
+                  Gallery <i class="ri-folder-image-fill ml-1"></i>
                   </a>
                 </div>
               </div>
             </div>
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${codeadeptimg})`}}></div>
+                <div class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(${codeadeptimg})`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     CodeAdept
@@ -120,18 +139,22 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm ">
                   Technical Event conducted by the IT Dept. of UIT, RGPV. Coding Competition | Sharpens your placement stratergies | Enhance your coding skills.
                   </p>
-                  <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">IT Department</span>
-                  </p>
-                  <a href="https://www.instagram.com/codeadept/" target="blank" class="mt-1  text-indigo-200 inline-flex items-center">
-                    Visit Page ...
+                 
+                  <a href="https://www.instagram.com/codeadept/" target="blank" class="mt-1  text-white inline-flex items-center bg-pink-600 text-xs rounded-lg px-2 py-1">
+                    Instagram <i class="ri-instagram-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-blue-600 text-xs rounded-lg px-2 py-1">
+                  Site <i class="ri-arrow-right-up-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-yellow-600 text-xs rounded-lg px-2 py-1">
+                  Gallery <i class="ri-folder-image-fill ml-1"></i>
                   </a>
                 </div>
               </div>
             </div>
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
-                <div class="w-60 m-1 h-48 sm:mr-8 sm:mb-0 border-r-2 border-purple-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress-1280x720.jpg)`}}></div>
+                <div class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0" style={{backgroundImage:  `url(https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress-1280x720.jpg)`}}></div>
                 <div class="flex-grow pr-4" >
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Web-Xplore
@@ -139,12 +162,17 @@ const Fest = () => {
                   <p class="leading-relaxed text-sm ">
                   Webxplore, an incredible tech event by the CSE department, strives to create outstanding web projects within a short timeframe.
                   </p>
-                  <p class="leading-relaxed text-sm mt-1">
-                    Hosted by : <span className="text-purple-400 text-sm ml-2">CSE Department</span>
-                  </p>
-                  <a href="" class="mt-1  text-indigo-200 inline-flex items-center">
-                    Visit Page ...
+                  
+                  <a href="" target="blank" class="mt-1  text-white inline-flex items-center bg-pink-600 text-xs rounded-lg px-2 py-1">
+                    Instagram <i class="ri-instagram-fill ml-1"></i>
                   </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-blue-600 text-xs rounded-lg px-2 py-1">
+                  Site <i class="ri-arrow-right-up-fill ml-1"></i>
+                  </a>
+                  <a href="" target="blank" class="mt-1 ml-1  text-white inline-flex items-center bg-yellow-600 text-xs rounded-lg px-2 py-1">
+                  Gallery <i class="ri-folder-image-fill ml-1"></i>
+                  </a>
+                  
                 </div>
               </div>
             </div>
