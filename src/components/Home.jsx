@@ -15,7 +15,7 @@ import Placement from "./Placement.jsx";
 import MainDashboard from "./MainDashboard.jsx";
 import Update from "./Update.jsx";
 import DepartmentalClubs from "./DepartmentalClubs";
-import Induction from "./Induction.jsx";
+import NotesCTA from "./NotesCTA.jsx";
 
 const Home = () => {
   return (
@@ -23,17 +23,22 @@ const Home = () => {
     {/* <MainDashboard></MainDashboard> */}
     {/* <Update></Update> */}
       <Hero></Hero>
-      <Placement></Placement>
-      <Cards></Cards>
       <Fest></Fest>
+      <Cards></Cards>
       <Inzio></Inzio>
       <Nss></Nss>
+      
+      
+
+      
+      
       <DepartmentalClubs></DepartmentalClubs>
       <MemoriesGlimpses></MemoriesGlimpses>
       <SportsGroup></SportsGroup>
-      <Induction></Induction>
       <Partners></Partners>
       <Dataset></Dataset>
+      <NotesCTA></NotesCTA>
+      <Placement></Placement>
       <Ourapp></Ourapp>
       <Team></Team>
       <Footer></Footer>

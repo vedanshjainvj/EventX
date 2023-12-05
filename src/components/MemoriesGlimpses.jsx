@@ -3,7 +3,7 @@ import shankhnaadvdo from "../assets/shankhnaadvideo.mp4";
 import mahavideo from "../assets/mahavideo.mp4";
 import vijayvideo from "../assets/vijayvideo.mp4";
 import coverimg1 from "../assets/cover-vdo1.png";
-import coverimg2 from "../assets/cover-vdo3.jpeg";
+import coverimg2 from "../assets/coverimg24.png";
 import coverimg3 from "../assets/cover-vdo2.png";
 import shankhnaadimg from "../assets/shankhnaadimg2.jpg";
 
@@ -72,6 +72,7 @@ const VIdeographs = () => {
         <video
                   src={shankhnaadvdo}
                   controls
+                  poster={coverimg1}
                   className="w-full"
                 ></video>
           <div class="p-6">
@@ -110,7 +111,7 @@ const VIdeographs = () => {
         <video
                   src={mahavideo}
                   controls
-                  className="w-full"
+                  poster={coverimg2}                  className="w-full"
                 ></video>
           <div class="p-6">
           <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">Mega Annual Sports Fest</h2>

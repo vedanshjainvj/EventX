@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import giphy from '../assets/giphy-unscreen.gif';
 import './Hero.css';
 
 const Hero = () => {

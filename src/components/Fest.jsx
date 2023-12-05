@@ -9,7 +9,7 @@ const Fest = () => {
   return (
     <>
     <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-6xl">
+      <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal sm:text-6xl">
         Rgpv Annual
         <span className="relative whitespace-nowrap text-pink-700">
           <svg
@@ -23,7 +23,7 @@ const Fest = () => {
           <span className="relative ml-4">Events</span>
         </span>
       </h1>
-      <p className="mx-auto mt-12 px-16 text-center md:px-32 text-lg leading-7">
+      <p className="mx-auto mt-12 px-16 text-center md:px-32 text-sm md:text-lg md:leading-7">
       "College fests and technical events are the highlights of our educational journey, where we come together to celebrate, create lasting memories, and strengthen the bonds of joy and happiness that define our college experience."
       </p>
      

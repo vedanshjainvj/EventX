@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <>
     <section class="px-12">
-    <div class="container px-6 py-10 mx-auto">
+    <div class="container px-6 my-10 mx-auto">
         <div class="xl:flex xl:items-center xL:-mx-4">
             <div class="xl:w-1/2 xl:mx-4">
                 <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white">Developers Team</h1>
