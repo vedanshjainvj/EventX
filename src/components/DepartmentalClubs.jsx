@@ -1,6 +1,10 @@
 import React from 'react'
 import codehacklogo from "../assets/codehacklogo.jpeg";
 import codingwizlogo from "../assets/codingwizlogo2.jpg";
+import domeclublogo from "../assets/domeclublogo.jpg";
+import innovationecelogo from "../assets/innovationsecelogo.jpg";
+import technophiliclogo from "../assets/technophiliclogo.jpg";
+import abhiveglogo from "../assets/abhiveglogo.jpg";
 
 const DepartmentalClubs = () => {
   return (
@@ -22,12 +26,12 @@ const DepartmentalClubs = () => {
         </h1>
       </main>
       <div class="flex items-center pb-10 justify-center">
-        <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+        <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5">
           <div class="relative py-6 px-6 rounded-3xl club-cards w-64 my-4 shadow-xl">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 z-50 shadow-xl  left-4 -top-6">
               <img
-                src={codehacklogo}
-                className="object-contain object-center p-1 rounded-full h-12 border-2 border-blue-400"
+                src={technophiliclogo}
+                className="object-contain object-center rounded-full h-12 border-2 border-blue-400"
                 alt=""
               />
             </div>
@@ -43,7 +47,7 @@ const DepartmentalClubs = () => {
               <div class="border-t-2 mt-2"></div>
               <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
                 <h1 className="text-2xl">
-                  <a href="" target="_blank">
+                  <a href="https://www.instagram.com/_technophilic/" target="_blank">
                     <i class="ri-instagram-line"></i>
                   </a>
                 </h1>
@@ -74,8 +78,8 @@ const DepartmentalClubs = () => {
           <div class="relative py-6 px-6 club-cards rounded-3xl w-64 my-4 shadow-xl">
             <div class=" text-white flex items-center card-div-bg absolute rounded-full py-4 px-4 shadow-xl left-4 -top-6">
               <img
-                src="https://logogen.gdscasu.com/logos/gdsc-logo.png"
-                className="object-contain object-center border-2 p-2 border-blue-400 rounded-full h-12"
+                src={innovationecelogo}
+                className="object-contain object-center border-2  border-blue-400 rounded-full h-12"
                 alt=""
               />
             </div>
@@ -92,7 +96,7 @@ const DepartmentalClubs = () => {
 
               <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
                 <h1 className="text-2xl">
-                  <a href="" target="_blank">
+                  <a href="https://www.instagram.com/iec_uit/" target="_blank">
                     <i class="ri-instagram-line"></i>
                   </a>
                 </h1>
@@ -123,8 +127,8 @@ const DepartmentalClubs = () => {
           <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 shadow-xl left-4 -top-6">
               <img
-                src={codingwizlogo}
-                className="object-contain mix-blend-difference border-2 p-2 border-blue-400 object-center rounded-full h-12"
+                src="https://www.rgpv.ac.in/Images/RGPVLOGO.JPG"
+                className="object-contain mix-blend-difference border-2 border-blue-400 object-center rounded-full h-12"
                 alt=""
               />
             </div>
@@ -172,14 +176,14 @@ const DepartmentalClubs = () => {
           <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl">
             <div class=" text-white flex items-center absolute rounded-full card-div-bg py-4 px-4 shadow-xl left-4 -top-6">
               <img
-                src="https://miro.medium.com/v2/resize:fit:2400/1*1bmmA88dVbYzsS-K6_FMgQ.png"
-                className="border-2 p-2 border-blue-400 object-contain mix-blend-difference object-center rounded-full h-12"
+                src={domeclublogo}
+                className="border-2 p-1 border-blue-400 object-contain mix-blend-difference object-center rounded-full h-12"
                 alt=""
               />
             </div>
             <div class="mt-8">
-            <p class="text-xl font-semibold my-2">Technophilic Club</p>
-              <p class="text-sm font-semibold my-2">By - EX Department</p>
+            <p class="text-xl font-semibold my-2">Dome Club</p>
+              <p class="text-sm font-semibold my-2">By - Mech Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
@@ -190,7 +194,55 @@ const DepartmentalClubs = () => {
 
               <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
                 <h1 className="text-2xl">
+                  <a href="https://www.instagram.com/the_domeclub_/" target="_blank">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                </h1>
+                <h1 className="text-2xl">
                   <a href="" target="_blank">
+                    <i class="ri-linkedin-fill"></i>
+                  </a>
+                </h1>
+                <h1 className="text-2xl">
+                  <a href="" target="_blank">
+                    <i class="ri-twitter-x-line"></i>
+                  </a>
+                </h1>
+                <h1 className="text-2xl">
+                  <a href="" target="_blank">
+                    <i class="ri-links-line"></i>
+                  </a>
+                </h1>
+                <h1 className="text-2xl">
+                  <a href="" target="_blank">
+                    <i class="ri-whatsapp-fill"></i>
+                  </a>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl">
+            <div class=" text-white flex items-center absolute rounded-full card-div-bg py-4 px-4 shadow-xl left-4 -top-6">
+              <img
+                src={abhiveglogo}
+                className="border-2  border-blue-400 object-contain mix-blend-difference object-center rounded-full h-12"
+                alt=""
+              />
+            </div>
+            <div class="mt-8">
+            <p class="text-xl font-semibold my-2">Abhiveg Team</p>
+              <p class="text-sm font-semibold my-2">By - ECE Department</p>
+              <div class="flex space-x-2 text-gray-400 text-sm">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  repellat?
+                </p>
+              </div>
+              <div class="border-t-2 mt-2"></div>
+
+              <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
+                <h1 className="text-2xl">
+                  <a href="https://www.instagram.com/abhiveg_/" target="_blank">
                     <i class="ri-instagram-line"></i>
                   </a>
                 </h1>
