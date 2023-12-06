@@ -73,9 +73,9 @@ function Navbar() {
         <div className="navbar-backdrop fixed inset-0 bg-black opacity-25" onClick={toggleMenu}></div>
         <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-black border-r overflow-y-auto">
           <div className="flex items-center mb-8">
-            <a className="mr-auto text-3xl font-bold leading-none" href="#">
-            <img className='w-[20vw]' src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" alt="" />
-            </a>
+          <a className="text-4xl mr-auto font-bold leading-none" href="#">
+          <h1 className='logoname'>UIT - SOIT</h1>
+        </a>
             <button className="navbar-close" onClick={toggleMenu}>
               <h1 className='text-2xl'><i class="ri-close-fill"></i></h1>
             
@@ -83,21 +83,24 @@ function Navbar() {
           </div>
           <div>
             <ul>
-              <li className="mb-1">
-                <a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
-              </li>
-              <li className="mb-1">
-                <a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
-              </li>
-              <li className="mb-1">
-                <a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
-              </li>
-              <li className="mb-1">
-                <a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
-              </li>
-              <li className="mb-1">
-                <a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
-              </li>
+            <li>
+            <NavLink to="/" id="home">Home</NavLink>
+          </li>
+          <li>
+          <NavLink to="/request" id="login" className="login">Request</NavLink>
+          </li>
+          <li>
+          <NavLink to="/Update" className="events">New Update</NavLink>
+          </li>   
+          <li>
+            <a className="text-lg" href='#partners'>Events</a>
+          </li>
+          <li>
+            <a className="text-lg " href="#">Gallery</a>
+          </li>
+          <li>
+            <a className="text-lg " href="#">Contact</a>
+          </li>
             </ul>
           </div>
           <div className="mt-auto">

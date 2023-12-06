@@ -1,4 +1,5 @@
 import React from 'react'
+import './slider.css'
 
 const Partners = () => {
   return (
@@ -19,25 +20,23 @@ const Partners = () => {
           </span>
         </h1>
       </main>
-    <section className="">
-    <div className="pb-16 lg:pb-16 mx-auto max-w-screen-xl px-4">
-
-        <div className="grid grid-cols-2 gap-8  sm:gap-12 md:grid-cols-3 lg:grid-cols-6 place-items-center justify-items-center mt-12">
-            <h1 className='text-4xl'>Devoic</h1>
-            <h1 className='text-4xl'>Asper</h1>
-            <h1 className='text-4xl'>E-cell</h1>
-            <h1 className='text-4xl'>GDSC</h1>
-            <h1 className='text-4xl'>Phoenix</h1>
-            <h1 className='text-4xl'>TedX</h1>
-            <h1 className='text-4xl'>F Colours</h1>
-            <h1 className='text-4xl'>Code4All</h1>
-            <h1 className='text-4xl'>Autotelic</h1>
-            <h1 className='text-4xl'>Ayojan</h1>
-            <h1 className='text-4xl'>Insync</h1>
-            <h1 className='text-4xl'>Umang</h1>
-        </div>
-    </div>
-</section>
+<div className="slider-body mt-16  text-gray-300">
+<div class="slider mb-10">
+	<div class="slide-track">
+    <h1 className="text-5xl ml-20">Devoic</h1>
+    <h1 className="text-5xl ml-20">Asper</h1>
+    <h1 className="text-5xl ml-20">E-cell</h1>
+    <h1 className="text-5xl ml-20">GDSC-UIT</h1>
+    <h1 className="text-5xl ml-20">Phoenix</h1>
+    <h1 className="text-5xl ml-20">Tedx-Rgpv</h1>
+    <h1 className="text-5xl ml-20">Friday Colors</h1>
+    <h1 className="text-5xl ml-20">Code4All</h1>
+    <h1 className="text-5xl ml-20">Ayojan Rgpv</h1>
+    <h1 className="text-5xl ml-20">Darshan Rgpv</h1>
+    <h1 className="text-5xl ml-20">Insync</h1>
+  </div>
+</div>
+</div>
     </>
   )
 }
