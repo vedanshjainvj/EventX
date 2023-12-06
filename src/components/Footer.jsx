@@ -100,10 +100,10 @@ const Footer = () => {
             <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/p/first-year" target='blank' class="">Gate Result</a>
           </li>
           <li>
-            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Rgpv Notes</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Notes & Books</a>
           </li>
           <li>
-            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Books Pdf's</a>
+            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Complaint's Form</a>
           </li>
           <li>
             <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="">Our Team</a>

@@ -19,39 +19,15 @@ const NotesCTA = () => {
           </span>
         </h1>
       </main>
-    <section class="">
-    <div class="container flex flex-col items-center px-12 md:px-32 my-12 mx-auto xl:flex-row">
-        <div class="flex justify-center xl:w-1/2">
-            <img class="h-48 w-48 sm:w-[16rem] sm:h-[16rem] flex-shrink-0 object-cover rounded-full" src="https://motionarray.imgix.net/preview-589872-fwZTr6OiZn-high_0005.jpg?w=660&q=60&fit=max&auto=format" alt=""/>
-        </div>
-
-        <div class="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
-            <h2 class="text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
-                Boost Your CGPA / SGPA
-            </h2>
-
-            <p class="block max-w-2xl mt-4 text-gray-500 dark:text-gray-300">Access the most recent study materials and resources to enhance your knowledge. Stay updated with the latest educational content, tools, and information for a comprehensive learning experience.</p>
-
-            <div class="mt-6 sm:-mx-2">
-                <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/" target='blank' class="inline-flex items-center justify-center w-full px-2 text-sm py-2 overflow-hidden text-white transition-colors duration-300 bg-blue-900 rounded-lg shadow sm:w-auto sm:mx-2 ">
-                   
-
-                    <span class="mx-2">
-                         Notes PDF
-                    </span>
-                </a>
-
-                <a href="https://www.rgpvonline.com/"
-                    class="inline-flex items-center justify-center w-full px-2 text-sm py-2 mt-4 overflow-hidden text-white transition-colors duration-300 bg-violet-800 rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 ">
-                    
-
-                    <span class="mx-2">
-                        Pyq PDF
-                    </span>
-                </a>
-            </div>
-        </div>
+      <section class="">
+  <div class="container my-10 mx-auto px-10 md:px-24">
+    <div class="lg:w-3/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+      <h1 class="flex-grow sm:pr-16 text-xl font-medium title-font ">
+      Access the most recent study materials and resources to enhance your knowledge. Stay updated with the latest educational content, tools, and information for a comprehensive learning experience.
+</h1>
+      <a href='https://www.rgpvnotes.in/btech/grading-system-old/notes/' target='blank' class="flex-shrink-0 text-white bg-purple-700 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg mt-10 sm:mt-0">Notes</a>
     </div>
+  </div>
 </section>
     </>
   )
