@@ -15,7 +15,6 @@ import Placement from "./Placement.jsx";
 import MainDashboard from "./MainDashboard.jsx";
 import Update from "./Update.jsx";
 import DepartmentalClubs from "./DepartmentalClubs";
-import NotesCTA from "./NotesCTA.jsx";
 
 const Home = () => {
   return (
@@ -33,7 +32,6 @@ const Home = () => {
       <MemoriesGlimpses></MemoriesGlimpses>
       <SportsGroup></SportsGroup>
       <Partners></Partners>
-      <NotesCTA></NotesCTA>
       <Placement></Placement>
       <Ourapp></Ourapp>
       <Team></Team>
