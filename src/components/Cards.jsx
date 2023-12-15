@@ -27,7 +27,7 @@ const Cards = () => {
           </span>
         </h1>
       </main>
-      <section class="px-12 cards-section">
+      <section class="px-12 cards-section overflow-hidden">
         <div class="container px-5 pt-12 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">

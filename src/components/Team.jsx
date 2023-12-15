@@ -1,4 +1,6 @@
 import React from 'react'
+import vedanshdeveloper from '../assets/vedanshdeveloper5.png'
+import shreyashdeveloper from '../assets/shreyashdeveloper2.png'
 
 const Team = () => {
   return (
@@ -16,7 +18,7 @@ const Team = () => {
 
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
                 <div>
-                    <img class="object-cover rounded-xl aspect-square teamimg" src="https://i.pinimg.com/236x/d6/98/d2/d698d2c0385746df4a7b12bf7c909ac9.jpg" alt=""/>
+                    <img class="object-cover rounded-xl aspect-square teamimg" src={vedanshdeveloper} alt=""/>
 
                     <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Vedansh Jain</h1>
 
@@ -25,7 +27,7 @@ const Team = () => {
                 </div>
 
                 <div>
-                    <img class="object-cover rounded-xl aspect-square teamimg" src="https://i.pinimg.com/236x/bf/16/95/bf16959b8e1351022266d82f69f7d20f.jpg" alt=""/>
+                    <img class="object-cover rounded-xl aspect-square teamimg" src={shreyashdeveloper} alt=""/>
 
                     <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Shreyash Jain</h1>
 
