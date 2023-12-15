@@ -6,7 +6,7 @@ import Cards from "./Cards";
 import SportsGroup from "./SportsGroup.jsx";
 import Fest from "./Fest.jsx";
 import Nss from './Nss'
-import Dataset from "./Dataset";
+import EventData from "./EventData.jsx";
 import Team from "./Team";
 import Footer from "./Footer";
 import Inzio from "./Inzio";
@@ -24,19 +24,15 @@ const Home = () => {
     {/* <Update></Update> */}
       <Hero></Hero>
       <Fest></Fest>
+      <EventData></EventData>
       <Cards></Cards>
       <Inzio></Inzio>
       <Nss></Nss>
-      
-      
-
-      
       
       <DepartmentalClubs></DepartmentalClubs>
       <MemoriesGlimpses></MemoriesGlimpses>
       <SportsGroup></SportsGroup>
       <Partners></Partners>
-      <Dataset></Dataset>
       <NotesCTA></NotesCTA>
       <Placement></Placement>
       <Ourapp></Ourapp>

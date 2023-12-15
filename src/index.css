@@ -191,3 +191,6 @@ border: 1px solid gray;
 .card-div-bg {
   background: linear-gradient(to right, rgb(2, 2, 22), rgb(13, 3, 18));
 }
+.stats-cards {
+  box-shadow: 0 6px 24px 0 rgb(31, 38, 135);
+}

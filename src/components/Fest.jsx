@@ -1,11 +1,13 @@
-import React from "react";
+import React , {useRef}from "react";
 import ecelleventimg from '../assets/ecelleventimg.jfif'
 import mahasangramimg3 from '../assets/mahasangramimg3.jpg'
 import codeadeptimg from '../assets/codeadeptimg.webp'
 import tedximg from '../assets/tedximg.webp'
 import shankhnaadimg2 from '../assets/shankhnaadimg2.webp'
+import { motion, useScroll } from "framer-motion";
 
 const Fest = () => {
+ 
   return (
     <>
     <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
@@ -28,7 +30,7 @@ const Fest = () => {
       </p>
      
     </main>
-      <section class="px-8">
+      <section  class="px-8">
         <div class="container px-5 py-16 mx-auto flex flex-wrap">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">

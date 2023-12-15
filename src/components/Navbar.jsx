@@ -48,23 +48,25 @@ function Navbar() {
             <NavLink to="/" id="home">Home</NavLink>
           </li>
           <li>
-          <NavLink to="/request" id="login" className="login">Request</NavLink>
+          <NavLink to="/Update" className="events">Clubs & Socities</NavLink>
           </li>
           <li>
-          <NavLink to="/Update" className="events">New Update</NavLink>
+          <NavLink to="/Update" className="events">New Events</NavLink>
+          </li>  
+          <li>
+          <NavLink to="/Update" className="events">Start-ups</NavLink>
           </li>   
           {/* <li id="logout">
           <NavLink to="/log_out"  className="events" >Log Out</NavLink>
           </li>  */}
           <li>
-            <a className="text-lg" href='#partners'>Events</a>
+          <NavLink to="/Update" className="events">Photo Gallery</NavLink>
           </li>
+          
           <li>
-            <a className="text-lg " href="#">Gallery</a>
+          <NavLink to="/request" id="login" className="login">Request Events</NavLink>
           </li>
-          <li>
-            <a className="text-lg " href="#">Contact</a>
-          </li>
+          
         </ul>
         <NavLink className="hidden btnnav lg:inline-block cursor-pointer lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" to='/sregister'>Register</NavLink>
         <NavLink className="hidden btnnav lg:inline-block cursor-pointer py-2 px-6 text-sm text-white font-bold transition duration-200" to='/login'>Login</NavLink>
@@ -90,7 +92,7 @@ function Navbar() {
           <NavLink to="/request" id="login" className="login">Request</NavLink>
           </li>
           <li>
-          <NavLink to="/Update" className="events">New Update</NavLink>
+          <NavLink to="/Update" className="events">New Events</NavLink>
           </li>   
           <li>
             <a className="text-lg" href='#partners'>Events</a>

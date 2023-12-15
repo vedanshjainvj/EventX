@@ -20,23 +20,24 @@ const Partners = () => {
           </span>
         </h1>
       </main>
-<div className="slider-body mt-16  text-gray-300">
+<div className="slider-body mt-16 overflow-hidden">
 <div class="slider mb-10">
 	<div class="slide-track">
-    <h1 className="text-5xl ml-20">Devoic</h1>
-    <h1 className="text-5xl ml-20">Asper</h1>
-    <h1 className="text-5xl ml-20">E-cell</h1>
-    <h1 className="text-5xl ml-20">GDSC-UIT</h1>
-    <h1 className="text-5xl ml-20">Phoenix</h1>
-    <h1 className="text-5xl ml-20">Tedx-Rgpv</h1>
-    <h1 className="text-5xl ml-20">Friday Colors</h1>
-    <h1 className="text-5xl ml-20">Code4All</h1>
-    <h1 className="text-5xl ml-20">Ayojan Rgpv</h1>
-    <h1 className="text-5xl ml-20">Darshan Rgpv</h1>
-    <h1 className="text-5xl ml-20">Insync</h1>
+    <h1 className="text-5xl ml-20 text-gray-200">Devoic</h1>
+    <h1 className="text-5xl ml-20 text-yellow-200">Asper</h1>
+    <h1 className="text-5xl ml-20 text-green-200">E-cell</h1>
+    <h1 className="text-5xl ml-20 text-pink-200">GDSC-UIT</h1>
+    <h1 className="text-5xl ml-20 text-orange-200">Phoenix</h1>
+    <h1 className="text-5xl ml-20 text-blue-200">Tedx-Rgpv</h1>
+    <h1 className="text-5xl ml-20 text-gray-200">Friday Colors</h1>
+    <h1 className="text-5xl ml-20 text-yellow-200">Code4All</h1>
+    <h1 className="text-5xl ml-20 text-green-200">Ayojan Rgpv</h1>
+    <h1 className="text-5xl ml-20 text-orange-200">Darshan Rgpv</h1>
+    <h1 className="text-5xl ml-20 text-blue-200">Insync</h1>
   </div>
 </div>
 </div>
+
     </>
   )
 }
