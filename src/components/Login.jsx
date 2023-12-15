@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Login.css'
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -17,8 +18,42 @@ const Login = () => {
   };
   return (
     <>
+    <div class="login">
+         <div src="assets/img/login-bg.png" alt="image" class="login__bg"/>
+
+         <form action="" class="login__form">
+            <h1 class="login__title">Login</h1>
+
+            <div class="login__inputs">
+               <div class="login__box">
+                  <input type="email" placeholder="Email ID" required class="login__input"/>
+                  <i class="ri-mail-fill"></i>
+               </div>
+
+               <div class="login__box">
+                  <input type="password" placeholder="Password" required class="login__input"/>
+                  <i class="ri-lock-2-fill"></i>
+               </div>
+            </div>
+
+            <div class="login__check">
+               <div class="login__check-box">
+                  <input type="checkbox" class="login__check-input" id="user-check"/>
+                  <label for="user-check" class="login__check-label">Remember me</label>
+               </div>
+
+               <a href="#" class="login__forgot">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login__button">Login</button>
+
+            <div class="login__register">
+               Don't have an account? <a href="#">Register</a>
+            </div>
+         </form>
+      </div>
     
-      <div className="text-white sm:py-8 lg:py-">
+      {/* <div className="text-white sm:py-8 lg:py-">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <h2 className="mb-4 text-center text-2xl font-bold  md:mb-8 lg:text-3xl">
             Login
@@ -133,7 +168,7 @@ const Login = () => {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
