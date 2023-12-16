@@ -28,12 +28,12 @@ const Cards = () => {
         </h1>
       </main>
       <section class="px-12 cards-section overflow-hidden">
-        <div class="container px-5 pt-12 mx-auto">
+        <div class="container px-5 pt-12 overflow-hidden mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards p-6">
                 <img
-                  class="h-14 rounded w-full object-contain object-center mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src={phoenixlogo}
                   alt="content"
                 />
@@ -83,7 +83,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-14 rounded w-full object-contain object-center mb-6"
+                  class="h-20 md:h-14 rounded w-full object-contain object-center mb-6"
                   src="https://ecellrgpv.com/assets/img/logo.png"
                   alt="content"
                 />
@@ -133,7 +133,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-14 rounded w-full object-contain object-center mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src={Devoiclogo}
                   alt="content"
                 />
@@ -183,7 +183,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-14 rounded w-full object-contain object-center mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src="https://logogen.gdscasu.com/logos/gdsc-logo.png"
                   alt="content"
                 />
@@ -237,7 +237,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards p-6">
                 <img
-                  class="h-14 rounded w-full object-contain  object-center mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain  object-center mb-6"
                   src={code4alllogo}
                   alt="content"
                 />
@@ -281,7 +281,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards mix-blend-difference p-6">
                 <img
-                  class="h-14 rounded w-full object-contain mix-blend-multiply object-center mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain mix-blend-multiply object-center mb-6"
                   src={fclogo}
                   alt="content"
                 />
@@ -326,7 +326,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-14 rounded w-full object-contain object-center mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src={insynclogo}
                   alt="content"
                 />
@@ -373,7 +373,7 @@ const Cards = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="club-cards  p-6">
                 <img
-                  class="h-14 rounded w-full object-contain object-center mix-blend-difference mb-6"
+                  class="h-24 md:h-14 rounded w-full object-contain object-center mix-blend-difference mb-6"
                   src={codingclublogo}
                   alt="content"
                 />

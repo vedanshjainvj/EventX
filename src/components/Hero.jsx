@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {Link} from "react-router-dom"
 import "./Hero.css";
 import { motion } from "framer-motion";
 
@@ -6,8 +7,8 @@ const Hero = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const images = [
     "https://i.ibb.co/nBRQgmq/IMG-20221013-204524-526.jpg",
-    "https://i.ibb.co/TKJksnG/IMG-20221013-204534-947.jpg",
-    "https://d35y6w71vgvcg1.cloudfront.net/media/2022/10/hindi-festival-shankhnaad-22-organized-at-rajiv-gandhi-university-of-technology_730X365.jpg",
+    // "https://i.ibb.co/TKJksnG/IMG-20221013-204534-947.jpg",
+    // "https://d35y6w71vgvcg1.cloudfront.net/media/2022/10/hindi-festival-shankhnaad-22-organized-at-rajiv-gandhi-university-of-technology_730X365.jpg",
     // Add other image URLs as needed
   ];
 
@@ -49,16 +50,16 @@ const Hero = () => {
                   experiences are crafted."
                 </p>
                 <div className="w-full xl:block mt-6">
-                  <a
-                    href=""
+                  <Link to='/update'
+                    
                     className="text-gray-200 hero-a bg-yellow-900 px-4 py-2  rounded-lg z-10"
                   >
                     See Upcoming Events ...{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="w-full  xl:block mt-6">
                   <a
-                    href=""
+                    href="https://www.uitrgpv.ac.in/" target="blank"
                     className="text-gray-200 hero-a2 bg-yellow-900 px-4 py-2  rounded-lg z-10"
                   >
                     Official Site <i class="ri-arrow-right-up-fill"></i>

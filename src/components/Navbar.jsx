@@ -48,7 +48,7 @@ function Navbar() {
             <NavLink to="/" id="home">Home</NavLink>
           </li>
           <li>
-          <NavLink to="/Update" className="events">Clubs & Socities</NavLink>
+          {/* <NavLink to="/Update" className="events">Clubs & Socities</NavLink> */}
           </li>
           <li>
           <NavLink to="/Update" className="events">New Events</NavLink>
@@ -95,20 +95,20 @@ function Navbar() {
           <NavLink to="/Update" className="events">New Events</NavLink>
           </li>   
           <li>
-            <a className="text-lg" href='#partners'>Events</a>
+          <NavLink to="/Update" className="events">New Events</NavLink>
           </li>
           <li>
-            <a className="text-lg " href="#">Gallery</a>
+          <NavLink to="/Update" className="events">New Events</NavLink>
           </li>
           <li>
-            <a className="text-lg " href="#">Contact</a>
+          <NavLink to="/Update" className="events">New Events</NavLink>
           </li>
             </ul>
           </div>
           <div className="mt-auto">
             <div className="pt-6">
-              <a className="block px-4 py-3 mb-3  text-xs text-center font-semibold leading-none bg-slate-700 hover-bg-gray-100 rounded-xl " onClick={toggleRegister}>Register</a>
-              <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover-bg-blue-700 rounded-xl" onClick={toggleLogin}>Login</a>
+            <NavLink className="hidden btnnav lg:inline-block cursor-pointer lg:ml-auto lg:mr-3 py-2 px-6 text-sm text-white font-bold transition duration-200" to='/sregister'>Register</NavLink>
+            <NavLink className="hidden btnnav lg:inline-block cursor-pointer py-2 px-6 text-sm text-white font-bold transition duration-200" to='/login'>Login</NavLink>
             </div>
             <p className="my-4 text-xs text-center text-gray-400">
               <span>Copyright © 2023</span>

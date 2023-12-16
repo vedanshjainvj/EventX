@@ -27,13 +27,13 @@ const Home = () => {
       <Cards></Cards>
       <Inzio></Inzio>
       <Nss></Nss>
-      
+      <Ourapp></Ourapp>
       <DepartmentalClubs></DepartmentalClubs>
       <MemoriesGlimpses></MemoriesGlimpses>
       <SportsGroup></SportsGroup>
       <Partners></Partners>
       <Placement></Placement>
-      <Ourapp></Ourapp>
+      
       <Team></Team>
       <Footer></Footer>
     </>

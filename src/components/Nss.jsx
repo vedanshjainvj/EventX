@@ -25,7 +25,7 @@ const Nss = () => {
         <div class="container px-5 my-10 mx-auto flex flex-wrap">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card px-8 py-6 md:px-0 md:py-0 rounded-lg sm:flex-row flex-col items-center">
                 <div
                   class="w-80 m-1 h-64 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${nssimg})` }}
@@ -91,7 +91,7 @@ const Nss = () => {
             </div>
 
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card rounded-lg sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card px-8 py-6 md:px-0 md:py-0 rounded-lg sm:flex-row flex-col items-center">
                 <div
                   class="w-80 m-1 h-64 sm:mr-8 sm:mb-0 border-r-2 border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{

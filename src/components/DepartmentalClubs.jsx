@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import codehacklogo from "../assets/codehacklogo.jpeg";
 import codingwizlogo from "../assets/codingwizlogo2.jpg";
 import domeclublogo from "../assets/domeclublogo.jpg";
@@ -9,7 +9,7 @@ import abhiveglogo from "../assets/abhiveglogo.jpg";
 const DepartmentalClubs = () => {
   return (
     <>
-    <main className="flex mb-10 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
+      <main className="flex mb-10 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
           Departmental
           <span className="relative whitespace-nowrap text-pink-700">
@@ -40,14 +40,17 @@ const DepartmentalClubs = () => {
               <p class="text-sm font-semibold my-2">By - Civil Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                  To promote out-of-the-box thinking among new generation civil
+                  engineers.
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
               <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
                 <h1 className="text-2xl">
-                  <a href="https://www.instagram.com/_technophilic/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/_technophilic/"
+                    target="_blank"
+                  >
                     <i class="ri-instagram-line"></i>
                   </a>
                 </h1>
@@ -84,12 +87,11 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-            <p class="text-xl font-semibold my-2">Innovations @EC</p>
+              <p class="text-xl font-semibold my-2">Innovations @EC</p>
               <p class="text-sm font-semibold my-2">By - ECE Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                  Electronics club of the ECE Department at UIT RGPV Bhopal!
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
@@ -133,12 +135,12 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-            <p class="text-xl font-semibold my-2">DOIT Club</p>
+              <p class="text-xl font-semibold my-2">DOIT Club</p>
               <p class="text-sm font-semibold my-2">By - IT Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                  Our aim is to weave threads of passion, innovation, and
+                  community spirit.
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
@@ -182,19 +184,22 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-            <p class="text-xl font-semibold my-2">Dome Club</p>
+              <p class="text-xl font-semibold my-2">Dome Club</p>
               <p class="text-sm font-semibold my-2">By - Mech Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                  The official events club of "Department of Mech Eng" UIT RGPV
+                  at
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
 
               <div className="flex gap-2 mt-4 social-links w-fit rounded-lg px-2">
                 <h1 className="text-2xl">
-                  <a href="https://www.instagram.com/the_domeclub_/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/the_domeclub_/"
+                    target="_blank"
+                  >
                     <i class="ri-instagram-line"></i>
                   </a>
                 </h1>
@@ -230,12 +235,11 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-            <p class="text-xl font-semibold my-2">Abhiveg Team</p>
+              <p class="text-xl font-semibold my-2">Abhiveg Team</p>
               <p class="text-sm font-semibold my-2">By - ECE Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  repellat?
+                  Cultural Society of Electronics & Communication Department
                 </p>
               </div>
               <div class="border-t-2 mt-2"></div>
@@ -272,7 +276,7 @@ const DepartmentalClubs = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default DepartmentalClubs
+export default DepartmentalClubs;
