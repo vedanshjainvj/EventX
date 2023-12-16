@@ -26,6 +26,7 @@ import FullEvent from "./FullEvent.jsx";
 import ComplaintForm from './ComplaintForm.jsx';
 import ComplaintDashboard from "./ComplaintDashboard.jsx";
 import PastEventDashboard from "./PastEventDashboard.jsx";
+import PhotoGaller from "./PhotoGaller.jsx";
 import Error from "./Error.jsx";
 
 const Router = () => {
@@ -34,6 +35,7 @@ const Router = () => {
         <Routes>
           <Route exact path="/" Component={Home}></Route>
           <Route exact path="/login" Component={Login}></Route>
+          <Route exact path="/photogallery" Component={PhotoGaller}></Route>
           <Route exact path="/Update" Component={FullEvent}></Route>
           <Route exact path="/registration/:id" Component={Register}></Route>
           <Route exact path="/sregister" Component={SRegister}></Route>

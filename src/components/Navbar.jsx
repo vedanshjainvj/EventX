@@ -76,7 +76,7 @@ function Navbar() {
           <NavLink to="/log_out"  className="events" >Log Out</NavLink>
           </li>  */}
           <li>
-          <NavLink to="/Update" className="events">Photo Gallery</NavLink>
+          <NavLink to="/photogallery" className="events">Photo Gallery</NavLink>
           </li>
           
           <li>
