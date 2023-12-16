@@ -1,6 +1,6 @@
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { NavLink } from "react-router-dom";
 
 const Update = () => {
   const [initial, final] = useState([
@@ -21,7 +21,7 @@ const Update = () => {
   const allupdate = async () => {
 
     try {
-      const response = await axios.get(`http://127.0.0.1:4000/events/${token}`);
+      const response = await axios.get(`http://127.0.0.1:4000/PastEvent/${token}`);
       const data = response.data.data;
       data.map((object) => {
         final((sdata) => [
@@ -38,7 +38,12 @@ const Update = () => {
         ]);
       });
     } catch (error) {
-      alert("They have some error please relode page...")
+      if(error.response.request.status === 401){
+        navigate('/errorpage');
+    }
+    else{
+   alert(error);
+    }
     }
   };
 
@@ -48,13 +53,9 @@ const Update = () => {
 
   return (
     <>
-
-            <main className="flex mb-10 flex-1 w-full flex-row items-center justify-center text-center px-4 sm:mt-12 mt-20">
-            <NavLink to='/' className="ml-0 mt-3 max-[10rem] mx-auto border-2  text-white rounded-lg px-2 py-1 font-medium">
-                    Home<span className="ml-2 "><i class="ri-home-8-line"></i></span>
-              </NavLink> 
+         <main className="flex mb-10 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
               <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-4xl">
-                Upcoming
+                Past
                 <span className="relative whitespace-nowrap text-pink-700">
                   <svg
                     aria-hidden="true"
@@ -68,13 +69,14 @@ const Update = () => {
                 </span>
               </h1>
             </main>
-      <div class="flex flex-wrap-reverse  justify-center pt-2">
+            <div class="flex flex-wrap-reverse  justify-center pt-2">
       {initial.map((info) => {
-          if(!info.Rid) return null;
+      if(!info.Rid) return null;
         return (
           <>
-              <div class="max-w-3xl mt-4 h-auto mx-auto p-4 sm:px-6 border-4 border-white ">
-                <article class=" max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
+       
+              <div class="max-w-3xl mt-4 h-auto mx-auto p-4 sm:px-6 border-b-4 border-white ">
+                <article class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
 
                   <figure class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
                     <img
@@ -85,7 +87,8 @@ const Update = () => {
                       alt="Blog post"
                     />
                   </figure>
-                  <div className="max-w-xl" >
+
+                  <div>
                     <header>
                       <div class="mb-3">
                         <ul class="flex flex-wrap text-xs font-medium -m-1">
@@ -124,13 +127,12 @@ const Update = () => {
                         </a>
                       </h3>
                     </header>
-                    <p class="text-lg  text-gray-400">
-                     {/* {info.Discreption} */}
+                    <p class="text-lg text-gray-400 flex-grow">
+                     {info.Discreption}
                     </p>
-                    <p class="text-sm pt-1 text-blue-400 ">
+                    <p class="text-sm pt-1 text-blue-400 flex-grow">
                       Venue : {info.Place}
                     </p>
-          
                     <footer class="flex items-center mt-4">
                       <a href="#0">
                         <img
@@ -153,11 +155,11 @@ const Update = () => {
                   </div>
                 </article>
               </div>
-            
           </>
         )
       })}
       </div>
+
     </>
   );
 };

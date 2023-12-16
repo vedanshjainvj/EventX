@@ -5,7 +5,7 @@ button, input {
   
   .background {
     display: flex;
-    min-height: 85vh;
+    min-height: 100vh;
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/ef9a3260506271.5a4f65ff2e513.gif);
     background-repeat: no-repeat;
     background-size: cover  ;
@@ -125,11 +125,11 @@ button, input {
   }
   
   .app-form-group {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .app-form-group.message {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   
   .app-form-group.buttons {
@@ -145,7 +145,7 @@ button, input {
     border-bottom: 1px solid #666;
     color: #ddd;
     font-size: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     outline: none;
     transition: border-color .2s;
   }

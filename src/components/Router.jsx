@@ -16,9 +16,17 @@ import LogOut from "./LogOut";
 import Hod from "./Hod.jsx";
 import VCMessage from "./VCMessage";
 import DirectorsMessage from './DirectorsMessage'
+import StudentDashbord from "./StudentDashbord.jsx";
+import MainDashboardNav from "./MainDashboardNav.jsx";
 import Hostel from "./Hostel.jsx";
-import StudentDataDashboard from './StudentsDataDashboard'
-import NewClubRegister from './NewClubRegister';
+import VerifyEvent from "./VerifyEvent.jsx";
+import AllEventDashbord from "./AllEventDashbord.jsx";
+import DepartmentalClubs from "./DepartmentalClubs.jsx";
+import FullEvent from "./FullEvent.jsx";
+import ComplaintForm from './ComplaintForm.jsx';
+import ComplaintDashboard from "./ComplaintDashboard.jsx";
+import PastEventDashboard from "./PastEventDashboard.jsx";
+import Error from "./Error.jsx";
 
 const Router = () => {
   return (
@@ -26,34 +34,29 @@ const Router = () => {
         <Routes>
           <Route exact path="/" Component={Home}></Route>
           <Route exact path="/login" Component={Login}></Route>
-          <Route exact path="/Update" Component={Update}></Route>
-          <Route exact path="/register/:id/:Mid" Component={Register}></Route>
+          <Route exact path="/Update" Component={FullEvent}></Route>
+          <Route exact path="/registration/:id" Component={Register}></Route>
           <Route exact path="/sregister" Component={SRegister}></Route>
           <Route exact path="/AddEvent/:id" Component={AddEvent}></Route>
-          <Route
-            exact
-            path="/personalpage/:id"
-            Component={PersonalPage}
-          ></Route>
+          <Route exact path="/personalpage/:id"Component={PersonalPage}></Route>
           <Route exact path="/edit/:id" Component={Edit}></Route>
           <Route exact path="/dashbord/:id" Component={Dashbord}></Route>
-          <Route
-            exact
-            path="/maindashboard/:id"
-            Component={MainDashboard}
-          >
-
-          </Route>
+          <Route exact path="/maindashboard/:id" Component={MainDashboard}></Route>
           <Route exact path="/request" Component={Request}></Route>
-          <Route exact path="/log_out" Component={LogOut}></Route>
-        </Routes>
-        <Routes>
+          <Route exact path="/LogOut" Component={LogOut}></Route>
           <Route exact path="/vice-chancellor-message" Component={VCMessage}></Route>
           <Route exact path="/director-message" Component={DirectorsMessage}></Route>
           <Route exact path="/head-of-departments" Component={Hod}></Route>
+          <Route exact path="/StudentDashbord/:id" Component={StudentDashbord}></Route>
+          <Route exact path='/MainDashboardNav' Component={MainDashboardNav}></Route>
           <Route exact path="/hostel-info" Component={Hostel}></Route>
-          <Route exact path="/students-data-record" Component={StudentDataDashboard}></Route>
-          <Route exact path="/new-club-register" Component={NewClubRegister}></Route>
+          <Route exact path="/VerifyEvent/:id/:Mid" Component={VerifyEvent}></Route>
+          <Route exact path="/AllEventDashbord/:id" Component={AllEventDashbord}></Route>
+          <Route exact path="/PastEventDashboard/:id" Component={PastEventDashboard}></Route>
+          <Route exact path="/ComplaintDashboard/:id" Component={ComplaintDashboard}></Route>
+          <Route exact path="/DepartmentalClubs" Component={DepartmentalClubs}></Route>
+          <Route exact path="/ComplaintForm" Component={ComplaintForm}></Route>
+          <Route path="/errorpage" Component={Error}></Route>
         </Routes>
 
     </>

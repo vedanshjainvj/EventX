@@ -1,22 +1,24 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import {useNavigate ,NavLink} from "react-router-dom";
 import Axios from 'axios';
+import emailjs from '@emailjs/browser';
 
 const SRegister =()=>{
 const navigate = useNavigate();
+const form = useRef();
 const [initial,final] = useState({
         Name:"",
-        Email:"",
+        CompEmail:"",
         Year:"",
         Branch:"",
         MobileNumber:"",
-        StuPassword:"",
+        ComAbout:"",
         College:"",
-        Interest:""
+        ComDiscribe:"",
+        Suggestion:""
 })
 const StuData = (event)=>{
     const {name,value} = event.target;
-    console.log(name,value);
   final((finalValue)=>{
     return{
         ...finalValue,
@@ -28,20 +30,32 @@ const StuData = (event)=>{
 
 const StuReg = async (event)=>{
     event.preventDefault();
-    const { Name, Email, MobileNumber,Year,Branch,StuPassword,Interest,College} = initial;
+    const date =  new Date();
+    const PostDate = `${date} `;
+    const { Name, CompEmail, MobileNumber,Year,Branch,ComDiscribe,ComAbout,College,Suggestion} = initial;
+
       try {
-        const response = await Axios.post("http://localhost:4000/Sregister",{
-          Name, Email, MobileNumber,Year,Branch,StuPassword,Interest,College
+        const response = await Axios.post("http://localhost:4000/Complaint",{
+            Name, CompEmail, MobileNumber,Year,Branch,ComDiscribe,ComAbout,College,Suggestion,PostDate
          })
+         alert("Your Complain have been send sucessfully...")
          navigate("/")
+         emailjs.sendForm('service_edl04xe','template_nok8by1', form.current, 'fA8kcfAFIvcziEYcA')
+         .then((result) => {
+           console.log(result.text);
+       }, (error) => {
+           console.log(error.text);
+       }
+       );
     }catch (error){
-      alert("Student have register....")
+      alert(error)
       navigate("/")
     } 
 }
+
 return (
   <>
-     <form onSubmit={StuReg} method="POST" class="min-w-screen  stu-form xl:h-[100vh] flex items-center justify-center px-5 py-5">
+     <form ref={form} onSubmit={StuReg} method="POST" class="min-w-screen mt-36 xl:h-[100vh] flex items-center justify-center px-5 py-5">
       <div
         class="rounded-3xl student-div shadow-xl w-full  overflow-hidden"
         style={{ maxWidth: "1000px" }}
@@ -50,8 +64,8 @@ return (
           {/* <div class="hidden md:block w-1/2 studentreg-gif  py-10 px-10"></div> */}
           <div class="w-full pt-6 md:w-full  form-div-container px-5 md:px-10">
             <div class="text-center mb-4">
-              <h1 class="font-bold text-3xl">STUDENT REGISTER</h1>
-              <p className="mt-4">Enter your information to register</p>
+              <h1 class="font-bold text-3xl">Complaint Form</h1>
+              {/* <p className="mt-4">Enter your information to register</p> */}
             </div>
             <div>
               <div class="flex -mx-3">
@@ -89,7 +103,7 @@ return (
               <div class="flex -mx-3">
                 <div class="w-1/2 px-3 mb-5">
                   <label for="" class="text-xs font-semibold px-1">
-                    Batch Year
+                    Semister
                   </label>
                   <div class="flex">
                     <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
@@ -98,7 +112,7 @@ return (
                     <input
                       type="text" name="Year"
                       class="w-full -ml-10 pl-2 py-1 pr-2 text-gray-800 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                      placeholder="2022-2026"
+                      placeholder="2nd"
                       onChange={StuData} autocomplete="off"
                     />
                   </div>
@@ -127,10 +141,10 @@ return (
                   </label>
                   <div class="flex">
                     <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
-                      <i class="mdi mdi-email-outline text-lg"></i>
+                      <i class="mdi mdi-CompEmail-outline text-lg"></i>
                     </div>
                     <input
-                      type="email" name="Email" onChange={StuData} autocomplete="off"
+                      type="email" name="CompEmail" onChange={StuData} autocomplete="off"
                       class="w-full -ml-10 pl-2 pr-2 py-1 text-gray-800  rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
                       placeholder="vedansh.rgpv.cse@gmail.com"
                     />
@@ -145,7 +159,7 @@ return (
                       <input className="ml-4"
                         type="radio"
                         name="College"
-                        value="uitrgpc"
+                        value="UIT RGPV"
                         onChange={StuData} autocomplete="off"
                       />
                       <span className="radio-custom"></span>
@@ -155,7 +169,7 @@ return (
                       <input className="ml-4"
                         type="radio"
                         name="College"
-                        value="soitrgpv"
+                        value="SOIT RGPV"
                         onChange={StuData} autocomplete="off"
                       />
                       <span className="radio-custom"></span>
@@ -167,46 +181,67 @@ return (
               <div class="flex -mx-3">
                 <div class="w-full px-3 mb-5">
                   <label for="" class="text-xs font-semibold px-1">
-                  Interest, Skills, Hobbies
+                   Complaint Recarding 
                   </label>
                   <div class="flex">
                     <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
-                      <i class="mdi mdi-email-outline text-lg"></i>
+                      <i class="mdi mdi-CompEmail-outline text-lg"></i>
                     </div>
                     <input
                       type="text"
-                      name="Interest"
+                      name="ComAbout"
                       onChange={StuData} autocomplete="off"
                       class="w-full text-gray-800  -ml-10 pl-2 pr-2 py-1 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                      placeholder="Enter your Hobbies or Skills or Interest"
+                      placeholder="Enter your Complaint"
                     />
                   </div>
                 </div>
-              </div>
+              </div>     
               <div class="flex -mx-3">
-                <div class="w-full px-3 mb-12">
+                <div class="w-full px-3 mb-5">
                   <label for="" class="text-xs font-semibold px-1">
-                    Password
+                   Complaint
                   </label>
                   <div class="flex">
                     <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
-                      <i class="mdi mdi-lock-outline text-lg"></i>
+                      <i class="mdi mdi-CompEmail-outline text-lg"></i>
                     </div>
-                    <input
-                      type="password"
-                       name="StuPassword"
-                      class="w-full -ml-10 pl-2 text-gray-800  pr-2 py-1 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                      placeholder="Enter Strong Password"
+                    <textarea
+                      type="text"
+                      name="ComDiscribe"
                       onChange={StuData} autocomplete="off"
-                  
+                      class="w-full h-[7rem] sm:h-[10rem] text-gray-800  -ml-10 pl-2 pr-2 py-1 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
+                      placeholder="Discribe your Complain"
+                    />
+                  </div>
+                </div>
+              </div>     
+              <div class="flex -mx-3">
+                <div class="w-full px-3 mb-5">
+                  <label for="" class="text-xs font-semibold px-1">
+                  Suggestion
+                  </label>
+                  <div class="flex">
+                    <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
+                      <i class="mdi mdi-CompEmail-outline text-lg"></i>
+                    </div>
+                    <textarea
+                      type="text"
+                      name="Suggestion"
+                      onChange={StuData} autocomplete="off"
+                      class="w-full h-[7rem] sm:h-[10rem] text-gray-800  -ml-10 pl-2 pr-2 py-1 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
+                      placeholder="Your Suggestion"
                     />
                   </div>
                 </div>
               </div>
+              {/* Host email */}
+              <input value={"shreyash123jain@gmail.com"} name="Email" className="hidden"></input> 
 
-              <div class="flex -mx-3">
+               <div className="flex justify-center items-center w-full">
+              <div class="flex ">
                 <div class="w-full px-3 mb-5">
-                  <input type="submit" value={"Register"} class="block w-full max-w-xs mx-auto register-btn-student focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold"/>
+                  <input type="submit" value={"Send"} class="block w-full max-w-xs mx-auto register-btn-student focus:bg-indigo-700 text-white rounded-lg px-10 py-3 font-semibold"/>
                    
                   
                 </div>
@@ -217,6 +252,7 @@ return (
                     Back to home<span className="ml-2 "><i class="ri-home-8-line"></i></span>
                   </NavLink>                  
                 </div>
+              </div>
               </div>
             </div>
           </div>
