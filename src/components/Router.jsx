@@ -15,6 +15,7 @@ import Request from "./Request";
 import LogOut from "./LogOut";
 import Hod from "./Hod.jsx";
 import VCMessage from "./VCMessage";
+import Startups from "./Startups.jsx";
 import DirectorsMessage from './DirectorsMessage'
 import StudentDashbord from "./StudentDashbord.jsx";
 import MainDashboardNav from "./MainDashboardNav.jsx";
@@ -35,6 +36,7 @@ const Router = () => {
         <Routes>
           <Route exact path="/" Component={Home}></Route>
           <Route exact path="/login" Component={Login}></Route>
+          <Route exact path="/start-ups" Component={Startups}></Route>
           <Route exact path="/photogallery" Component={PhotoGaller}></Route>
           <Route exact path="/Update" Component={FullEvent}></Route>
           <Route exact path="/registration/:id" Component={Register}></Route>

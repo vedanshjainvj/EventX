@@ -1,15 +1,8 @@
 import React from "react";
-import connectuplogo from "../assets/connectuplogo.jfif";
-import boostemlogo from "../assets/boostemlogo.jfif";
-import agilelogo from "../assets/agilelogo.jfif";
-import semikolanlogo from "../assets/semikolanlogo.jfif";
-import tdplogo from "../assets/tdplogo.jfif";
-import gearfilogo from "../assets/gearfilogo.jfif";
-import codingwizlogo from "../assets/codingwizlogo2.jpg";
 import './slider.css'
 
 
-const Startups = () => {
+const SportsGroups = () => {
   return (
     <>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl text-white md:px-24 lg:px-8 lg:pt-14  lg:pb-0">
@@ -181,4 +174,4 @@ const Startups = () => {
   );
 };
 
-export default Startups;
+export default SportsGroups;
