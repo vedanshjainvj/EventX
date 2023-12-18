@@ -90,7 +90,7 @@ const Login = () => {
           <a href="#" class="login__forgot">Forgot Password?</a>
        </div>
 
-       <button type="submit" class="login__button">Login</button>
+       <button type="submit" class="login__button text-white">Login</button>
 
        <div class="login__register">
           Don't have an account? <a href="#">Register</a>

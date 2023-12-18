@@ -38,7 +38,7 @@ const VIdeographs = () => {
                 ></video>
           <div class="p-6">
           <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">Memories of Civil Culture</h2>
-            <h1 class="title-font text-lg font-medium text-purple-400 mb-2">Vijaypath</h1>
+            <h1 class="title-font text-lg font-medium memories-heading px-4 py-[3px] tracking-wider rounded-lg mb-2 mt-2">VIJAYPATH</h1>
             <p class="text-sm mb-3">Shankhnaad, the crown jewel of RGPV's cultural calendar,
                 orchestrates an annual symphony of creativity and camaraderie.
                 This grand festival, anchored in the spirit of promoting the
@@ -46,7 +46,7 @@ const VIdeographs = () => {
                 encompassing singing, dancing, photography, debates, treasure
                 hunts, and painting.</p>
             <div class="flex items-center flex-wrap ">
-              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+              <a class=" bg-pink-600 px-2 py-1 rounded-lg text-sm inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -77,7 +77,7 @@ const VIdeographs = () => {
                 ></video>
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">Grand Annual Cultural Fest</h2>
-            <h1 class="title-font text-lg font-medium text-purple-400 mb-2">Shankhnaad</h1>
+            <h1 class="title-font text-lg font-medium memories-heading px-4 py-[3px] tracking-wider rounded-lg mb-2 mt-2">SHANKHNAAD</h1>
             <p class="text-sm mb-3">Shankhnaad, the crown jewel of RGPV's cultural calendar,
                 orchestrates an annual symphony of creativity and camaraderie.
                 This grand festival, anchored in the spirit of promoting the
@@ -85,7 +85,7 @@ const VIdeographs = () => {
                 encompassing singing, dancing, photography, debates, treasure
                 hunts, and painting.</p>
             <div class="flex items-center flex-wrap">
-              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+            <a class=" bg-yellow-500 px-2 py-1 rounded-lg text-sm inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -115,7 +115,7 @@ const VIdeographs = () => {
                 ></video>
           <div class="p-6">
           <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">Mega Annual Sports Fest</h2>
-            <h1 class="title-font text-lg font-medium text-purple-400 mb-2">Mahasangram</h1>
+          <h1 class="title-font text-lg font-medium memories-heading px-4 py-[3px] tracking-wider rounded-lg mb-2 mt-2">MAHASANGRAM</h1>
             <p class="text-sm mb-3">MAHASANGRAM is the biggest annual sports event of our
                 prestigious institute - UIT, RGPV. It was first put together in
                 2011 and the legacy continues till today! This event aims at
@@ -123,8 +123,7 @@ const VIdeographs = () => {
                 inculcating qualities like unity, sportsmanship, team spirit,
                 self confidence and leadership among participants.</p>
             <div class="flex items-center flex-wrap ">
-              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <a class=" bg-blue-600 px-2 py-1 rounded-lg text-sm inline-flex items-center md:mb-2 lg:mb-0">Learn More                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
                 </svg>
@@ -146,6 +145,7 @@ const VIdeographs = () => {
       </div>
     </div>
   </div>
+  
     </>
   );
 };

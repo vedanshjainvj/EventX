@@ -33,7 +33,7 @@ const Statups = () => {
           </span>
         </h1>
       </main>
-<section class="">
+<section class="overflow-hidden">
         <div class="container px-16 pt-10 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 h-full md:1/2 lg:w-1/4">

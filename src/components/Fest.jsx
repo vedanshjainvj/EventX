@@ -25,7 +25,7 @@ const Fest = () => {
           <span className="relative ml-4">Events</span>
         </span>
       </h1>
-      <p className="mx-auto mt-12 px-16 text-center md:px-32 text-sm md:text-lg md:leading-7">
+      <p className="mx-auto mt-12 text-xl px-8 lg:px-16 text-center md:px-16 md:text-lg md:leading-7">
       "College fests and technical events are the highlights of our educational journey, where we come together to celebrate, create lasting memories, and strengthen the bonds of joy and happiness that define our college experience."
       </p>
      

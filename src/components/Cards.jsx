@@ -38,7 +38,7 @@ const Cards = () => {
                   alt="content"
                 />
                 <h3 class="tracking-widest text-xs font-medium title-font">
-                  Creating Mew Dimensions
+                  Creating New Dimensions
                 </h3>
                 <h2 class="text-lg  font-medium mb-1 mt-1">Team Phoenix</h2>
                 <p class="text-sm text-gray-300">

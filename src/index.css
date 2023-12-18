@@ -131,7 +131,7 @@ background: linear-gradient(to left, #3202f3 0%, #f30082 100%);
   border: 1px solid white;
 }
 .stu-form {
-  background-image: url(https://i.pinimg.com/originals/29/20/68/292068d47d95d45ef861823780a8dd9d.gif);
+  background-image: url(https://cdn.dribbble.com/users/424937/screenshots/7102367/03-space-email-loop-dribbble.gif);
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur( 40px );
@@ -196,4 +196,14 @@ border: 1px solid gray;
 }
 .startups-heading {
   background: linear-gradient(to right, rgb(2, 60, 96), rgb(92, 17, 132));
+}
+.startupsection-bg {
+  background: linear-gradient(to left, rgb(2, 6, 47), rgb(33, 2, 50));
+}
+.startups-section-shadow {
+  box-shadow: 10px 6px 24px 0 rgb(148, 0, 136);
+}
+.memories-heading {
+  background: linear-gradient(to right, rgb(1, 43, 69), rgb(68, 12, 98));
+  width: fit-content;
 }

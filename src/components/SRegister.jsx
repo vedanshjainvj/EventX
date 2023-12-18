@@ -66,7 +66,7 @@ return (
                     <input
                       type="text" name="Name" onChange={StuData} autocomplete="off"
                       class="w-full -ml-10 pl-2 py-1 pr-2 text-gray-800 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                      placeholder="Vedansh Jain"
+                      placeholder="Enter Your Full Name"
                     />
                   </div>
                 </div>
@@ -81,7 +81,7 @@ return (
                     <input
                       type="text" name="MobileNumber" onChange={StuData} autocomplete="off"
                       class="w-full -ml-10 text-gray-800  pl-2 pr-2 py-1 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                      placeholder="8415984253"
+                      placeholder="Enter Your Mobile Number"
                     />
                   </div>
                 </div>
@@ -132,7 +132,7 @@ return (
                     <input
                       type="email" name="Email" onChange={StuData} autocomplete="off"
                       class="w-full -ml-10 pl-2 pr-2 py-1 text-gray-800  rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                      placeholder="vedansh.rgpv.cse@gmail.com"
+                      placeholder="Enter Your Mail Id"
                     />
                   </div>
                 </div>

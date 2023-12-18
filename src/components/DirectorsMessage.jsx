@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
 import directorimg from '../assets/directorimg.jpg'
+import Navbar from './Navbar';
 
 const DirectorsMessage = () => {
 
   return (
     <>
+    <Navbar></Navbar>
     <div className="w-full">
-    <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-6">
+    <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-16">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
           Director's
           <span className="relative whitespace-nowrap text-pink-600">
@@ -24,7 +26,7 @@ const DirectorsMessage = () => {
         </h1>
       </main>
       <section class="px-12 py-14">
-        <div class="container mx-auto flex px-5 pt-10 md:flex-row flex-col items-center">
+        <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center h-96 rounded"

@@ -1,11 +1,13 @@
 import React from 'react'
 import Footer from './Footer'
+import Navbar from './Navbar'
 
 const Hod = () => {
   return (
     <>
+	<Navbar></Navbar>
     <main className="flex flex-1 w-full pb-6 flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-7xl">
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-6xl">
         Head of
         <span className="relative whitespace-nowrap text-pink-700">
           <svg

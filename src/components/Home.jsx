@@ -16,6 +16,7 @@ import Placement from "./Placement.jsx";
 import MainDashboard from "./MainDashboard.jsx";
 import Update from "./Update.jsx";
 import DepartmentalClubs from "./DepartmentalClubs";
+import StartupsSection from "./StartupsSection.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -63,6 +64,7 @@ const Home = () => {
       <Ourapp></Ourapp>
       <DepartmentalClubs></DepartmentalClubs>
       <MemoriesGlimpses></MemoriesGlimpses>
+      <StartupsSection></StartupsSection>
       <SportsGroup></SportsGroup>
       <Partners></Partners>
       <Placement></Placement>
