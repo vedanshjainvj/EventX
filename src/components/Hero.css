@@ -14,14 +14,14 @@
   #radius-shape-2 {
     border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
     bottom: -60px;
-    right: -110px;
+    right: -70px;
     width: 250px;
     height: 250px;
     background: radial-gradient(#44006b, #ad1fff);
     overflow: hidden;
   }
   .hero-bg {
-    background-image: url(https://64.media.tumblr.com/20c4a41f0b816fa26bb3454948c77cfe/ec4ef65bc41375ef-40/s400x600/e383f6397b494da2c0ae9e9f8576f7cc28938e78.gif);
+    background-image: url(../assets/herogif.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

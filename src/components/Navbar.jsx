@@ -3,6 +3,7 @@ import {NavLink,useNavigate} from 'react-router-dom';
 // import Router from './Router';
 import SRegister from './SRegister';
 import Cookie from "js-cookie";
+import logo from '../assets/logo6.png'
 
 
 function Navbar() {
@@ -21,7 +22,7 @@ function Navbar() {
    <div className="px-12 pt-6 navbar flex flex-col justify-center">
       <nav className="px-4 py-4 flex justify-between items-center  relative">
         <a className="text-4xl font-bold leading-none" href="#">
-          <h1 className='logoname'>UIT - SOIT</h1>
+          <img src={logo} alt="" />
         </a>
         <div className="lg:hidden">
           <button className="navbar-burger flex items-center text-blue-600 p-3" onClick={toggleMenu}>
@@ -58,8 +59,7 @@ function Navbar() {
         <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6  max-w-sm py-6 px-6 mobile-navbar border-r overflow-y-auto">
           <div className="flex items-center mb-8">
           <a className="text-4xl mr-auto font-bold leading-none" href="#">
-          <h1 className='logoname'>UIT - SOIT</h1>
-        </a>
+          <img src={logo} alt="" />        </a>
             <button className="navbar-close" onClick={toggleMenu}>
               <h1 className='text-2xl'><i class="ri-close-fill"></i></h1>
             </button>
