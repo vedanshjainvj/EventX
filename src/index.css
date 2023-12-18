@@ -207,3 +207,6 @@ border: 1px solid gray;
   background: linear-gradient(to right, rgb(1, 43, 69), rgb(68, 12, 98));
   width: fit-content;
 }
+.mobile-navbar {
+  background: linear-gradient(to left, rgb(2, 2, 22), rgb(13, 3, 18));
+}

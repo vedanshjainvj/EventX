@@ -9,21 +9,6 @@ function Navbar() {
   
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [loginmodal,setLoginModal] = useState(false)
-  const [registermodal,setRegisterModal] = useState(false)
-
-  const toggleLogin = () => {
-    setLoginModal(!loginmodal)
-  }
-  const toggleRegister = () => {
-    setRegisterModal(!registermodal)
-  }
-  if(loginmodal) {
-    document.body.classList.add('active-modal')
-  } else {
-    document.body.classList.remove('active-modal')
-  }
-  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -31,119 +16,6 @@ function Navbar() {
 
   return (
   <>
-  {/* <div class="grid grid-cols-2 md:grid-cols-4 px-24 py-10 cursor-default gap-4">
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div> */}
-
-        {/* <ul className={`hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 ${isMenuOpen ? '' : 'hidden'}`}>
-        <li>
-            <NavLink to="/" id="home">Home</NavLink>
-          </li>
-          <li>
-          <NavLink to="/request" id="login" className="login">Request</NavLink>
-          </li>
-    
-          <li>
-          <NavLink to="/Update" className="events">New Update</NavLink>
-          </li>   
-          <li>
-            <a className="text-lg " href="#">Gallery</a>
-          </li>
-          <li>
-          <NavLink to="/ComplaintForm" className="events">Complaint</NavLink>
-          </li>
-        </ul> */}
   
 
    <div className="px-12 pt-6 navbar flex flex-col justify-center">
@@ -183,7 +55,7 @@ function Navbar() {
       </nav>
       <div className={`navbar-menu relative z-50 ${isMenuOpen ? '' : 'hidden'}`}>
         <div className="navbar-backdrop fixed inset-0 bg-black opacity-25" onClick={toggleMenu}></div>
-        <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6  max-w-sm py-6 px-6 bg-black border-r overflow-y-auto">
+        <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6  max-w-sm py-6 px-6 mobile-navbar border-r overflow-y-auto">
           <div className="flex items-center mb-8">
           <a className="text-4xl mr-auto font-bold leading-none" href="#">
           <h1 className='logoname'>UIT - SOIT</h1>
@@ -201,20 +73,20 @@ function Navbar() {
           <NavLink to="/Update" className="events">New Events</NavLink>
           </li>   
           <li className='my-3'>
-            <NavLink to="/Update" className="events">Start-ups</NavLink>
+            <NavLink to="/start-ups" className="events">Start-ups</NavLink>
           </li>
           <li className='my-3'>
-            <NavLink to="/request" className="events">Request</NavLink>
+            <NavLink to="/photogallery" className="events">Photo Gallery</NavLink>
           </li>
           <li className='my-3'>
-            <NavLink to="/Update" className="events">Contact</NavLink>
+            <NavLink to="/request" className="events">Request Events</NavLink>
           </li>
             </ul>
           </div>
           <div className="mt-auto">
             <div className="pt-6">
-              <a className="block px-4 py-3 mb-3  text-xs text-center font-semibold leading-none bg-slate-700 hover-bg-gray-100 rounded-xl " onClick={toggleRegister}>Register</a>
-              <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover-bg-blue-700 rounded-xl" onClick={toggleLogin}>Login</a>
+              <NavLink className="block px-4 py-3 btnnav mb-3  text-sm text-center font-semibold leading-none rounded-xl ">Register</NavLink>
+              <NavLink className="block px-4 py-3 btnnav mb-2  text-sm text-center text-white font-semibold  rounded-xl">Login</NavLink>
             </div>
             <p className="my-4 text-xs text-center text-gray-400">
               <span>Copyright © 2023</span>
@@ -223,12 +95,7 @@ function Navbar() {
         </nav>
       </div>
     </div>
-    {loginmodal && (
-      <Login/>
-    )}
-    {registermodal && (
-      <SRegister/>
-    )}
+    
     {/* <Routes>
     <Route path='/' element={<Home />}></Route>
     <Route path='login' element={<Login />}></Route>
