@@ -24,9 +24,12 @@ const DepartmentalClubs = () => {
             <span className="relative ml-4">Clubs</span>
           </span>
         </h1>
+        <p className="mx-auto mt-12 text-xl px-8 lg:px-16 text-center md:px-16 md:text-lg md:leading-7">
+      "Departmental clubs play a crucial role in skill enhancement and offer valuable opportunities for growth. They contribute significantly to personal and professional development within a departmental context."
+      </p>
       </main>
       <div class="flex items-center pb-10 justify-center">
-        <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5">
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5">
           <div class="relative py-6 px-6 rounded-3xl club-cards w-64 my-4 shadow-xl">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 z-50 shadow-xl  left-4 -top-6">
               <img
@@ -36,7 +39,7 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-              <p class="text-xl font-semibold my-2">Technophilic Club</p>
+              <p class="text-lg w-fit bg-pink-800 px-2 rounded-lg font-semibold my-2">Technophilic Club</p>
               <p class="text-sm font-semibold my-2">By - Civil Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
@@ -87,7 +90,7 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-              <p class="text-xl font-semibold my-2">Innovations @EC</p>
+              <p class="text-lg w-fit bg-orange-700 px-2 rounded-lg font-semibold my-2">Innovations @ECE</p>
               <p class="text-sm font-semibold my-2">By - ECE Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
@@ -135,7 +138,7 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-              <p class="text-xl font-semibold my-2">DOIT Club</p>
+              <p class="text-lg w-fit bg-blue-700 px-2 rounded-lg font-semibold my-2">DOIT Club</p>
               <p class="text-sm font-semibold my-2">By - IT Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
@@ -184,7 +187,7 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-              <p class="text-xl font-semibold my-2">Dome Club</p>
+              <p class="text-lg w-fit bg-yellow-600 px-2 rounded-lg font-semibold my-2">Dome Club</p>
               <p class="text-sm font-semibold my-2">By - Mech Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
@@ -235,7 +238,7 @@ const DepartmentalClubs = () => {
               />
             </div>
             <div class="mt-8">
-              <p class="text-xl font-semibold my-2">Abhiveg Team</p>
+              <p class="text-lg w-fit bg-green-800 px-2 rounded-lg font-semibold my-2">Abhiveg Team</p>
               <p class="text-sm font-semibold my-2">By - ECE Department</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>

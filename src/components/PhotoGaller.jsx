@@ -15,6 +15,8 @@ import grpimg11 from '../assets/grpimg11.jpg'
 import grpimg12 from '../assets/grpimg12.jpg'
 import grpimg13 from '../assets/grpimg13.jpg'
 import Footer from "./Footer";
+import image3 from '../assets/image3.png'
+import image4 from '../assets/image4.png'
 
 const PhotoGaller = () => {
 
@@ -24,9 +26,6 @@ const PhotoGaller = () => {
 
 
       <Navbar></Navbar>
-  
-      
-	
       <main className="flex mb-2 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
           Photo
@@ -44,6 +43,21 @@ const PhotoGaller = () => {
         </h1>
       </main>
 
+      <section class="">
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-8 lg:pb-8 lg:px-6">
+        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">The Memories To Relish</h2>
+            <p class="mb-4">Photographs, enchanting alchemists of joy, immortalize the essence of our cherished memories. In every college event, they crystallize extraordinary moments—capturing shared laughter, dreams, and the transient beauty of experiences. Each frame is a testament to the enduring magic that resides in the fleeting yet everlasting tapestry of life.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-8">
+            <img class="w-full rounded-lg border" src={image4} alt=""/>
+            <img class="mt-4 w-full lg:mt-10 rounded-lg border" src={image3} alt=""/>
+        </div>
+        
+    </div>
+</section>
+	
+     
       <body class="antialiased  font-sans p-6">
         <div class="container mx-auto">
           <div class="flex flex-wrap -mx-4">

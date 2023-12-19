@@ -45,7 +45,7 @@ const PastEvents = () => {
               <div class="mb-0 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
                 <img className="h-32 w-32" src={stats3} alt="" />
               </div>
-              <h5 class="mb-4 text-lg">Online Events</h5>
+              <h5 class="mb-4 text-lg">Tech Events</h5>
             </div>
 
 
@@ -59,13 +59,13 @@ const PastEvents = () => {
               <div class="mb-0 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
                 <img className="h-32 w-32" src={stats1} alt="" />
               </div>
-              <h5 class="mb-4 text-lg">Offline Events</h5>
+              <h5 class="mb-4 text-lg">Workshops</h5>
             </div>
             <div class="mb-12 stats-cards border-2 rounded-xl border-violet-300 md:mb-0">
               <div class="mb-0 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
-                <img className="h-32 w-32" src={stats1} alt="" />
+                <img className="h-32 w-32" src={stats2} alt="" />
               </div>
-              <h5 class="mb-4 text-lg">Offline Events</h5>
+              <h5 class="mb-4 text-lg">Seminars</h5>
             </div>
           </div>
         </section>

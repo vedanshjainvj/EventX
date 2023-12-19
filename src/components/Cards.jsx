@@ -40,8 +40,8 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Creating New Dimensions
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Team Phoenix</h2>
-                <p class="text-sm text-gray-300">
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">Team Phoenix</h2>
+                <p class="text-sm text-gray-300 ">
                 Phoenix is a 3D Design and Animation Society of UIT-RGPV  which aims to foster creativity.
                 </p>
                 <div class="border-t-2 mt-2"></div>
@@ -90,7 +90,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Building An Enterprising India
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Team E-Cell</h2>
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">Team E-Cell</h2>
                 <p class="text-sm text-gray-300">
                 E-Cell aims to devlop an awareness and a culture of enterpreneurship in our college.
                 </p>
@@ -140,7 +140,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Innovating Creativity
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">The Devoic</h2>
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">The Devoic</h2>
                 <p class="text-sm text-gray-300">
                   Devoic helps students to upskill themselves and connect with the community to grow.
                 </p>
@@ -190,7 +190,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Help Learn Connect
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Team GDSC</h2>
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">Team GDSC</h2>
                 <p class="text-sm text-gray-300">
                   Google Developer's Student Club focuses on cloud technologies to work with.
                 </p>
@@ -244,7 +244,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Code your way to success
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Team Code4all</h2>
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">Team Code4all</h2>
                 <p class="text-sm text-gray-300">
                 Code4All is a club of Problem Setters having Technical & Design Department.
                 </p>
@@ -288,7 +288,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Developing personality traits
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Friday Colours</h2>
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">Friday Colours</h2>
                 <p class="text-sm text-gray-300">
                 Friday Colours provides a platform to show their talent mainly for all the literary enthusiasts.
 
@@ -333,7 +333,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Promoting cultural diversity
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1">Team Insync</h2>
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg">Team Insync</h2>
                 <p class="text-sm text-gray-300">
                 Cultural Society which serves as a platform for youth to show their Cultural skills.
                 </p>
@@ -380,7 +380,7 @@ const Cards = () => {
                 <h3 class="tracking-widest text-xs font-medium title-font">
                   Learn coding from Scratch
                 </h3>
-                <h2 class="text-lg  font-medium mb-1 mt-1 ">
+                <h2 class="mb-2 mt-2 bg-pink-700 w-fit px-2 py-[1px] rounded-lg ">
                   Autotelic Society
                 </h2>
                 <p class="text-sm text-gray-300">
@@ -420,7 +420,7 @@ const Cards = () => {
         </div>
       </section>
       <div class="flex items-center justify-center">
-        <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
           <div class="relative py-6 px-6 rounded-3xl club-cards w-64 my-4 shadow-xl">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 z-50 shadow-xl  left-4 -top-6">
               <img
@@ -570,7 +570,7 @@ const Cards = () => {
               />
             </div>
             <div class="mt-8">
-              <p class="text-xl font-semibold my-2">Algozenith UIT-Rgpv</p>
+              <p class="text-xl font-semibold my-2">Algozenith UIT</p>
               <div class="flex space-x-2 text-gray-400 text-sm">
                 <p>
                  A dedciated group of learners who are passionate about (DSA) and (CP)

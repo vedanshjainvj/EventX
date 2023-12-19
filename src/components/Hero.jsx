@@ -7,8 +7,11 @@ const Hero = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const images = [
     "https://i.ibb.co/nBRQgmq/IMG-20221013-204524-526.jpg",
-    // "https://i.ibb.co/TKJksnG/IMG-20221013-204534-947.jpg",
-    // "https://d35y6w71vgvcg1.cloudfront.net/media/2022/10/hindi-festival-shankhnaad-22-organized-at-rajiv-gandhi-university-of-technology_730X365.jpg",
+  
+    "https://i.ibb.co/TKJksnG/IMG-20221013-204534-947.jpg",
+    "https://i.ibb.co/Kx1kWKL/IMG-9677.jpg",
+    "https://i.ibb.co/h1v6zx4/image-1280x853.png",
+
     // Add other image URLs as needed
   ];
 
