@@ -42,7 +42,7 @@ const Statups = () => {
                 <div class="p-6">
                   {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">CATEGORY-1</h2> */}
                   <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Hash Clothings</h1>
-                  <p class="">Founder : Harsh Vishwakarma</p>
+                  <p class="">Founder : Harsh Vishwakarma <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -57,7 +57,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center  mb-3">The Devoic</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : Shivam Singh <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -71,7 +71,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center  mb-3">Connectup</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : Harsh Vishwakarma <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -85,7 +85,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Gearfi</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : Rounak Dubey <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -105,8 +105,8 @@ const Statups = () => {
                 <div class="p-6">
                   {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">CATEGORY-1</h2> */}
                   <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">TDP Vista</h1>
-                  <p class="">Founder : Harsh Vishwakarma</p>
-                  <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
+                  <p class="">Founder : Divyanshu Pateria <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
+                  <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2021</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
                     <button class="bg-gradient-to-r from-fuchsia-800 to-pink-700 hover:scale-105 sm:ml-4 drop-shadow-md  shadow-cla-blue px-4 py-1 ml-0 rounded-lg">Official Site <i class="ri-global-fill"></i></button>                  </div>
@@ -119,8 +119,8 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Semikolan</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
-                  <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
+                    <p class="">Founder : ABC@123 <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
+                  <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2021</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
                     <button class="bg-gradient-to-r from-fuchsia-800 to-pink-700 hover:scale-105 sm:ml-4 drop-shadow-md  shadow-cla-blue px-4 py-1 ml-0 rounded-lg">Official Site <i class="ri-global-fill"></i></button>                  </div>
@@ -133,7 +133,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Boostem</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : Sumit Choudhary <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -147,7 +147,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Agile Support</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : ABC@123 <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -167,8 +167,8 @@ const Statups = () => {
                 <div class="p-6">
                   {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">CATEGORY-1</h2> */}
                   <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Shringar</h1>
-                  <p class="">Founder : Harsh Vishwakarma</p>
-                  <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
+                  <p class="">Founder : Sumit Choudhary <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
+                  <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2023</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
                     <button class="bg-gradient-to-r from-fuchsia-800 to-pink-700 hover:scale-105 sm:ml-4 drop-shadow-md  shadow-cla-blue px-4 py-1 ml-0 rounded-lg">Official Site <i class="ri-global-fill"></i></button>                  </div>
@@ -181,7 +181,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Shopdesi</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : Abhishek Singh <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -195,7 +195,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">BhoomiGrow</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : ABCD@123 <a href="" className='text-lg'><i class="ri-linkedin-box-fill"></i></a></p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>
@@ -209,7 +209,7 @@ const Statups = () => {
                   <div class="p-6">
                     {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2> */}
                     <h1 class="title-font text-lg font-medium startups-heading py-2 rounded-xl text-center mb-3">Yet to relish !!</h1>
-                    <p class="">Founder : Harsh Vishwakarma</p>
+                    <p class="">Founder : ABCD@123</p>
                   <p class="leading-relaxed mb-3 text-gray-300">Founded In : 2022</p>
                   <div class="flex items-center flex-wrap ">
                     <button class="bg-gradient-to-r from-cyan-800 to-blue-800 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">LinkedIn <i class="ri-linkedin-box-fill"></i></button>

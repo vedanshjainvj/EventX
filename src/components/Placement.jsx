@@ -42,7 +42,7 @@ const Institute = () => {
           <a
             href="https://www.uitrgpv.ac.in/theinstitute/selectiondetails.aspx" target='blank'
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            className="inline-flex bg-pink-700 w-fit px-4 py-1 items-center rounded"
           >
             Learn more
           </a>
