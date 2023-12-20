@@ -28,6 +28,7 @@ import ComplaintForm from './ComplaintForm.jsx';
 import ComplaintDashboard from "./ComplaintDashboard.jsx";
 import PastEventDashboard from "./PastEventDashboard.jsx";
 import PhotoGaller from "./PhotoGaller.jsx";
+import Scholarships from "./Scholarships.jsx";
 import Error from "./Error.jsx";
 
 const Router = () => {
@@ -42,6 +43,7 @@ const Router = () => {
           <Route exact path="/registration/:id" Component={Register}></Route>
           <Route exact path="/sregister" Component={SRegister}></Route>
           <Route exact path="/AddEvent/:id" Component={AddEvent}></Route>
+          <Route exact path="/scholarships" Component={Scholarships}></Route>
           <Route exact path="/personalpage/:id"Component={PersonalPage}></Route>
           <Route exact path="/edit/:id" Component={Edit}></Route>
           <Route exact path="/dashbord/:id" Component={Dashbord}></Route>
