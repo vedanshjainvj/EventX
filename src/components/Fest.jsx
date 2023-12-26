@@ -32,10 +32,10 @@ const Fest = () => {
         </p>
       </main>
       <section class="px-8 overflow-x-hidden">
-        <div class="container px-5 py-16 mx-auto flex flex-wrap">
-          <div class="flex flex-wrap -m-4">
+        <div class="container px-5 py-16 mx-auto justify-center flex flex-wrap">
+          <div class="flex  flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card rounded-lg p-10 md:p-0 sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card  rounded-lg p-10 md:p-0 sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${shankhnaadimg2})` }}
