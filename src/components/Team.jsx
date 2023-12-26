@@ -5,13 +5,13 @@ import shreyashdeveloper from '../assets/shreyashdeveloper2.png'
 const Team = () => {
   return (
     <>
-    <section class="px-12 overflow-hidden">
+    <section class="md:px-12 overflow-hidden">
     <div class="container px-6 my-10 mx-auto">
         <div class="xl:flex xl:items-center xL:-mx-4">
             <div class="xl:w-1/2 xl:mx-4">
-                <h1 class="text-5xl text-center md:text-start font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white">Developers Team</h1>
+                <h1 class="text-5xl text-center md:text-start font-semibold  capitalize lg:text-6xl">Developers Team</h1>
 
-                <p class="max-w-2xl mt-4 text-center md:text-start text-gray-500 dark:text-gray-300">
+                <p class="max-w-2xl mt-4 text-center md:text-start text-gray-300">
                     We both identify the problem that first year students are always confused about college clubs, events, start-ups and other necessary details. Hence, we made a common platform where anyone can explore about the college. This platform is an absolute solution to bring all the pearls together in a single thread.
                 </p>
             </div>
