@@ -23,7 +23,7 @@ const SportsGroups = () => {
           </span>
         </h1>
       </main>
-          <p className="text-base text-center px-4 md:px-0 text-gray-300 md:text-lg">
+          <p className="text-base text-center px-1 text-gray-300 md:text-lg">
           College sports provide a sense of community, foster teamwork, enhance physical health, instill discipline, and offer stress relief, contributing to holistic student development and memorable university experiences.
           </p>
         </div>

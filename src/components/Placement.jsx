@@ -26,23 +26,23 @@ const Institute = () => {
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
             <div>
-              <p className="inline-block lg:pl-1 py-px mb-4 text-sm font-semibold tracking-wider text-teal-700 uppercase rounded-full">
+              <p className="text-center md:text-start lg:pl-1 py-px mb-4 text-sm font-semibold tracking-wider text-teal-700 uppercase rounded-full">
                 Placement Statics
               </p>
             </div>
-            <h2 className="max-w-lg mb-6  text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
+            <h2 className="text-center md:text-start max-w-lg mb-6  text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
               Placement Analytics &
               <br className="hidden md:block" />
               Selection Details
             </h2>
-            <p className="text-base text-gray-4 00 md:text-lg">
+            <p className="text-center md:text-start text-base text-gray-4 00 md:text-lg">
             The Training & Placement Cell, UIT- RGPV plays a crucial role in locating job opportunities for Under Graduates and Post Graduates students passing out from the UIT-RGPV by keeping in touch with reputed firms and industrial establishments.
             </p>
           </div>
           <a
             href="https://www.uitrgpv.ac.in/theinstitute/selectiondetails.aspx" target='blank'
             aria-label=""
-            className="inline-flex bg-pink-700 w-fit px-4 py-1 items-center rounded"
+            className="text-center md:text-start bg-pink-700 md:w-fit px-4 py-1 rounded"
           >
             Learn more
           </a>

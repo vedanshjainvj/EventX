@@ -20,18 +20,18 @@ const Team = () => {
                 <div>
                     <img class="object-cover rounded-xl aspect-square teamimg" src={vedanshdeveloper} alt=""/>
 
-                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Vedansh Jain</h1>
+                    <h1 class="mt-4 text-2xl font-semibold  capitalize">Vedansh Jain</h1>
 
-                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Frontend Developer</p>
+                    <p class="mt-2  capitalize ">Frontend Developer</p>
                     <a href="https://www.linkedin.com/in/vedanshcode" target='blank'><p className='text-white text-2xl'><i class="ri-arrow-right-up-fill"></i></p></a>
                 </div>
 
                 <div>
                     <img class="object-cover rounded-xl aspect-square teamimg" src={shreyashdeveloper} alt=""/>
 
-                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Shreyash Jain</h1>
+                    <h1 class="mt-4 text-2xl font-semibold  capitalize ">Shreyash Jain</h1>
 
-                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Full Stack Developer</p>
+                    <p class="mt-2 capitalize">Full Stack Developer</p>
                     <a href="https://www.linkedin.com/in/shreyash-jain-b43572286/" target='blank'><p className='text-white text-2xl'><i class="ri-arrow-right-up-fill"></i></p></a>
                 </div>
             </div>

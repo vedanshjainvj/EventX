@@ -70,21 +70,21 @@ const PastEvents = () => {
           </div>
         </section>
       </div>
-      <div className="px-10 md:px-4 py-0 md:py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-2 lg:pb-10">
+      <div className="px-4 md:px-19 py-0 md:py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-2 lg:pb-10">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
             <div>
-              <p className="inline-block lg:pl-1 py-px mb-4 text-sm font-semibold tracking-wider text-pink-700 uppercase rounded-full">
+              <p className="lg:pl-1 py-px text-center md:text-start mb-4 text-sm font-semibold tracking-wider text-pink-700 uppercase rounded-full">
                 Event Highlights
               </p>
             </div>
-            <h2 className="max-w-lg mb-6  text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
+            <h2 className="max-w-lg mb-6 text-center md:text-start text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
               Overall Yearwise Events &
               <br className="hidden md:block" />
               Selection Details
             </h2>
-            <p className="text-base text-gray-4 00 md:text-lg">
+            <p className="text-base text-center md:text-start text-gray-4 00 md:text-lg">
             The abundance of events on campus is a testament to the enthusiasm of clubs, active student involvement, and the dedicated support of college faculty. This collaborative effort fosters a vibrant and engaging campus culture, where a diverse range of activities enrich the overall student experience, creating a lively and dynamic educational environment.
 
 
