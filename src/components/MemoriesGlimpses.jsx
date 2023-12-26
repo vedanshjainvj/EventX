@@ -26,7 +26,7 @@ const VIdeographs = () => {
           </span>
         </h1>
       </main>
-  <div class="container px-16 mt-12 mx-auto overflow-hidden">
+  <div class="container px-4 md:px-16 mt-12 mx-auto overflow-hidden">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -37,8 +37,8 @@ const VIdeographs = () => {
                   className="w-full"
                 ></video>
           <div class="p-6">
-          <h2 class="tracking-widest text-xs title-font font-medium text-gray-300 mb-1">Memories of Civil Culture</h2>
-            <h1 class="title-font text-lg font-medium memories-heading px-4 py-[3px] tracking-wider rounded-lg mb-2 mt-2">VIJAYPATH</h1>
+          <h2 class="tracking-widest text-xs title-font  font-medium text-gray-300 mb-1">Memories of Civil Culture</h2>
+            <h1 class="title-font text-lg font-medium memories-heading w-full px-4 py-[3px] tracking-wider rounded-lg mb-2 mt-2">VIJAYPATH</h1>
             <p class="text-sm mb-3">Shankhnaad, the crown jewel of RGPV's cultural calendar,
                 orchestrates an annual symphony of creativity and camaraderie.
                 This grand festival, anchored in the spirit of promoting the
