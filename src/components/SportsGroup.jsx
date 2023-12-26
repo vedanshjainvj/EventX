@@ -27,7 +27,7 @@ const SportsGroups = () => {
           College sports provide a sense of community, foster teamwork, enhance physical health, instill discipline, and offer stress relief, contributing to holistic student development and memorable university experiences.
           </p>
         </div>
-        <div className="grid max-w-screen-lg mx-auto justify-center space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
+        <div className="grid max-w-screen-lg mx-auto overflow-hidden justify-center space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
           <div className="space-y-6 sm:px-16">
             <div className="flex flex-col max-w-md sm:flex-row ">
               <div className="mb-4 mr-4">

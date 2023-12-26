@@ -3,7 +3,7 @@ import React from "react";
 const Ourapp = () => {
   return (
     <>
-      <section className="px-20">
+      <section className="px-20 overflow-x-hidden">
         <div className="container px-5 py-20 mx-auto flex items-center md:flex-row flex-col">
           <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
             <h2 className="text-lg text-blue-700 tracking-widest font-medium title-font mb-1">

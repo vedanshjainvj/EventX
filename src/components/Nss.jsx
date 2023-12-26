@@ -22,7 +22,7 @@ const Nss = () => {
         </h1>
       </main>
       <section class="px-8">
-        <div class="container px-5 my-10 mx-auto flex flex-wrap">
+        <div class="container overflow-hidden px-5 my-10 mx-auto flex flex-wrap">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex 2 fest-card px-8 py-6 md:px-0 md:py-0 rounded-lg sm:flex-row flex-col items-center">

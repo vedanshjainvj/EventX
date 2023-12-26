@@ -26,7 +26,7 @@ const VIdeographs = () => {
           </span>
         </h1>
       </main>
-  <div class="container px-16 mt-12 mx-auto">
+  <div class="container px-16 mt-12 mx-auto overflow-hidden">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">

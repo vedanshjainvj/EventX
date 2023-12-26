@@ -8,6 +8,8 @@ import SRegister from "./SRegister";
 import Login from "./Login";
 import PersonalPage from "./PersonalPage";
 import AddEvent from "./AddEvent";
+import Shankhnaadphotos from "./Shankhnaadphotos.jsx";
+import NssPage from "./NssPage.jsx";
 import Edit from "./Edit";
 import Dashbord from "./Dashbord";
 import MainDashboard from "./MainDashboard";
@@ -18,9 +20,12 @@ import VCMessage from "./VCMessage";
 import Startups from "./Startups.jsx";
 import DirectorsMessage from './DirectorsMessage'
 import StudentDashbord from "./StudentDashbord.jsx";
+import MahasangramPage from './MahasangramPage.jsx'
 import MainDashboardNav from "./MainDashboardNav.jsx";
+import SrjrPhotos from "./SrjrPhotos.jsx";
 import Hostel from "./Hostel.jsx";
 import VerifyEvent from "./VerifyEvent.jsx";
+import NccPage from "./NccPage.jsx";
 import AllEventDashbord from "./AllEventDashbord.jsx";
 import DepartmentalClubs from "./DepartmentalClubs.jsx";
 import FullEvent from "./FullEvent.jsx";
@@ -28,7 +33,9 @@ import ComplaintForm from './ComplaintForm.jsx';
 import ComplaintDashboard from "./ComplaintDashboard.jsx";
 import PastEventDashboard from "./PastEventDashboard.jsx";
 import PhotoGaller from "./PhotoGaller.jsx";
+import Batchmates from './Batchmates'
 import Scholarships from "./Scholarships.jsx";
+import InductionPage from './InductionPage'
 import Error from "./Error.jsx";
 
 const Router = () => {
@@ -38,7 +45,14 @@ const Router = () => {
           <Route exact path="/" Component={Home}></Route>
           <Route exact path="/login" Component={Login}></Route>
           <Route exact path="/start-ups" Component={Startups}></Route>
+          <Route exact path="/induction-page" Component={InductionPage}></Route>
           <Route exact path="/photogallery" Component={PhotoGaller}></Route>
+          <Route exact path="/senior-junior-photos" Component={SrjrPhotos}></Route>
+          <Route exact path="/shankhnaadphotos" Component={Shankhnaadphotos}></Route>
+          <Route exact path="/batchmate-photos" Component={Batchmates}></Route>
+          <Route exact path="/mahasangram-page" Component={MahasangramPage}></Route>
+          <Route exact path="/ncc-page" Component={NccPage}></Route>
+          <Route exact path="/nss-page" Component={NssPage}></Route>
           <Route exact path="/Update" Component={FullEvent}></Route>
           <Route exact path="/registration/:id" Component={Register}></Route>
           <Route exact path="/sregister" Component={SRegister}></Route>

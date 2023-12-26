@@ -24,7 +24,7 @@ const PastEvents = () => {
           </span>
         </h1>
       </main>
-      <div class="container mx-auto md:px-6 lg:px-16">
+      <div class="container overflow-hidden mx-auto md:px-6 lg:px-16">
         <section class="mb-10 text-center">
           <div class="grid grid-cols-2 gap-x-6 px-6 md:px-0 md:grid-cols-3 lg:grid-cols-6 lg:gap-x-6">
             <div class="mb-12 stats-cards border-2 rounded-xl border-purple-400 lg:mb-0">

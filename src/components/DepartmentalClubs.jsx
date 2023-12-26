@@ -24,7 +24,7 @@ const DepartmentalClubs = () => {
             <span className="relative ml-4">Clubs</span>
           </span>
         </h1>
-        <p className="mx-auto mt-12 text-xl px-8 lg:px-16 text-center md:px-16 md:text-lg md:leading-7">
+        <p className="mx-auto overflow-x-hidden mt-12 text-xl px-8 lg:px-16 text-center md:px-16 md:text-lg md:leading-7">
       "Departmental clubs play a crucial role in skill enhancement and offer valuable opportunities for growth. They contribute significantly to personal and professional development within a departmental context."
       </p>
       </main>

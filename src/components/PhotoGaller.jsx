@@ -43,19 +43,7 @@ const PhotoGaller = () => {
         </h1>
       </main>
 
-      <section class="">
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-8 lg:pb-8 lg:px-6">
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">The Memories To Relish</h2>
-            <p class="mb-4">Photographs, enchanting alchemists of joy, immortalize the essence of our cherished memories. In every college event, they crystallize extraordinary moments—capturing shared laughter, dreams, and the transient beauty of experiences. Each frame is a testament to the enduring magic that resides in the fleeting yet everlasting tapestry of life.</p>
-        </div>
-        <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg border" src={image4} alt=""/>
-            <img class="mt-4 w-full lg:mt-10 rounded-lg border" src={image3} alt=""/>
-        </div>
-        
-    </div>
-</section>
+      
 	
      
       <body class="antialiased  font-sans p-6">
@@ -71,7 +59,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/nss-page' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -97,7 +85,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/shankhnaadphotos' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -123,7 +111,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/mahasangram-page' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -149,7 +137,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/ncc-page' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -175,7 +163,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/senior-junior-photos' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -201,7 +189,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/batchmate-photos' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -227,7 +215,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/induction-page' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">

@@ -31,7 +31,7 @@ const Fest = () => {
           define our college experience."
         </p>
       </main>
-      <section class="px-8">
+      <section class="px-8 overflow-x-hidden">
         <div class="container px-5 py-16 mx-auto flex flex-wrap">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
