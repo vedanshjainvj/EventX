@@ -60,7 +60,7 @@ const Home = () => {
       <EventData></EventData>
       <Cards></Cards>
       <Inzio></Inzio>
-      <Nss></Nss>
+      {/* <Nss></Nss> */}
       <Ourapp></Ourapp>
       <DepartmentalClubs></DepartmentalClubs>
       <MemoriesGlimpses></MemoriesGlimpses>
