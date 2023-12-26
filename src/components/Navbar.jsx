@@ -19,7 +19,7 @@ function Navbar() {
   <>
   
 
-   <div className="px-12 pt-6 navbar flex flex-col justify-center">
+   <div className="px-4 md:px-12 pt-6 navbar flex flex-col justify-center">
       <nav className="px-4 py-4 flex justify-between items-center  relative">
         <a className="text-4xl font-bold leading-none" href="#">
           <img src={logo} alt="" />

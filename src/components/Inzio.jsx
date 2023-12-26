@@ -3,7 +3,7 @@ import React from 'react'
 const Inzio = () => {
   return (
     <>
-    <main className="flex mb-6 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
+    <main className="flex mb-6 flex-1 w-full flex-col items-center justify-center text-center md:text-start px-4 sm:mt-12 mt-20">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
           Inizio is
           <span className="relative whitespace-nowrap text-pink-700">
@@ -20,13 +20,13 @@ const Inzio = () => {
         </h1>
       </main>
     <section class=" overflow-hidden">
-  <div class="container px-0 md:px-6 sm:px-0 py-12 mx-auto">
-    <div class="lg:w-4/5 mx-auto flex flex-wrap justify-center">
-      <iframe alt="ecommerce" class="inizio-video md:w-4/5 lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://www.youtube.com/embed/IUt2KEhqBcQ"/>
+  <div class="container px-2 md:px-6 sm:px-0 py-12 mx-auto">
+    <div class="lg:w-4/5 mx-auto flex flex-wrap justify-center text-center md:text-start">
+      <iframe alt="ecommerce" class="inizio-video md:w-4/5 lg:w-1/2 mx-4 md:mx-0 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://www.youtube.com/embed/IUt2KEhqBcQ"/>
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 px-4 md:px-20 mt-6 lg:mt-0">
         <h2 class="text-sm title-font mb-2 text-gray-400 tracking-widest">Initiative By E-cell Rgpv</h2>
         <h1 class="text-3xl title-font font-medium mb-1">Inizio : The Absolute Fun</h1>
-        <div class="flex mb-4">
+        <div class="flex mb-4 justify-center md:justify-start">
           <span class="flex items-center">
             <svg fill="yellow" stroke="purple" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
@@ -68,7 +68,7 @@ const Inzio = () => {
           
     
         </div>
-        <div class="flex">
+        <div class="flex justify-center md:justify-start">
           <span class="title-font font-medium text-2xl text-gray-300">You Love It Right !!!</span>
           <button class="rounded-full w-8 h-8 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-blue-500 ml-4">
             <svg fill="red" stroke-linecap="violet" stroke-linejoin="violet" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
