@@ -35,16 +35,16 @@ const Fest = () => {
         <div class="container px-5 py-16 mx-auto justify-center flex flex-wrap">
           <div class="flex  flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card  rounded-lg p-10 md:p-0 sm:flex-row flex-col items-center">
+              <div class="flex  fest-card  rounded-lg py-4 px-3 text-center md:text-start  md:p-0 sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${shankhnaadimg2})` }}
                 ></div>
-                <div class="flex-grow pr-4">
+                <div class="flex-grow md:pr-4">
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Shankhnaad
                   </h2>
-                  <p class="leading-relaxed text-sm text-center md:text-start my-1 lg:my-2">
+                  <p class="leading-relaxed text-sm my-1 lg:my-2">
                     RGPV's cultural gem, hosts an annual celebration of
                     creativity. This grand festival features singing, dancing,
                     debates, and more, promoting Hindi language.
@@ -76,7 +76,7 @@ const Fest = () => {
             </div>
 
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card p-10 md:p-0 rounded-lg  sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card py-4 px-3 md:p-0 rounded-lg text-center md:text-start  sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${tedximg})` }}
@@ -85,7 +85,7 @@ const Fest = () => {
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     TedX
                   </h2>
-                  <p class="leading-relaxed text-sm text-center md:text-start my-1 lg:my-2">
+                  <p class="leading-relaxed text-sm  my-1 lg:my-2">
                     Tedx RGPV features your favorite stars and influencers on
                     stage, offering guidance and motivation to pursue your
                     passions and dreams.
@@ -117,7 +117,7 @@ const Fest = () => {
             </div>
 
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card p-10 md:p-0 rounded-lg sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card py-4 px-3 md:p-0 rounded-lg text-center md:text-start sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${mahasangramimg3})` }}
@@ -126,7 +126,7 @@ const Fest = () => {
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Mahasangram
                   </h2>
-                  <p class="leading-relaxed text-sm text-center md:text-start my-1 lg:my-2">
+                  <p class="leading-relaxed text-sm my-1 lg:my-2">
                     UIT RGPV's premier annual sports event since 2011, fosters
                     physical fitness, mental alertness, unity, sportsmanship,
                     team spirit, confidence, and leadership.
@@ -158,7 +158,7 @@ const Fest = () => {
             </div>
 
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card p-10 md:p-0 rounded-lg sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card py-4 px-3 md:p-0 rounded-lg text-center md:text-start sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${ecelleventimg})` }}
@@ -167,7 +167,7 @@ const Fest = () => {
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     Imprenditore
                   </h2>
-                  <p class="leading-relaxed text-sm text-center md:text-start my-1 lg:my-2">
+                  <p class="leading-relaxed text-sm my-1 lg:my-2">
                     Imprenditore, E-Cell annual fest, promotes entrepreneurship
                     through awareness. Aims to inspire and nurture
                     entrepreneurial spirit and mindset.
@@ -198,7 +198,7 @@ const Fest = () => {
               </div>
             </div>
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card p-10 md:p-0 rounded-lg sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card py-4 px-3 md:p-0 rounded-lg text-center md:text-start sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{ backgroundImage: `url(${codeadeptimg})` }}
@@ -207,7 +207,7 @@ const Fest = () => {
                   <h2 class="text-xl title-font fest-heading text-center mb-2">
                     CodeAdept
                   </h2>
-                  <p class="leading-relaxed text-sm text-center md:text-start my-1 lg:my-2">
+                  <p class="leading-relaxed text-sm my-1 lg:my-2">
                     Technical Event conducted by the IT Dept. of UIT, RGPV.
                     Coding Competition | Sharpens your placement stratergies |
                     Enhance your coding skills.
@@ -238,7 +238,7 @@ const Fest = () => {
               </div>
             </div>
             <div class="p-4 lg:w-1/2 md:w-full ">
-              <div class="flex 2 fest-card p-10 md:p-0 rounded-lg sm:flex-row flex-col items-center">
+              <div class="flex 2 fest-card py-4 px-3 md:p-0 rounded-lg text-center md:text-start sm:flex-row flex-col items-center">
                 <div
                   class="w-60 m-1 h-44 sm:mr-8 sm:mb-0 border border-yellow-500 md:border-r-2 md:border-blue-900 border-solid mb-4 inline-flex items-center justify-center fest-bg1 text-indigo-500 flex-shrink-0"
                   style={{
@@ -249,7 +249,7 @@ const Fest = () => {
                   <h2 class="text-xl title-font fest-heading text-center mb-2 ">
                     Web-Xplore
                   </h2>
-                  <p class="leading-relaxed text-sm text-center md:text-start my-1 lg:my-2">
+                  <p class="leading-relaxed text-sm my-1 lg:my-2">
                     Webxplore, an incredible tech event by the CSE department,
                     strives to create outstanding web projects within a short
                     timeframe.

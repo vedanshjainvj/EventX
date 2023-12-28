@@ -237,8 +237,6 @@ const DepartmentsSection = () => {
           </div>
         </div>
       </body>
-    
-    
     </>
   )
 }
