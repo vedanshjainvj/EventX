@@ -1,5 +1,8 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import sportscomplex from '../assets/sportscomplex.jpg'
+import libraryimg from '../assets/libraryimg.jpg'
+import krcimg from '../assets/krcimg.jpg'
 
 const DepartmentsSection = () => {
   return (
@@ -28,7 +31,7 @@ const DepartmentsSection = () => {
                 <div class="relative pb-48 overflow-hidden">
                   <img
                     class="absolute inset-0 h-full w-full object-cover p-4 rounded "
-                    src="https://media.getmyuni.com/assets/images/articles/articles-0ad1dcec89374444065595c4d06e3ca9.webp"
+                    src={sportscomplex}
                     alt=""
                   />
                 </div>
@@ -234,6 +237,8 @@ const DepartmentsSection = () => {
           </div>
         </div>
       </body>
+    
+    
     </>
   )
 }
