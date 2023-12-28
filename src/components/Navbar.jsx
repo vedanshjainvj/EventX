@@ -31,23 +31,33 @@ function Navbar() {
         </div>
         <ul className={`hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 ${isMenuOpen ? '' : 'hidden'}`}>
         <li>
-            <NavLink to="/" id="home">Home</NavLink>
+            <NavLink onClick={() => {
+            window.scrollTo(0, 0);
+          }} to="/" id="home">Home</NavLink>
           </li>
           <li>
-          <NavLink to="/Update" className="events">New Events</NavLink>
+          <NavLink onClick={() => {
+            window.scrollTo(0, 0);
+          }} to="/Update" className="events">New Events</NavLink>
           </li>  
           <li>
-          <NavLink to="/start-ups" className="events">Start-ups</NavLink>
+          <NavLink onClick={() => {
+            window.scrollTo(0, 0);
+          }} to="/start-ups" className="events">Start-ups</NavLink>
           </li>   
           {/* <li id="logout">
           <NavLink to="/log_out"  className="events" >Log Out</NavLink>
           </li>  */}
           <li>
-          <NavLink to="/photogallery" className="events">Photo Gallery</NavLink>
+          <NavLink onClick={() => {
+            window.scrollTo(0, 0);
+          }} to="/photogallery" className="events">Photo Gallery</NavLink>
           </li>
           
           <li>
-          <NavLink to="/request" id="login" className="login">Request Events</NavLink>
+          <NavLink onClick={() => {
+            window.scrollTo(0, 0);
+          }} to="/request" id="login" className="login">Request Events</NavLink>
           </li>
           
         </ul>

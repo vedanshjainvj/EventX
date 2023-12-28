@@ -28,7 +28,9 @@ const Footer = () => {
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
-          <li>
+          <li onClick={() => {
+            window.scrollTo(0, 0);
+          }}>
             <a href="#" class=""><NavLink to='/scholarships'>Scholarships Info</NavLink></a>
           </li>
           <li>
@@ -45,7 +47,9 @@ const Footer = () => {
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
-          <li>
+          <li onClick={() => {
+            window.scrollTo(0, 0);
+          }}>
           <a href="#" class=""><NavLink to='/hostel-info'>Hostel Info</NavLink></a>
           </li>
           <li>
@@ -79,16 +83,24 @@ const Footer = () => {
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium tracking-widest text-sm mb-3 uppercase">Institution</h2>
         <nav class="list-none mb-10">
-          <li>
+          <li onClick={() => {
+            window.scrollTo(0, 0);
+          }}>
             <a href="#" class=""><NavLink to='/vice-chancellor-message'>VC's Message</NavLink></a>
           </li>
-          <li>
+          <li onClick={() => {
+            window.scrollTo(0, 0);
+          }} >
             <a href="#" class=""><NavLink to='/director-message'>Director's Message</NavLink></a>
           </li>
-          <li>
+          <li onClick={() => {
+            window.scrollTo(0, 0);
+          }}>
           <a href="#" class=""><NavLink to='/head-of-departments'>Hod's Team</NavLink></a>
           </li>
-          <li>
+          <li onClick={() => {
+            window.scrollTo(0, 0);
+          }}>
             <a href="https://www.uitrgpv.ac.in/pdf/nirf_ranking.pdf" target='blank' class="">Nirf Ranking</a>
           </li>
         </nav>
