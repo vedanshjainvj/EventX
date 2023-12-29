@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Batchmates = () => {
   return (
@@ -24,6 +25,262 @@ const Batchmates = () => {
 		</div>
 	</div>
 </section>
+<section class="body-font overflow-hidden">
+  <div class="container px-12 pt-16 mx-auto">
+   
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Amazing Batch of ✌️</h2>
+          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2020-2024</h1>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Computer Science 2020-2024
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Information Tech. 2020-2024
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electronics & Comm. 2020-2024
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electrical 2020-2024
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Civil 2020-2024
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mechanical 2020-2024
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Automobile 2020-2024
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Pterochemical 2020-2024
+          </a>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Creative Batch of 💎</h2>
+          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2021-2025</h1>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Computer Science 2021-2025
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Information Tech. 2021-2025
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electronics & Comm. 2021-2025
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electrical 2021-2025
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Civil 2021-2025
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mechanical 2021-2025
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Automobile 2021-2025
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Pterochemical 2021-2025
+          </a>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Beautiful Batch of 😍</h2>
+          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2022-2026</h1>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Computer Science 2022-2026
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Information Tech. 2022-2026
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electronics & Comm. 2022-2026
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electrical 2022-2026
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Civil 2022-2026
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mechanical 2022-2026
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Automobile 2022-2026
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Pterochemical 2022-2026
+          </a>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Cool Batch of 😎</h2>
+          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2023-2027</h1>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Computer Science 2023-2027
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Information Tech. 2023-2027
+          </a>
+          <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electronics & Comm. 2023-2027
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Electrical 2023-2027
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Civil 2023-2027
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mechanical 2023-2027
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Automobile 2023-2027
+          </a>
+		  <a href='#' class="flex items-center  mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
+              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Pterochemical 2023-2027
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<Footer></Footer>
     </> )
 }
 
