@@ -1,8 +1,23 @@
-import React from 'react'
-import Navbar
- from './Navbar'
+import React,{useState,useEffect} from 'react'
+import Navbar from './Navbar'
+import Footer from './Footer';
 
 const MahasangramPage = () => {
+	const initialTime = 4000000; // 5 minutes
+	const [time, setTime] = useState(initialTime);
+  
+	useEffect(() => {
+	  const intervalId = setInterval(() => {
+		setTime((prevTime) => (prevTime > 0 ? prevTime - 1 : 0));
+	  }, 1000);
+  
+	  return () => clearInterval(intervalId);
+	}, []);
+  
+	const days = Math.floor(time / (60 * 60 * 24));
+	const hours = Math.floor((time % (60 * 60 * 24)) / (60 * 60));
+	const minutes = Math.floor((time % (60 * 60)) / 60);
+	const seconds = time % 60;
   return (
     <>
     <Navbar></Navbar>
@@ -16,7 +31,7 @@ const MahasangramPage = () => {
 				{/* <br className="hidden md:inline lg:hidden"></br> turpis pulvinar, est scelerisque ligula sem */}
 			</p>
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-pink-800 ">Upcoming</a>
+            <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-pink-800 ">Upcoming In : {`${days}d ${hours}h ${minutes}m ${seconds}s`}</a>
 				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Instagram</a>
 			</div>
 		</div>
@@ -25,6 +40,7 @@ const MahasangramPage = () => {
 		</div>
 	</div>
 </section>
+<Footer></Footer>
     </>
   )
 }
