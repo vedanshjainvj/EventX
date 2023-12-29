@@ -14,6 +14,7 @@ import Edit from "./Edit";
 import Dashbord from "./Dashbord";
 import MainDashboard from "./MainDashboard";
 import Request from "./Request";
+import DepartmentalEvents from "./DepartmentalEvents.jsx";
 import LogOut from "./LogOut";
 import Hod from "./Hod.jsx";
 import VCMessage from "./VCMessage";
@@ -37,6 +38,10 @@ import Batchmates from './Batchmates'
 import Scholarships from "./Scholarships.jsx";
 import InductionPage from './InductionPage'
 import Error from "./Error.jsx";
+import UitrgpvPhotos from "./UitrgpvPhotos.jsx";
+import Workshops from "./Workshops.jsx";
+import Departments from "./Departments.jsx";
+import HostelEvents from "./HostelEvents.jsx";
 
 const Router = () => {
   return (
@@ -46,9 +51,13 @@ const Router = () => {
           <Route exact path="/login" Component={Login}></Route>
           <Route exact path="/start-ups" Component={Startups}></Route>
           <Route exact path="/induction-page" Component={InductionPage}></Route>
+          <Route exact path="/workshop-photos" Component={Workshops}></Route>
+          <Route exact path="/uit-rgpv-photos" Component={UitrgpvPhotos}></Route>
+          <Route exact path="/departments" Component={Departments}></Route>
           <Route exact path="/photogallery" Component={PhotoGaller}></Route>
           <Route exact path="/senior-junior-photos" Component={SrjrPhotos}></Route>
           <Route exact path="/shankhnaadphotos" Component={Shankhnaadphotos}></Route>
+          <Route exact path="/departmental-events" Component={DepartmentalEvents}></Route>
           <Route exact path="/batchmate-photos" Component={Batchmates}></Route>
           <Route exact path="/mahasangram-page" Component={MahasangramPage}></Route>
           <Route exact path="/ncc-page" Component={NccPage}></Route>
@@ -56,6 +65,7 @@ const Router = () => {
           <Route exact path="/Update" Component={FullEvent}></Route>
           <Route exact path="/registration/:id" Component={Register}></Route>
           <Route exact path="/sregister" Component={SRegister}></Route>
+          <Route exact path="/hostel-events" Component={HostelEvents}></Route>
           <Route exact path="/AddEvent/:id" Component={AddEvent}></Route>
           <Route exact path="/scholarships" Component={Scholarships}></Route>
           <Route exact path="/personalpage/:id"Component={PersonalPage}></Route>

@@ -241,7 +241,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/uit-rgpv-photos' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -267,7 +267,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/departmental-events' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -293,7 +293,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/workshop-photos' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -319,7 +319,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/departments' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">
@@ -345,7 +345,7 @@ const PhotoGaller = () => {
                   />
                 </div>
                 <div class="p-4">
-                  <Link class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
+                  <Link to='/hostel-events' class="inline-block px-4 py-2 leading-none bg-pink-600  rounded-full font-semibold uppercase tracking-wide text-xs">
                     View All <i class="ri-arrow-right-up-fill"></i>
                   </Link>
                   <Link class="inline-block px-4 py-1 leading-none bg-blue-600  rounded-full ml-2 font-semibold uppercase tracking-wide text-sm">

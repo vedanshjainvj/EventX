@@ -5,28 +5,25 @@ const Shankhnaadphotos = () => {
   return (
     <>
     <Navbar></Navbar>
-    <div className="dark:bg-gray-800 dark:text-gray-50">
-	<div className="container lg:px-12 grid grid-cols-12 mx-auto dark:bg-gray-900">
-    <div className="w-full h-64 bg-no-repeat bg-cover dark:bg-gray-700 col-span-full lg:col-span-4" style={{ backgroundImage: "url('https://i.ibb.co/nBRQgmq/IMG-20221013-204524-526.jpg')", backgroundPosition: "center center", backgroundSize: "cover" }}></div>
-		<div className="flex flex-col p-6 col-span-full row-span-full lg:col-span-8 lg:p-10">
-			<div className="flex justify-start">
-				<span className="px-4 py-2 text-xs rounded-full bg-pink-700">Upcoming Soon ...</span>
-			</div>
-			<h1 className="text-3xl lg:mt-2 font-semibold">Shankhnaad : The Cultural Gem</h1>
-			<p className="flex-1 pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut? Deleniti possimus molestiae maiores commodi architecto velit cumque distinctio, eveniet voluptatibus ea minus laboriosam ducimus nam iure odit, numquam maxime ut a? Ab voluptatem impedit veniam dolorum consectetur quisquam architecto.</p>
-			
-			<div className="flex items-center justify-between pt-4">
-				<div className="flex space-x-2">
-					
-					<span className="self-center text-sm">by Leroy Jenkins</span>
-				</div>
-				<span className="text-sm">7.1k Likes</span>
+    <section className="">
+	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-10 lg:px-0 lg:flex-row lg:px-10 lg:justify-around">
+		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-[50%] xl lg:text-left">
+			<h1 className="text-5xl font-bold leadi sm:text-6xl">Shankhnaad : The {" "}
+				<span className="dark:text-violet-400 text-5xl">Cultural Gem</span>
+			</h1>
+			<p className="mt-6 mb-8 text-lg sm:mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, laboriosam omnis nobis cumque perferendis ea aliquid itaque ullam. Obcaecati, explicabo.
+				{/* <br className="hidden md:inline lg:hidden"></br> turpis pulvinar, est scelerisque ligula sem */}
+			</p>
+			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-pink-800 ">Upcoming</a>
+				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Instagram</a>
 			</div>
 		</div>
+		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+			<img src="https://i.ibb.co/nBRQgmq/IMG-20221013-204524-526.jpg" alt="" className="object-contain h-72 lg:rounded-xl sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+		</div>
 	</div>
-</div>
-
-
+</section>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-12 lg:py-12">
     <div class="grid gap-4">
         <div>
