@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {NavLink,useNavigate} from 'react-router-dom';
 // import Router from './Router';
 import SRegister from './SRegister';
@@ -33,7 +33,7 @@ function Navbar() {
         <li>
             <NavLink onClick={() => {
             window.scrollTo(0, 0);
-          }} to="/" id="home">Home</NavLink>
+          }} to="/"  id="home">Home</NavLink>
           </li>
           <li>
           <NavLink onClick={() => {

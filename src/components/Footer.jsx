@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-    <footer class="px-12 pb-4 mx-auto footer overflow-hidden">
+    <footer id='footer' class="px-12 pb-4 mx-auto footer overflow-hidden">
   <div class="container px-5 pt-20 pb-8 mx-auto">
     <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">

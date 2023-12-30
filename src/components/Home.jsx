@@ -51,10 +51,12 @@ const Home = () => {
 //       getdata();
 //     },[])
 //    }
+
   return (
     <>
     {/* <MainDashboard></MainDashboard> */}
     {/* <Update></Update> */}
+    
     <Navbar></Navbar>
       <Hero></Hero>
       <Fest></Fest>
