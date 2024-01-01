@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import shankhnaadvdo from "../assets/shankhnaadvideo.mp4";
 import mahavideo from "../assets/mahavideo.mp4";
 import vijayvideo from "../assets/vijayvideo.mp4";
@@ -6,8 +6,13 @@ import coverimg1 from "../assets/cover-vdo1.png";
 import coverimg2 from "../assets/coverimg24.png";
 import coverimg3 from "../assets/cover-vdo2.png";
 import shankhnaadimg from "../assets/shankhnaadimg2.jpg";
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const VIdeographs = () => {
+  useEffect(() => {
+    Aos.init({duration:1000,})
+  }, [])
   return (
     <>
     <main className="flex mb-0 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
@@ -29,7 +34,7 @@ const VIdeographs = () => {
   <div class="container px-4 md:px-16 mt-12 mx-auto overflow-hidden">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div class="h-full border-2  border-gray-200 border-opacity-60 rounded-lg overflow-hidden" data-aos="fade-right" data-aos-easing="ease-out-cubic">
         <video
                   src={vijayvideo}
                   controls
@@ -68,7 +73,7 @@ const VIdeographs = () => {
         </div>
       </div>
       <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden" data-aos="fade-up" data-aos-easing="ease-out-cubic">
         <video
                   src={shankhnaadvdo}
                   controls
@@ -107,7 +112,7 @@ const VIdeographs = () => {
         </div>
       </div>
       <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic">
         <video
                   src={mahavideo}
                   controls
