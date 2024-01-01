@@ -20,6 +20,7 @@ import StartupsSection from "./StartupsSection.jsx";
 import { useNavigate } from "react-router-dom";
 import DepartmentsSection from "./DepartmentsSection"
 
+
 const Home = () => {
 //   const navigate = useNavigate();
 
@@ -51,6 +52,8 @@ const Home = () => {
 //       getdata();
 //     },[])
 //    }
+
+
 
   return (
     <>

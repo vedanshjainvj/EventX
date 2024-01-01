@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Devoiclogo from "../assets/Devoiclogo.png";
 import codingclublogo from "../assets/codinglogo.png";
 import code4alllogo from "../assets/code4all3.png";
@@ -7,8 +7,13 @@ import insynclogo from "../assets/insynclogo.png";
 import phoenixlogo from "../assets/phoenixlogo.jfif";
 import codehacklogo from "../assets/codehacklogo.jpeg";
 import codingwizlogo from "../assets/codingwizlogo2.jpg";
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const Cards = () => {
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
   return (
     <>
       <main className="flex mb-4 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
@@ -31,7 +36,7 @@ const Cards = () => {
         <div class="container px-5 pt-12 overflow-hidden mx-auto">
           <div class="flex overflow-hidden flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear"> 
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src={phoenixlogo}
@@ -81,7 +86,7 @@ const Cards = () => {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards  p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-20 md:h-14 rounded w-full object-contain object-center mb-6"
                   src="https://ecellrgpv.com/assets/img/logo.png"
@@ -131,7 +136,7 @@ const Cards = () => {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards  p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src={Devoiclogo}
@@ -181,7 +186,7 @@ const Cards = () => {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards  p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src="https://logogen.gdscasu.com/logos/gdsc-logo.png"
@@ -235,7 +240,7 @@ const Cards = () => {
         <div class="container px-5 pb-12 pt-1 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain  object-center mb-6"
                   src={code4alllogo}
@@ -279,7 +284,7 @@ const Cards = () => {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards mix-blend-difference p-6">
+              <div class="club-cards mix-blend-difference p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain mix-blend-multiply object-center mb-6"
                   src={fclogo}
@@ -324,7 +329,7 @@ const Cards = () => {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards  p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain object-center mb-6"
                   src={insynclogo}
@@ -371,7 +376,7 @@ const Cards = () => {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="club-cards  p-6">
+              <div class="club-cards p-6" data-aos="fade-up" data-aos-easing="linear">
                 <img
                   class="h-24 md:h-14 rounded w-full object-contain object-center mix-blend-difference mb-6"
                   src={codingclublogo}
@@ -421,7 +426,7 @@ const Cards = () => {
       </section>
       <div class="flex items-center justify-center">
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
-          <div class="relative py-6 px-6 rounded-3xl club-cards w-64 my-4 shadow-xl">
+          <div class="relative py-6 px-6 rounded-3xl club-cards w-64 my-4 shadow-xl" data-aos="fade-up" data-aos-easing="linear">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 z-50 shadow-xl  left-4 -top-6">
               <img
                 src={codehacklogo}
@@ -467,7 +472,7 @@ const Cards = () => {
             </div>
           </div>
 
-          <div class="relative py-6 px-6 club-cards rounded-3xl w-64 my-4 shadow-xl">
+          <div class="relative py-6 px-6 club-cards rounded-3xl w-64 my-4 shadow-xl" data-aos="fade-up" data-aos-easing="linear">
             <div class=" text-white flex items-center card-div-bg absolute rounded-full py-4 px-4 shadow-xl left-4 -top-6">
               <img
                 src="https://logogen.gdscasu.com/logos/gdsc-logo.png"
@@ -514,7 +519,7 @@ const Cards = () => {
             </div>
           </div>
 
-          <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl">
+          <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl" data-aos="fade-up" data-aos-easing="linear">
             <div class=" text-white flex items-center absolute card-div-bg rounded-full py-4 px-4 shadow-xl left-4 -top-6">
               <img
                 src={codingwizlogo}
@@ -561,7 +566,7 @@ const Cards = () => {
             </div>
           </div>
 
-          <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl">
+          <div class="relative  py-6 px-6 rounded-3xl w-64 my-4 club-cards shadow-xl" data-aos="fade-up" data-aos-easing="linear">
             <div class=" text-white flex items-center absolute rounded-full card-div-bg py-4 px-4 shadow-xl left-4 -top-6">
               <img
                 src="https://miro.medium.com/v2/resize:fit:2400/1*1bmmA88dVbYzsS-K6_FMgQ.png"
