@@ -10,8 +10,7 @@ import eceimg from "../assets/eceimg.jpg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
-
-const DepartmentsSection = () => {
+const Carousel = () => {
   const splideOptions = {
     updateOnMove: false,
     classes: {
@@ -34,6 +33,7 @@ const DepartmentsSection = () => {
   }
   
   };
+
   return (
     <>
       <main className="flex mb-14 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
@@ -285,6 +285,6 @@ const DepartmentsSection = () => {
       
     </>
   );
-}
+};
 
-export default DepartmentsSection
+export default Carousel;

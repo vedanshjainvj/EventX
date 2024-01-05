@@ -19,6 +19,7 @@ import DepartmentalClubs from "./DepartmentalClubs";
 import StartupsSection from "./StartupsSection.jsx";
 import { useNavigate } from "react-router-dom";
 import DepartmentsSection from "./DepartmentsSection"
+import Carousel from "./Carousel.jsx";
 
 
 const Home = () => {
@@ -62,6 +63,7 @@ const Home = () => {
     
     <Navbar></Navbar>
       <Hero></Hero>
+      {/* <Carousel></Carousel> */}
       <Fest></Fest>
       <EventData></EventData>
       <Cards></Cards>

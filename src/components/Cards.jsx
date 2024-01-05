@@ -11,11 +11,13 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const Cards = () => {
+  
   useEffect(() => {
     Aos.init({duration:1000})
   }, [])
   return (
     <>
+    
       <main className="flex mb-4 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
           Clubs &

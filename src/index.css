@@ -210,3 +210,8 @@ border: 1px solid gray;
 .mobile-navbar {
   background: linear-gradient(to left, rgb(2, 2, 22), rgb(13, 3, 18));
 }
+/* Add this CSS to your stylesheets */
+.splide__arrow {
+  background-color: #ffffff; /* Change to your desired arrow color */
+}
+
