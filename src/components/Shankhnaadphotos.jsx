@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import Navbar from './Navbar'
+import img1 from '../assets/shankhnaadimages/img1.jpg'
+import img2 from '../assets/shankhnaadimages/img2.jpg'
 
 const Shankhnaadphotos = () => {
     const initialTime = 6000000; // 5 minutes
@@ -21,7 +23,7 @@ const Shankhnaadphotos = () => {
     <>
     <Navbar></Navbar>
     <section className="">
-	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-10 lg:px-0 lg:flex-row lg:px-10 lg:justify-around">
+	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-10  lg:flex-row lg:px-10 lg:justify-around">
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-[50%] xl lg:text-left">
 			<h1 className="text-5xl font-bold leadi sm:text-6xl">Shankhnaad : The {" "}
 				<span className="dark:text-violet-400 text-5xl">Cultural Gem</span>
@@ -39,21 +41,21 @@ const Shankhnaadphotos = () => {
 		</div>
 	</div>
 </section>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-12 lg:py-12">
+<div class="grid grid-cols-2 md:grid-cols-4 px-6 gap-4 lg:px-12 lg:py-12">
     <div class="grid gap-4">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg border border-gray-600" src={img1} alt=""/>
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg" src={img1} alt=""/>
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg" alt=""/>
         </div>
     </div>
     <div class="grid gap-4">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg" src={img2} alt=""/>
         </div>
         <div>
             <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
