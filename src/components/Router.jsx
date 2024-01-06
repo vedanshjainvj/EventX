@@ -8,6 +8,7 @@ import SRegister from "./SRegister";
 import Login from "./Login";
 import PersonalPage from "./PersonalPage";
 import AddEvent from "./AddEvent";
+import Library from "./Library.jsx";
 import Shankhnaadphotos from "./Shankhnaadphotos.jsx";
 import NssPage from "./NssPage.jsx";
 import Edit from "./Edit";
@@ -60,6 +61,7 @@ const Router = () => {
           <Route exact path="/departmental-events" Component={DepartmentalEvents}></Route>
           <Route exact path="/batchmate-photos" Component={Batchmates}></Route>
           <Route exact path="/mahasangram-page" Component={MahasangramPage}></Route>
+          <Route exact path="/library" Component={Library}></Route>
           <Route exact path="/ncc-page" Component={NccPage}></Route>
           <Route exact path="/nss-page" Component={NssPage}></Route>
           <Route exact path="/Update" Component={FullEvent}></Route>
