@@ -4,19 +4,16 @@ import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import nssimg from "../assets/nssimg2.jpg";
 import nccimg from "../assets/nccimg.jpg";
-import grpimg1 from '../assets/grpimg1.jpeg'
 import grpimg2 from '../assets/grpimg2.jpeg'
-import grpimg3 from '../assets/grpimg3.jpg'
-import grpimg4 from '../assets/grpimg4.jpg'
 import grpimg5 from '../assets/grpimg5.jpg'
 import grpimg6 from '../assets/grpimg6.jpeg'
+import exgrp from '../assets/batchmatesimages/exgrp.png'
 import grpimg9 from '../assets/grpimg9.jpeg'
 import grpimg11 from '../assets/grpimg11.jpg'
 import grpimg12 from '../assets/grpimg12.jpg'
 import grpimg13 from '../assets/grpimg13.jpg'
 import Footer from "./Footer";
 import image3 from '../assets/image3.png'
-import image4 from '../assets/image4.png'
 
 const PhotoGaller = () => {
 
@@ -184,7 +181,7 @@ const PhotoGaller = () => {
                 <div class="relative pb-48 overflow-hidden">
                   <img
                     class="absolute inset-0 h-full w-full object-cover p-4 rounded "
-                    src={grpimg1}
+                    src={exgrp}
                     alt=""
                   />
                 </div>

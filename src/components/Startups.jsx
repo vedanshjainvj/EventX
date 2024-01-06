@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar from "./Navbar";
-import hashlogo from '../assets/hashlogo.jpg'
+import hashlogo from '../assets/startupslogos/hashlogo.jpg'
 import devoiclogo from '../assets/Devoiclogo.png'
-import connectuplogo from '../assets/connectuplogo.jpg'
-import gearfilogo from '../assets/gearfilogo.jpg'
-import tdplogo from '../assets/tdplogo.jpg'
-import semikolanlogo from '../assets/semikolanlogo.jpg'
-import boostemlogo from '../assets/boostemlogo.jpg'
-import agilelogo from '../assets/agilelogo.jpg'
-import shopdesilogo from '../assets/shopdesilogo.jpg'
-import shringarlogo from '../assets/shringarlogo.jpg'
+import connectuplogo from '../assets/startupslogos/connectuplogo.jpg'
+import gearfilogo from '../assets/startupslogos/gearfilogo.jpg'
+import tdplogo from '../assets/startupslogos/tdplogo.jpg'
+import semikolanlogo from '../assets/startupslogos/semikolanlogo.jpg'
+import boostemlogo from '../assets/startupslogos/boostemlogo.jpg'
+import agilelogo from '../assets/startupslogos/agilelogo.jpg'
+import shopdesilogo from '../assets/startupslogos/shopdesilogo.jpg'
+import shringarlogo from '../assets/startupslogos/shringarlogo.jpg'
 import Footer from "./Footer";
 
 

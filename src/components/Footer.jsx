@@ -10,8 +10,9 @@ const Footer = () => {
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium  tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
-          <li>
-          <a href="#" class=""><NavLink to='/library'>Library</NavLink></a>
+          <li onClick={() => {
+            window.scrollTo(0, 0);}}>
+          <a href="#" class=""><NavLink to='/library'>Central Library</NavLink></a>
           </li>
           <li>
             <a href="#" class="">Important Links</a>

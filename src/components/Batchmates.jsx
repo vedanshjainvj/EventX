@@ -1,9 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import grpimg1 from '../assets/grpimg1.jpeg'
-import ecegrp1 from '../assets/ecegrp2.jpg'
-import mechimggrp from '../assets/mechimggrp2.jpg'
+import grpimg1 from '../assets/batchmatesimages/grpimg1.jpeg'
+import ecegrp1 from '../assets/batchmatesimages/ecegrp2.jpg'
+import cseimg24 from '../assets/batchmatesimages/cseimg24.jpg'
+import civil25 from '../assets/batchmatesimages/civil25.jpg'
+import mechimggrp from '../assets/batchmatesimages/augrp.jpg'
+import mechimggrp4 from '../assets/batchmatesimages/mechimggrp4.jpg'
+import exgrp from '../assets/batchmatesimages/exgrp.png'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 const Batchmates = () => {
@@ -52,261 +56,7 @@ const Batchmates = () => {
 		</div>
 	</div>
 </section>
-<section class="body-font overflow-hidden">
-  <div class="container px-12 pt-16 mx-auto">
-   
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Amazing Batch of ✌️</h2>
-          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2020-2024</h1>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Computer Science 2020-2024
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Information Tech. 2020-2024
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electronics & Comm. 2020-2024
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electrical 2020-2024
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Civil 2020-2024
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Mechanical 2020-2024
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Automobile 2020-2024
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Pterochemical 2020-2024
-          </a>
-        </div>
-      </div>
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Creative Batch of 💎</h2>
-          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2021-2025</h1>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Computer Science 2021-2025
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Information Tech. 2021-2025
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electronics & Comm. 2021-2025
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electrical 2021-2025
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Civil 2021-2025
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Mechanical 2021-2025
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Automobile 2021-2025
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Pterochemical 2021-2025
-          </a>
-        </div>
-      </div>
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Beautiful Batch of 😍</h2>
-          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2022-2026</h1>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Computer Science 2022-2026
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Information Tech. 2022-2026
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electronics & Comm. 2022-2026
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electrical 2022-2026
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Civil 2022-2026
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Mechanical 2022-2026
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Automobile 2022-2026
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Pterochemical 2022-2026
-          </a>
-        </div>
-      </div>
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border border-blue-300 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Cool Batch of 😎</h2>
-          <h1 class="text-5xl  pb-4 mb-4 border-b border-orange-500 leading-none">2023-2027</h1>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-yellow-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Computer Science 2023-2027
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-pink-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Information Tech. 2023-2027
-          </a>
-          <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electronics & Comm. 2023-2027
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-orange-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Electrical 2023-2027
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Civil 2023-2027
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-red-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Mechanical 2023-2027
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-violet-400  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Automobile 2023-2027
-          </a>
-		  <a href='#' class="flex items-center  mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-800  rounded-full flex-shrink-0">
-              <svg fill="black" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Pterochemical 2023-2027
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 <main className="flex mb-10 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-12 mt-20">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
           2022 - 2026 
@@ -373,6 +123,8 @@ const Batchmates = () => {
     </Splide>
       </div>
 
+      
+
       {/* Right Part: Text Content */}
       <div className="lg:w-2/5 px-0 py-8 lg:pl-8">
         <h2 className="text-3xl font-bold mb-4 text-center bg-blue-700 rounded-lg py-1">Batch 2022-2026</h2>
@@ -382,8 +134,23 @@ const Batchmates = () => {
       </div>
     </div>
 
-    
-<div className="flex flex-col lg:flex-row px-6 lg:px-20 mb-10">
+    <main className="flex mb-10 flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-0 mt-20">
+        <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
+          2021 - 2025
+          <span className="relative whitespace-nowrap text-pink-700">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 418 42"
+              className="absolute top-2/3 left-0 h-[0.58em] w-full fill-yellow-300/90"
+              preserveAspectRatio="none"
+            >
+              <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
+            </svg>
+            <span className="relative ml-4">Batch</span>
+          </span>
+        </h1>
+      </main>
+<div className="flex flex-col lg:flex-row px-6 lg:px-20 ">
 <div className="lg:w-2/5 px-0 py-8 lg:pr-8">
         <h2 className="text-3xl font-bold mb-4 text-center bg-violet-700 rounded-lg py-1">Batch 2021-2025</h2>
         <p className="text-gray-300 text-center lg:text-left">
@@ -398,29 +165,30 @@ const Batchmates = () => {
         <div className="w-full h-80 overflow-hidden relative">
           <img
             className="w-full h-full rounded-xl object-cover"
-            src={grpimg1}
+            src={exgrp}
             alt="Slide 1"
           />
           {/* Absolute-positioned div for text overlay */}
           <div className="absolute bottom-0 right-0 p-4 bg-gray-200 text-black">
-            Automobile 22-26
+            Electrical 21-25
           </div>
         </div>
       </SplideSlide>
       <SplideSlide>
-        {/* Container div for the second image */}
+        {/* Container div for the first image */}
         <div className="w-full h-80 overflow-hidden relative">
           <img
-            className="w-full h-full object-cover rounded-xl"
-            src={grpimg1}
-            alt="Slide 2"
+            className="w-full h-full rounded-xl object-cover"
+            src={civil25}
+            alt="Slide 1"
           />
           {/* Absolute-positioned div for text overlay */}
           <div className="absolute bottom-0 right-0 p-4 bg-gray-200 text-black">
-            CSE 22-26
+            Civil 21-25
           </div>
         </div>
       </SplideSlide>
+      
       {/* Add more SplideSlide components as needed */}
     </Splide>
       </div>
@@ -429,7 +197,22 @@ const Batchmates = () => {
       
     </div>
 
-    
+    <main className="flex mb-10 flex-1 w-full flex-col items-center justify-center text-center px-4 ">
+        <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal sm:text-5xl">
+          2020 - 2024
+          <span className="relative whitespace-nowrap text-pink-700">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 418 42"
+              className="absolute top-2/3 left-0 h-[0.58em] w-full fill-yellow-300/90"
+              preserveAspectRatio="none"
+            >
+              <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
+            </svg>
+            <span className="relative ml-4">Batch</span>
+          </span>
+        </h1>
+      </main>
 <div className="flex flex-col lg:flex-row px-6 lg:px-20 mb-10">
       {/* Left Part: Carousel */}
       <div className="lg:w-3/5">
@@ -439,12 +222,12 @@ const Batchmates = () => {
         <div className="w-full h-80 overflow-hidden relative">
           <img
             className="w-full h-full rounded-xl object-cover"
-            src={grpimg1}
+            src={mechimggrp4}
             alt="Slide 1"
           />
           {/* Absolute-positioned div for text overlay */}
           <div className="absolute bottom-0 right-0 p-4 bg-gray-200 text-black">
-            Automobile 22-26
+            Mechanical 20-24
           </div>
         </div>
       </SplideSlide>
@@ -453,12 +236,12 @@ const Batchmates = () => {
         <div className="w-full h-80 overflow-hidden relative">
           <img
             className="w-full h-full object-cover rounded-xl"
-            src={grpimg1}
+            src={cseimg24}
             alt="Slide 2"
           />
           {/* Absolute-positioned div for text overlay */}
           <div className="absolute bottom-0 right-0 p-4 bg-gray-200 text-black">
-            CSE 22-26
+            CSE 20-24
           </div>
         </div>
       </SplideSlide>

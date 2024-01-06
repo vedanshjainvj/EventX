@@ -9,7 +9,7 @@ import lib5 from '../assets/libraryimages/lib5.jpg'
 import lib6 from '../assets/libraryimages/lib6.jpg'
 import lib7 from '../assets/libraryimages/lib7.jpg'
 import {Link} from 'react-router-dom'
-
+import sportscomplex from '../assets/sportscomplex.jpg'
 const Library = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
@@ -38,13 +38,13 @@ const Library = () => {
 	<div className="container grid grid-cols-12 mx-auto lg:px-12">
   <div className="bg-no-repeat bg-cover rounded-xl col-span-full lg:col-span-5" style={{ backgroundImage: `url(${lib7})`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}></div>
 
-		<div className="flex flex-col p-6 col-span-full row-span-full lg:col-span-7 lg:p-10">
+		<div className="flex flex-col p-6 col-span-full row-span-full lg:col-span-7 lg:py-10">
 			<div className="flex justify-start">
-				<span className="px-4 py-2 text-sm lg:mb-2 rounded-xl dark:bg-violet-800">Learning Hub : Resources</span>
+				<span className="px-4 py-2 text-sm lg:mb-4 rounded-xl dark:bg-violet-800">Learning Hub : Resources</span>
 			</div>
 			<h1 className="text-3xl font-semibold">About Central Library</h1>
 			<p className="flex-1 pt-2">The central library at RGPV holds a sacred space where students immerse themselves in a diverse tapestry of knowledge found in books, magazines, and articles. This haven of tranquility facilitates deep learning and exploration, providing a serene atmosphere for intellectual growth. Here, students engage in quiet contemplation, absorbing the wisdom contained within the library's walls and expanding their horizons, fostering a culture of continuous learning and academic excellence.</p>
-			<a rel="noopener noreferrer" href="#" className="inline-flex bg-pink-600 rounded-xl w-fit px-4 items-center pt-2 pb-2 my-2 space-x-2 text-sm">
+			<a rel="noopener noreferrer" href="#" className="inline-flex bg-pink-600 rounded-xl w-fit px-4 items-center pt-2 pb-2 my-4 space-x-2 text-sm">
 				<span>Opens : Monday-Friday 10:00 To 5:00</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
 					<path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
